@@ -1,0 +1,11 @@
+#!/system/bin/sh
+
+INTERFACE="$1"
+GATEWAY="$5"
+
+/system/bin/setprop net."$INTERFACE".gw "$GATEWAY"
+/system/bin/setprop net."$INTERFACE".dns1 "$DNS1"
+/system/bin/setprop net."$INTERFACE".dns2 "$DNS2"
+/system/bin/setprop net."$INTERFACE".addr "$IPLOCAL"
+
+

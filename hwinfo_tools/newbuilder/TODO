@@ -1,0 +1,3 @@
+error when empty config file
+add logger system // config before build
+refactor: coupling of item_list, memeory leaping

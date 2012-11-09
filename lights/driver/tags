@@ -1,0 +1,83 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+BLINK_LED_MAJOR	emxx_blink_led_2.c	27;"	d	file:
+BLUE	emxx_blink_led.c	27;"	d	file:
+FAN5646_register	emxx_blink_led.c	/^static int FAN5646_register[][5] = {\/\/ mode of the blinkled  $/;"	v	file:
+FAN5646_register	emxx_blink_led_2.c	/^static int FAN5646_register[][5] = {\/\/ mode of the blink led  $/;"	v	file:
+JOGBALL_LED_MAX	leds-broncho.c	42;"	d	file:
+JOGBALL_LED_MIN	leds-broncho.c	43;"	d	file:
+LedData	leds-broncho.c	/^}LedData;$/;"	t	typeref:struct:_LedData	file:
+PWMCR	leds-broncho.c	38;"	d	file:
+PWMDCR	leds-broncho.c	39;"	d	file:
+PWMPCR	leds-broncho.c	40;"	d	file:
+RED	emxx_blink_led.c	26;"	d	file:
+_LedData	leds-broncho.c	/^typedef struct _LedData$/;"	s	file:
+bin_3_bit	emxx_blink_led.c	/^static int bin_3_bit[3] = {0,0,0}; \/\/binary array for register address$/;"	v	file:
+bin_3_bit	emxx_blink_led_2.c	/^static int bin_3_bit[3] = {0,0,0}; \/\/binary array for register address$/;"	v	file:
+bin_8_bit	emxx_blink_led.c	/^static int bin_8_bit[8] = {0,0,0,0,0,0,0,0};\/\/binary array for register value$/;"	v	file:
+bin_8_bit	emxx_blink_led_2.c	/^static int bin_8_bit[8] = {0,0,0,0,0,0,0,0};\/\/binary array for register value$/;"	v	file:
+blink_led_driver	emxx_blink_led.c	/^static struct platform_driver blink_led_driver = {$/;"	v	typeref:struct:platform_driver	file:
+blink_led_driver	emxx_blink_led_2.c	/^static struct platform_driver blink_led_driver = {$/;"	v	typeref:struct:platform_driver	file:
+blink_led_exit	emxx_blink_led.c	/^module_exit(blink_led_exit);$/;"	v
+blink_led_exit	emxx_blink_led.c	/^static void __exit blink_led_exit(void)$/;"	f	file:
+blink_led_exit	emxx_blink_led_2.c	/^module_exit(blink_led_exit);$/;"	v
+blink_led_exit	emxx_blink_led_2.c	/^static void __exit blink_led_exit(void)$/;"	f	file:
+blink_led_init	emxx_blink_led.c	/^module_init(blink_led_init);$/;"	v
+blink_led_init	emxx_blink_led.c	/^static int __init blink_led_init(void)$/;"	f	file:
+blink_led_init	emxx_blink_led_2.c	/^module_init(blink_led_init);$/;"	v
+blink_led_init	emxx_blink_led_2.c	/^static int __init blink_led_init(void)$/;"	f	file:
+blink_led_probe	emxx_blink_led.c	/^static int blink_led_probe(struct platform_device *pdev)$/;"	f	file:
+blink_led_probe	emxx_blink_led_2.c	/^static int blink_led_probe(struct platform_device *pdev)$/;"	f	file:
+blink_led_remove	emxx_blink_led.c	/^static int blink_led_remove(struct platform_device *pdev)$/;"	f	file:
+blink_led_remove	emxx_blink_led_2.c	/^static int blink_led_remove(struct platform_device *pdev)$/;"	f	file:
+blink_led_t	emxx_blink_led_2.c	/^struct blink_led_t{$/;"	s	file:
+blink_led_transmit_bit	emxx_blink_led.c	/^static int blink_led_transmit_bit(int color, int data)\/\/GPIO output $/;"	f	file:
+broncho_led_driver	leds-broncho.c	/^static struct platform_driver broncho_led_driver =$/;"	v	typeref:struct:platform_driver	file:
+broncho_led_exit	leds-broncho.c	/^module_exit (broncho_led_exit);$/;"	v
+broncho_led_exit	leds-broncho.c	/^static void __exit broncho_led_exit (void)$/;"	f	file:
+broncho_led_init	leds-broncho.c	/^module_init (broncho_led_init);$/;"	v
+broncho_led_init	leds-broncho.c	/^static int __init broncho_led_init (void)$/;"	f	file:
+broncho_led_probe	leds-broncho.c	/^static int broncho_led_probe (struct platform_device *pdev)$/;"	f	file:
+broncho_led_remove	leds-broncho.c	/^static int __devexit broncho_led_remove (struct platform_device *pdev)$/;"	f	file:
+broncho_led_set_brightness	leds-broncho.c	/^static void broncho_led_set_brightness (LedData *broncho_led, struct led_classdev *led, enum led_brightness brightness)$/;"	f	file:
+check	emxx_blink_led.c	/^static void check(int ret)\/\/check the return error$/;"	f	file:
+class	emxx_blink_led.c	/^static struct class *class;$/;"	v	typeref:struct:class	file:
+class	emxx_blink_led_2.c	/^static struct class *class;$/;"	v	typeref:struct:class	file:
+clk	leds-broncho.c	/^	struct clk *clk;$/;"	m	struct:_LedData	typeref:struct:_LedData::clk	file:
+create_blinkled_device	emxx_blink_led.c	/^static int create_blinkled_device(void)$/;"	f	file:
+data_lock	leds-broncho.c	/^	spinlock_t data_lock;$/;"	m	struct:_LedData	file:
+destroy_blinkled_device	emxx_blink_led.c	/^static void destroy_blinkled_device(void)$/;"	f	file:
+device	emxx_blink_led.c	/^static struct device *device;$/;"	v	typeref:struct:device	file:
+device	emxx_blink_led_2.c	/^	struct device *device;$/;"	m	struct:blink_led_t	typeref:struct:blink_led_t::device	file:
+device_show	emxx_blink_led.c	/^static ssize_t device_show(struct device *dev, struct device_attribute *attr, char *buf)$/;"	f	file:
+device_show	emxx_blink_led_2.c	/^static ssize_t device_show(struct device *dev, struct device_attribute *attr, char *buf)$/;"	f	file:
+device_store	emxx_blink_led.c	/^static ssize_t device_store(struct device *dev, struct device_attribute *attr, const char *buf, size_t size)$/;"	f	file:
+device_store	emxx_blink_led_2.c	/^static ssize_t device_store(struct device *dev, struct device_attribute *attr, const char *buf, size_t size)$/;"	f	file:
+devno	emxx_blink_led.c	/^static dev_t devno;$/;"	v	file:
+devno	emxx_blink_led_2.c	/^	dev_t devno;$/;"	m	struct:blink_led_t	file:
+gpio	emxx_blink_led_2.c	/^	int gpio;$/;"	m	struct:blink_led_t	file:
+gpio_ctl1	leds-broncho.c	/^	int gpio_ctl1;$/;"	m	struct:_LedData	file:
+gpio_ctl2	leds-broncho.c	/^	int gpio_ctl2;$/;"	m	struct:_LedData	file:
+hex_to_bin_add	emxx_blink_led.c	/^static void hex_to_bin_add(int add)\/\/register address changed to 3 bit$/;"	f	file:
+hex_to_bin_add	emxx_blink_led_2.c	/^static void hex_to_bin_add(int add)\/\/register address changed to 3 bit$/;"	f	file:
+hex_to_bin_data	emxx_blink_led.c	/^static void hex_to_bin_data(int data)\/\/register value changed to 8 bit$/;"	f	file:
+hex_to_bin_data	emxx_blink_led_2.c	/^static void hex_to_bin_data(int data)\/\/register value changed to 8 bit$/;"	f	file:
+id	emxx_blink_led_2.c	/^	int id;$/;"	m	struct:blink_led_t	file:
+led_blink_set	leds-broncho.c	/^static int led_blink_set (struct led_classdev *led_cdev, unsigned long *delay_on, unsigned long *delay_off)$/;"	f	file:
+led_brightness_set	leds-broncho.c	/^static void led_brightness_set (struct led_classdev *led_cdev, enum led_brightness brightness)$/;"	f	file:
+leds	leds-broncho.c	/^	struct led_classdev leds[4];$/;"	m	struct:_LedData	typeref:struct:_LedData::led_classdev	file:
+memio_base	leds-broncho.c	/^	u32 memio_base;$/;"	m	struct:_LedData	file:
+micco_led_pc_power	leds-broncho.c	/^static void micco_led_pc_power (int on)$/;"	f	file:
+name	emxx_blink_led_2.c	/^	char name[20];$/;"	m	struct:blink_led_t	file:
+reg_add	emxx_blink_led.c	/^static int reg_add[5] = { \/\/ register address$/;"	v	file:
+reg_add	emxx_blink_led_2.c	/^static int reg_add[5] = {\/\/ register address$/;"	v	file:
+set_brightness_blue	leds-broncho.c	/^static void set_brightness_blue (LedData *broncho_led, enum led_brightness brightness)$/;"	f	file:
+set_brightness_green	leds-broncho.c	/^static void set_brightness_green (LedData *broncho_led, enum led_brightness brightness)$/;"	f	file:
+set_brightness_jogball_backlight	leds-broncho.c	/^static void set_brightness_jogball_backlight (LedData *broncho_led, enum led_brightness brightness)$/;"	f	file:
+set_brightness_red	leds-broncho.c	/^static void set_brightness_red (LedData *broncho_led, enum led_brightness brightness)$/;"	f	file:
+tinywire_protocol	emxx_blink_led.c	/^static int tinywire_protocol(int mode, int color)\/\/write the FAN5646 register based on tinywire protocol$/;"	f	file:
+tinywire_protocol	emxx_blink_led_2.c	/^static int tinywire_protocol(struct blink_led_t *led, int mode, int data)$/;"	f	file:

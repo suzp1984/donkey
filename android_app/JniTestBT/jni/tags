@@ -1,0 +1,175 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+CB_MESSAGE_CHANNEL_FREQ	com_broncho_jnibt_FMNative.cpp	12;"	d	file:
+CB_MESSAGE_CURRENT_RSSI	com_broncho_jnibt_FMNative.cpp	13;"	d	file:
+CB_MESSAGE_MUTE_STATE	com_broncho_jnibt_FMNative.cpp	15;"	d	file:
+CB_MESSAGE_NULL	com_broncho_jnibt_FMNative.cpp	10;"	d	file:
+CB_MESSAGE_PRESET_CHANNELS	com_broncho_jnibt_FMNative.cpp	17;"	d	file:
+CB_MESSAGE_REGION_TUNE_MODE	com_broncho_jnibt_FMNative.cpp	11;"	d	file:
+CB_MESSAGE_SEARCH_RSSI_THRESHOLD	com_broncho_jnibt_FMNative.cpp	18;"	d	file:
+CB_MESSAGE_SEARCH_STEPS	com_broncho_jnibt_FMNative.cpp	14;"	d	file:
+CB_MESSAGE_STEREO_MONO_STATUS	com_broncho_jnibt_FMNative.cpp	19;"	d	file:
+CB_MESSAGE_VOLUME_GAIN	com_broncho_jnibt_FMNative.cpp	16;"	d	file:
+FM_AUDIO_MONO	fmradio.h	19;"	d
+FM_AUDIO_STEREO	fmradio.h	20;"	d
+FM_MESSAGE_SIZE	com_broncho_jnibt_FMNative.cpp	21;"	d	file:
+FM_MUTE_OFF	fmradio.h	25;"	d
+FM_MUTE_ON	fmradio.h	26;"	d
+FM_REGION_EUR	fmradio.h	13;"	d
+FM_REGION_JAN	fmradio.h	14;"	d
+FM_SEARCH_DOWN	fmradio.h	28;"	d
+FM_SEARCH_STEPS_100KHz	fmradio.h	22;"	d
+FM_SEARCH_STEPS_50KHz	fmradio.h	23;"	d
+FM_SEARCH_UP	fmradio.h	29;"	d
+FM_TUNE_AUTOSTEREO	fmradio.h	17;"	d
+FM_TUNE_MONO	fmradio.h	16;"	d
+KClassPathName	com_broncho_jnibt_FMNative.cpp	/^static const char* const KClassPathName = "com\/broncho\/jnibt\/FMNative";$/;"	v	file:
+LOCAL_MODULE	Android.mk	/^LOCAL_MODULE	:= fm_jni$/;"	m
+LOCAL_PATH	Android.mk	/^LOCAL_PATH:=$(call my-dir)$/;"	m
+LOCAL_SRC_FILES	Android.mk	/^LOCAL_SRC_FILES :=$/;"	m
+LOG_TAG	com_broncho_jnibt_FMNative.cpp	1;"	d	file:
+_FMRADIO_H	fmradio.h	9;"	d
+callback_thread	com_broncho_jnibt_FMNative.cpp	/^static pthread_t callback_thread;$/;"	v	file:
+cb_cond	com_broncho_jnibt_FMNative.cpp	/^static pthread_cond_t cb_cond = PTHREAD_COND_INITIALIZER;$/;"	v	file:
+cb_mutex	com_broncho_jnibt_FMNative.cpp	/^static pthread_mutex_t cb_mutex = PTHREAD_MUTEX_INITIALIZER;$/;"	v	file:
+channel_freq_cb	fmradio.h	/^	fm_get_channel_freq_callback	channel_freq_cb;$/;"	m	struct:__anon4
+cmd	com_broncho_jnibt_FMNative.cpp	/^	const char *cmd;$/;"	m	struct:__anon2	file:
+cmd	com_broncho_jnibt_FMNative.cpp	/^	int cmd;$/;"	m	struct:fm_message_t	file:
+cmd	fmapp.c	/^	const char *cmd;$/;"	m	struct:__anon1	file:
+cmd_abort	com_broncho_jnibt_FMNative.cpp	/^cmd_abort(char *cmdparam)$/;"	f
+cmd_abort	fmapp.c	/^cmd_abort(char *cmdparam)$/;"	f
+cmd_autodown	com_broncho_jnibt_FMNative.cpp	/^cmd_autodown(char *cmdparam)$/;"	f
+cmd_autodown	fmapp.c	/^cmd_autodown(char *cmdparam)$/;"	f
+cmd_autoup	com_broncho_jnibt_FMNative.cpp	/^cmd_autoup(char *cmdparam)$/;"	f
+cmd_autoup	fmapp.c	/^cmd_autoup(char *cmdparam)$/;"	f
+cmd_fmoff	com_broncho_jnibt_FMNative.cpp	/^cmd_fmoff(char *cmdparam)$/;"	f
+cmd_fmoff	fmapp.c	/^cmd_fmoff(char *cmdparam)$/;"	f
+cmd_fmon	com_broncho_jnibt_FMNative.cpp	/^cmd_fmon(char *cmdparam)$/;"	f
+cmd_fmon	fmapp.c	/^cmd_fmon(char *cmdparam)$/;"	f
+cmd_getaudiostatus	com_broncho_jnibt_FMNative.cpp	/^cmd_getaudiostatus(char *cmdparam)$/;"	f
+cmd_getaudiostatus	fmapp.c	/^cmd_getaudiostatus(char *cmdparam)$/;"	f
+cmd_getfreq	com_broncho_jnibt_FMNative.cpp	/^cmd_getfreq(char *cmdparam)$/;"	f
+cmd_getfreq	fmapp.c	/^cmd_getfreq(char *cmdparam)$/;"	f
+cmd_getmute	com_broncho_jnibt_FMNative.cpp	/^cmd_getmute(char *cmdparam)$/;"	f
+cmd_getmute	fmapp.c	/^cmd_getmute(char *cmdparam)$/;"	f
+cmd_getrssi	com_broncho_jnibt_FMNative.cpp	/^cmd_getrssi(char *cmdparam)$/;"	f
+cmd_getrssi	fmapp.c	/^cmd_getrssi(char *cmdparam)$/;"	f
+cmd_getsteps	com_broncho_jnibt_FMNative.cpp	/^cmd_getsteps(char *cmdparam)$/;"	f
+cmd_getsteps	fmapp.c	/^cmd_getsteps(char *cmdparam)$/;"	f
+cmd_getthresh	com_broncho_jnibt_FMNative.cpp	/^cmd_getthresh(char *cmdparam)$/;"	f
+cmd_getthresh	fmapp.c	/^cmd_getthresh(char *cmdparam)$/;"	f
+cmd_getvol	com_broncho_jnibt_FMNative.cpp	/^cmd_getvol(char *cmdparam)$/;"	f
+cmd_getvol	fmapp.c	/^cmd_getvol(char *cmdparam)$/;"	f
+cmd_mono	com_broncho_jnibt_FMNative.cpp	/^cmd_mono(char *cmdparam)$/;"	f
+cmd_mono	fmapp.c	/^cmd_mono(char *cmdparam)$/;"	f
+cmd_mute	com_broncho_jnibt_FMNative.cpp	/^cmd_mute(char *cmdparam)$/;"	f
+cmd_mute	fmapp.c	/^cmd_mute(char *cmdparam)$/;"	f
+cmd_searchdown	com_broncho_jnibt_FMNative.cpp	/^cmd_searchdown(char *cmdparam)$/;"	f
+cmd_searchdown	fmapp.c	/^cmd_searchdown(char *cmdparam)$/;"	f
+cmd_searchup	com_broncho_jnibt_FMNative.cpp	/^cmd_searchup(char *cmdparam)$/;"	f
+cmd_searchup	fmapp.c	/^cmd_searchup(char *cmdparam)$/;"	f
+cmd_setsteps100	com_broncho_jnibt_FMNative.cpp	/^cmd_setsteps100(char *cmdparam)$/;"	f
+cmd_setsteps100	fmapp.c	/^cmd_setsteps100(char *cmdparam)$/;"	f
+cmd_setsteps50	com_broncho_jnibt_FMNative.cpp	/^cmd_setsteps50(char *cmdparam)$/;"	f
+cmd_setsteps50	fmapp.c	/^cmd_setsteps50(char *cmdparam)$/;"	f
+cmd_setthresh	com_broncho_jnibt_FMNative.cpp	/^cmd_setthresh(char *cmdparam)$/;"	f
+cmd_setthresh	fmapp.c	/^cmd_setthresh(char *cmdparam)$/;"	f
+cmd_setvol	com_broncho_jnibt_FMNative.cpp	/^cmd_setvol(char *cmdparam)$/;"	f
+cmd_setvol	fmapp.c	/^cmd_setvol(char *cmdparam)$/;"	f
+cmd_stereo	com_broncho_jnibt_FMNative.cpp	/^cmd_stereo(char *param)$/;"	f
+cmd_stereo	fmapp.c	/^cmd_stereo(char *param)$/;"	f
+cmd_tunefreq	com_broncho_jnibt_FMNative.cpp	/^cmd_tunefreq(char *cmdparam)$/;"	f
+cmd_tunefreq	fmapp.c	/^cmd_tunefreq(char *cmdparam)$/;"	f
+cmd_unmute	com_broncho_jnibt_FMNative.cpp	/^cmd_unmute(char *cmdparam)$/;"	f
+cmd_unmute	fmapp.c	/^cmd_unmute(char *cmdparam)$/;"	f
+com_broncho_jnibt_FMNative_native_init	com_broncho_jnibt_FMNative.cpp	/^static void com_broncho_jnibt_FMNative_native_init(JNIEnv* env, jobject object) $/;"	f	file:
+com_broncho_jnibt_FMNative_send_cmd	com_broncho_jnibt_FMNative.cpp	/^static void com_broncho_jnibt_FMNative_send_cmd(JNIEnv* env, jobject object, jstring cmd, jstring cmdparam)$/;"	f	file:
+command	com_broncho_jnibt_FMNative.cpp	/^} command[] = {$/;"	v	typeref:struct:__anon2	file:
+command	fmapp.c	/^} command[] = {$/;"	v	typeref:struct:__anon1	file:
+context	com_broncho_jnibt_FMNative.cpp	/^	jfieldID context;$/;"	m	struct:fields_t	file:
+context	com_broncho_jnibt_FMNative.cpp	/^static fm_context* context;$/;"	v	file:
+current_rssi_cb	fmradio.h	/^	fm_get_current_rssi_callback	current_rssi_cb;$/;"	m	struct:__anon4
+doc	com_broncho_jnibt_FMNative.cpp	/^	char *doc;$/;"	m	struct:__anon2	file:
+doc	fmapp.c	/^	char *doc;$/;"	m	struct:__anon1	file:
+envVer	com_broncho_jnibt_FMNative.cpp	/^	int envVer;$/;"	m	struct:fm_context_t	file:
+fields	com_broncho_jnibt_FMNative.cpp	/^static struct fields_t fields;$/;"	v	typeref:struct:fields_t	file:
+fields_t	com_broncho_jnibt_FMNative.cpp	/^struct fields_t {$/;"	s	file:
+fm_block	com_broncho_jnibt_FMNative.cpp	/^fm_ctrl_block fm_block = {$/;"	v
+fm_block	fmapp.c	/^fm_ctrl_block fm_block = {$/;"	v
+fm_callbacks	fmradio.h	/^}fm_callbacks;$/;"	t	typeref:struct:__anon4
+fm_cb_thread	com_broncho_jnibt_FMNative.cpp	/^void *fm_cb_thread(void* arg)$/;"	f
+fm_cbs	com_broncho_jnibt_FMNative.cpp	/^fm_callbacks fm_cbs = {$/;"	v
+fm_cbs	fmapp.c	/^fm_callbacks fm_cbs = {$/;"	v
+fm_context	com_broncho_jnibt_FMNative.cpp	/^}fm_context;$/;"	t	typeref:struct:fm_context_t	file:
+fm_context_t	com_broncho_jnibt_FMNative.cpp	/^typedef struct fm_context_t {$/;"	s	file:
+fm_ctrl_block	fmradio.h	/^}fm_ctrl_block;$/;"	t	typeref:struct:__anon3
+fm_get_channel_freq_callback	fmradio.h	/^typedef void (*fm_get_channel_freq_callback)(uint16_t param);$/;"	t
+fm_get_channel_freq_cb	com_broncho_jnibt_FMNative.cpp	/^fm_get_channel_freq_cb(uint16_t param)$/;"	f
+fm_get_channel_freq_cb	fmapp.c	/^fm_get_channel_freq_cb(uint16_t param)$/;"	f
+fm_get_current_rssi_callback	fmradio.h	/^typedef void (*fm_get_current_rssi_callback)(uint8_t param);$/;"	t
+fm_get_current_rssi_cb	com_broncho_jnibt_FMNative.cpp	/^fm_get_current_rssi_cb(uint8_t param)$/;"	f
+fm_get_current_rssi_cb	fmapp.c	/^fm_get_current_rssi_cb(uint8_t param)$/;"	f
+fm_get_mute_state_callback	fmradio.h	/^typedef void (*fm_get_mute_state_callback)(uint8_t param);$/;"	t
+fm_get_mute_state_cb	com_broncho_jnibt_FMNative.cpp	/^fm_get_mute_state_cb(uint8_t param)$/;"	f
+fm_get_mute_state_cb	fmapp.c	/^fm_get_mute_state_cb(uint8_t param)$/;"	f
+fm_get_preset_channels_callback	fmradio.h	/^typedef void (*fm_get_preset_channels_callback)(uint8_t plen, uint8_t *param);$/;"	t
+fm_get_preset_channels_cb	com_broncho_jnibt_FMNative.cpp	/^fm_get_preset_channels_cb(uint8_t plen, uint8_t *param)$/;"	f
+fm_get_preset_channels_cb	fmapp.c	/^fm_get_preset_channels_cb(uint8_t plen, uint8_t *param)$/;"	f
+fm_get_region_tune_mode_callback	fmradio.h	/^typedef void (*fm_get_region_tune_mode_callback)(uint8_t param);$/;"	t
+fm_get_region_tune_mode_cb	com_broncho_jnibt_FMNative.cpp	/^fm_get_region_tune_mode_cb(uint8_t param)$/;"	f
+fm_get_region_tune_mode_cb	fmapp.c	/^fm_get_region_tune_mode_cb(uint8_t param)$/;"	f
+fm_get_search_rssi_threshold_callback	fmradio.h	/^typedef void (*fm_get_search_rssi_threshold_callback)(uint8_t param);$/;"	t
+fm_get_search_rssi_threshold_cb	com_broncho_jnibt_FMNative.cpp	/^fm_get_search_rssi_threshold_cb(uint8_t param)$/;"	f
+fm_get_search_rssi_threshold_cb	fmapp.c	/^fm_get_search_rssi_threshold_cb(uint8_t param)$/;"	f
+fm_get_search_steps_callback	fmradio.h	/^typedef void (*fm_get_search_steps_callback)(uint8_t param);$/;"	t
+fm_get_search_steps_cb	com_broncho_jnibt_FMNative.cpp	/^fm_get_search_steps_cb(uint8_t param)$/;"	f
+fm_get_search_steps_cb	fmapp.c	/^fm_get_search_steps_cb(uint8_t param)$/;"	f
+fm_get_stereo_mono_status_callback	fmradio.h	/^typedef void (*fm_get_stereo_mono_status_callback)(uint8_t param);$/;"	t
+fm_get_stereo_mono_status_cb	com_broncho_jnibt_FMNative.cpp	/^fm_get_stereo_mono_status_cb(uint8_t param)$/;"	f
+fm_get_stereo_mono_status_cb	fmapp.c	/^fm_get_stereo_mono_status_cb(uint8_t param)$/;"	f
+fm_get_volume_gain_callback	fmradio.h	/^typedef void (*fm_get_volume_gain_callback)(uint16_t param);$/;"	t
+fm_get_volume_gain_cb	com_broncho_jnibt_FMNative.cpp	/^fm_get_volume_gain_cb(uint16_t param)$/;"	f
+fm_get_volume_gain_cb	fmapp.c	/^fm_get_volume_gain_cb(uint16_t param)$/;"	f
+fm_message	com_broncho_jnibt_FMNative.cpp	/^}fm_message;$/;"	t	typeref:struct:fm_message_t	file:
+fm_message_t	com_broncho_jnibt_FMNative.cpp	/^typedef struct fm_message_t {$/;"	s	file:
+fm_messages	com_broncho_jnibt_FMNative.cpp	/^}fm_messages;$/;"	t	typeref:struct:fm_messages_t	file:
+fm_messages_t	com_broncho_jnibt_FMNative.cpp	/^typedef struct fm_messages_t {$/;"	s	file:
+freq	fmradio.h	/^	uint16_t	freq;\/\/Initialize frequence, setting in 1 kHz offset from 64MHz. For example, 23500 means 87.5 MHz$/;"	m	struct:__anon3
+func	com_broncho_jnibt_FMNative.cpp	/^	void (*func)(char *cmdparam);$/;"	m	struct:__anon2	file:
+func	fmapp.c	/^	void (*func)(char *cmdparam);$/;"	m	struct:__anon1	file:
+gMethods	com_broncho_jnibt_FMNative.cpp	/^static JNINativeMethod gMethods[] = {$/;"	v	file:
+get_message	com_broncho_jnibt_FMNative.cpp	/^fm_message get_message(fm_messages* msgs) $/;"	f
+init_msgs	com_broncho_jnibt_FMNative.cpp	/^void init_msgs(fm_messages* msgs)$/;"	f
+main	fmapp.c	/^int main(int argc, char *argv[])$/;"	f
+me	com_broncho_jnibt_FMNative.cpp	/^	jobject me;$/;"	m	struct:fm_context_t	file:
+message	com_broncho_jnibt_FMNative.cpp	/^static fm_message message;$/;"	v	file:
+messages	com_broncho_jnibt_FMNative.cpp	/^	fm_message messages[FM_MESSAGE_SIZE];$/;"	m	struct:fm_messages_t	file:
+method_get_channel_freq_cb	com_broncho_jnibt_FMNative.cpp	/^static jmethodID method_get_channel_freq_cb;$/;"	v	file:
+method_get_current_rssi_cb	com_broncho_jnibt_FMNative.cpp	/^static jmethodID method_get_current_rssi_cb;$/;"	v	file:
+msg_lock	com_broncho_jnibt_FMNative.cpp	/^	pthread_mutex_t msg_lock;$/;"	m	struct:fm_messages_t	file:
+msgs	com_broncho_jnibt_FMNative.cpp	/^static fm_messages msgs;$/;"	v	file:
+mute_state	fmradio.h	/^	uint8_t		mute_state;\/\/0 = mute off, 1 = mute on$/;"	m	struct:__anon3
+mute_state_cb	fmradio.h	/^	fm_get_mute_state_callback	mute_state_cb;$/;"	m	struct:__anon4
+notempty	com_broncho_jnibt_FMNative.cpp	/^	pthread_cond_t notempty;$/;"	m	struct:fm_messages_t	file:
+notfull	com_broncho_jnibt_FMNative.cpp	/^	pthread_cond_t notfull;$/;"	m	struct:fm_messages_t	file:
+param	com_broncho_jnibt_FMNative.cpp	/^	uint8_t param;$/;"	m	struct:fm_message_t	file:
+preset_channel_cb	fmradio.h	/^	fm_get_preset_channels_callback	preset_channel_cb;$/;"	m	struct:__anon4
+put_message	com_broncho_jnibt_FMNative.cpp	/^void put_message(fm_messages* msgs, fm_message message)$/;"	f
+readpos	com_broncho_jnibt_FMNative.cpp	/^	int readpos, writepos;$/;"	m	struct:fm_messages_t	file:
+region_tune_cb	fmradio.h	/^	fm_get_region_tune_mode_callback	region_tune_cb;$/;"	m	struct:__anon4
+region_tune_mode	fmradio.h	/^	uint8_t		region_tune_mode;\/\/Bit0: 0 = Europe, 1 = Japan;Bit1: 0 = mono, 1 = stereo$/;"	m	struct:__anon3
+register_com_broncho_jnibt_FMNative	com_broncho_jnibt_FMNative.cpp	/^int register_com_broncho_jnibt_FMNative(JNIEnv* env) $/;"	f
+rssi	fmradio.h	/^	uint8_t		rssi;\/\/Current rssi value$/;"	m	struct:__anon3
+rssi_thresh	fmradio.h	/^	uint8_t		rssi_thresh;\/\/Search rssi threshold(jixian)$/;"	m	struct:__anon3
+rssi_threshold_cb	fmradio.h	/^	fm_get_search_rssi_threshold_callback	rssi_threshold_cb;$/;"	m	struct:__anon4
+search_steps_cb	fmradio.h	/^	fm_get_search_steps_callback	search_steps_cb;$/;"	m	struct:__anon4
+steps	fmradio.h	/^	uint8_t		steps;\/\/Must be 100 (kHz) or 50 (kHz)$/;"	m	struct:__anon3
+stereo_mono_status_cb	fmradio.h	/^	fm_get_stereo_mono_status_callback	stereo_mono_status_cb;$/;"	m	struct:__anon4
+vm	com_broncho_jnibt_FMNative.cpp	/^	JavaVM* vm;$/;"	m	struct:fm_context_t	file:
+volume	fmradio.h	/^	uint16_t	volume;\/\/FM volume gain, valid data from 1 (MIN) to 256(MAX).$/;"	m	struct:__anon3
+volume_gain_cb	fmradio.h	/^	fm_get_volume_gain_callback	volume_gain_cb;$/;"	m	struct:__anon4
+writepos	com_broncho_jnibt_FMNative.cpp	/^	int readpos, writepos;$/;"	m	struct:fm_messages_t	file:

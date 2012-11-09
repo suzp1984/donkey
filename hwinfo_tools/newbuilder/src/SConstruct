@@ -1,0 +1,19 @@
+import glob
+
+config_sprd_parser_src = ['hwinfo_config_sprd_parser.c', 'dlist.c']
+
+config_ini_parser_src = ['hwinfo_config_ini_parser.c', 'dlist.c', 'ini_parser.c', 'ini_builder_list.c']
+hwinfo_builder_src = ['main.c', 'hwinfo_build_sprd.c', 'hwinfo_utils.c']
+
+programe_sprd_parser_test = 'hwinfo_sprd_parser_test'
+#hwinfo_sprd_parser_test = ['hwinfo_config_sprd_parser.c', 'dlist.c']
+#Program(programe_sprd_parser_test, config_sprd_parser_src, LIBS=['glib-2.0'], 
+#	CCFLAGS='-Wall -g  -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -DHWINFO_CONFIG_SPRD_PARSER_TEST')
+
+programe_hwinfo_builder = 'hwinfo_builder'
+#hwinfo_sprd_builder = ['main.c', 'hwinfo_build_sprd.c', 'hwinfo_config_sprd_parser.c', 'hwinfo_utils.c', 'dlist.c']
+Program(programe_hwinfo_builder, hwinfo_builder_src + config_ini_parser_src, LIBS=['glib-2.0'], 
+	CCFLAGS='-Wall -g  -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include')
+
+Program('hwinfo_parser.c', CCFLAGS='-Wall -g -DHWINFO_PARSER_TEST')
+Decider('timestamp-match')

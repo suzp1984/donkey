@@ -1,0 +1,57 @@
+
+/*
+static void cmd_listener_on_data_available(CmdListener* thiz)
+{
+	int ret;
+
+	//memset(thiz->readbuf, 0, BUFLEN);
+	char* parcel_head = NULL;
+	char* parcel_end = NULL;
+	int i = 0;
+
+	char* ptr = thiz->readbuf + thiz->read_len;
+	ret = read(thiz->uart_fd, ptr, BUFLEN - thiz->read_len);
+	if (ret < 0) {
+		printf("%s: read error\n");
+		memset(thiz->readbuf, 0, BUFLEN);
+		thiz->read_len = 0;
+		return;
+	}
+
+	thiz->read_len += ret;
+
+	ptr = thiz->readbuf;
+	i = 0;
+	while((uint8_t)*ptr != PACKAGE_HEAD && i != thiz->read_len) {
+		i++;
+		ptr++;
+	}
+
+	if ((uint8_t)*ptr != PACKAGE_HEAD) {
+		memset(thiz->readbuf, 0, BUFLEN);
+		thiz->read_len = 0;
+		return;
+	}
+	i++;
+	ptr++;
+
+	while((uint8_t)*ptr != PACKAGE_END && i != thiz->read_len) {
+		i++;
+		ptr++;
+	}
+
+	if ((uint8_t)*ptr != PACKAGE_END) {
+		memset(thiz->readbuf, 0, BUFLEN);
+		thiz->read_len = 0;
+		return;
+	}
+
+	if (parcel_set_buf(thiz->received_parcel, thiz->readbuf, thiz->read_len) != RET_OK) {
+		memset(thiz->readbuf, 0, BUFLEN);
+		thiz->read_len = 0;
+		return;
+	}
+
+	// have a valid cmd
+	
+} */

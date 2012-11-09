@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World!</string>
+    <string name="app_name">Broncho Bookmark</string>
+<string name="title_bar_loading">Loading</string>
+<string name="appwidget_title">Bookmark</string>
+<string name="item_title">Title_Title</string>
+<string name="bookmark_title">Bookmark</string>
+<string name="grid_button">Grid View</string>
+<string name="list_button">List View</string>
+<string name="prev">&lt;</string>
+<string name="next">&gt;</string>
+<string name="choose_widget_style">Choose widget style</string>
+<string name="select">Select</string>
+</resources>

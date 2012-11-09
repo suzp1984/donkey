@@ -1,0 +1,7 @@
+config programe:
+1. a list
+2. a factory object
+
+bugs:
+
+common.h: add my own log file

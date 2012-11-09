@@ -1,0 +1,8 @@
+#!/system/bin/sh
+
+INTERFACE="$1"
+
+/system/bin/setprop net."$INTERFACE".gw      ""
+/system/bin/setprop net."$INTERFACE".dns1    ""
+/system/bin/setprop net."$INTERFACE".dns2    ""
+/system/bin/setprop net."$INTERFACE".addr 	 ""

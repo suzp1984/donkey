@@ -1,0 +1,10 @@
+#!/system/bin/sh
+
+echo 1 > /sys/class/switch/wlan_pa/state
+iwpriv mlan0 sdioclock 1
+iwpriv mlan0 deepsleep 0
+sleep 1
+iwconfig mlan0 power on
+iwpriv mlan0 reasso-on
+iwpriv mlan0 autodeepsleep 1
+netcfg mlan0 up

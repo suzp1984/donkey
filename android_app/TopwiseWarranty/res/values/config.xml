@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer-array name="messageTypes">
+        <item>0</item>
+        <item>1</item>
+    </integer-array>
+    
+    <string name="serverPhone">"10086"</string>
+    <!-- milliseconds to wait -->
+    <string name="defaultUptime">"36000000"</string>
+    <string name="taskFreqence">"3600000"</string>
+</resources>

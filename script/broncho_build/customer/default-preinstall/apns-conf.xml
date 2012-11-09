@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2008 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+  
+          http://www.apache.org/licenses/LICENSE-2.0
+  
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<!-- This file contains fake APNs that are necessary for the emulator
+     to talk to the network.  It should only be installed for SDK builds.
+
+     This file is not installed by the local Android.mk, it's installed using
+     a PRODUCT_COPY_FILES line in the sdk section of the toplevel Makefile.
+-->
+
+<!-- use empty string to specify no proxy or port -->
+<!-- This version must agree with that in apps/common/res/apns.xml -->
+<apns version="6">
+    <apn carrier="cmnet"
+        mcc="460"
+        mnc="00"
+        apn="cmnet"
+        user="net"
+        server="*"
+        password="net"
+        mmsc="null"
+		type="default"
+    />
+	<apn carrier="cmwap"
+        mcc="460"
+        mnc="00"
+        apn="cmwap"
+        user="net"
+		proxy="10.0.0.172"
+		port="80"
+        server="*"
+        password="net"
+        mmsc="null"
+		type="default"
+    />
+    <apn carrier="mms"
+        mcc="460"
+        mnc="00"
+        apn="cmwap"
+        user="wap"
+        server="*"
+        password="wap"
+        mmsc="http://mmsc.monternet.com:80"
+		mmsproxy="10.0.0.172"
+		mmsport="80"
+		type="mms"
+    />
+	<apn carrier="cmnet"
+        mcc="460"
+        mnc="02"
+        apn="cmnet"
+        user="net"
+        server="*"
+        password="net"
+        mmsc="null"
+		type="default"
+    />
+	<apn carrier="cmwap"
+        mcc="460"
+        mnc="02"
+        apn="cmwap"
+		proxy="10.0.0.172"
+		port="80"
+        user="net"
+        server="*"
+        password="net"
+        mmsc="null"
+		type="default"
+    />
+
+    <apn carrier="mms"
+        mcc="460"
+        mnc="02"
+        apn="cmwap"
+        user="wap"
+        server="*"
+        password="wap"
+        mmsc="http://mmsc.monternet.com:80"
+		mmsproxy="10.0.0.172"
+		mmsport="80"
+		type="mms"
+    />
+	<apn carrier="uninet"
+        mcc="460"
+        mnc="01"
+        apn="uninet"
+        user="net"
+        server="*"
+        password="net"
+        mmsc="null"
+		type="default"
+    />
+	<apn carrier="uniwap"
+        mcc="460"
+        mnc="01"
+        apn="uniwap"
+		proxy="10.0.0.172"
+		port="80"
+        user="net"
+        server="*"
+        password="net"
+        mmsc="null"
+		type="default"
+    />
+    <apn carrier="mms"
+        mcc="460"
+        mnc="01"
+        apn="uniwap"
+        user="wap"
+        server="*"
+        password="wap"
+        mmsc="http://wap.uni-info.com.cn:80"
+		mmsproxy="10.0.0.172"
+		mmsport="80"
+		type="mms"
+    />
+	<apn carrier="ctnet"
+        mcc="460"
+        mnc="03"
+        apn="ctnet"
+        user="ctnet@mycdma.cn"
+        server="*"
+        password="vnet.mobi"
+		type="default"
+    />
+	<apn carrier="ctwap"
+        mcc="460"
+        mnc="03"
+        apn="ctwap"
+        user="ctwap@mycdma.cn"
+        server="*"
+		mmsc="http://mmsc.vnet.mobi:80"
+		mmsproxy="10.0.0.200"
+		mmsport="80"
+		proxy="10.0.0.200"
+		port="80"
+        password="vnet.mobi"
+		type="mms,default"
+    />
+</apns>

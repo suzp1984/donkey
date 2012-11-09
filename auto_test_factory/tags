@@ -1,0 +1,269 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+AUTOTEST_BACKLIGHT	cmd_common.h	/^	AUTOTEST_BACKLIGHT,$/;"	e	enum:__anon8
+AUTOTEST_BLUETOOTH	cmd_common.h	/^	AUTOTEST_BLUETOOTH,$/;"	e	enum:__anon8
+AUTOTEST_CAMERA	cmd_common.h	/^	AUTOTEST_CAMERA,\/\/0x10$/;"	e	enum:__anon8
+AUTOTEST_CAMERA1	cmd_common.h	/^	AUTOTEST_CAMERA1,$/;"	e	enum:__anon8
+AUTOTEST_CFT	cmd_common.h	/^	AUTOTEST_CFT,$/;"	e	enum:__anon8
+AUTOTEST_CHARGE	cmd_common.h	/^	AUTOTEST_CHARGE,$/;"	e	enum:__anon8
+AUTOTEST_E	cmd_common.h	/^}AUTOTEST_E;$/;"	t	typeref:enum:__anon8
+AUTOTEST_ECHOLOOP	cmd_common.h	/^	AUTOTEST_ECHOLOOP,$/;"	e	enum:__anon8
+AUTOTEST_ECHOLOOP_2	cmd_common.h	/^	AUTOTEST_ECHOLOOP_2,$/;"	e	enum:__anon8
+AUTOTEST_FLASHLIGHT	cmd_common.h	/^	AUTOTEST_FLASHLIGHT,$/;"	e	enum:__anon8
+AUTOTEST_FM	cmd_common.h	/^	AUTOTEST_FM,$/;"	e	enum:__anon8
+AUTOTEST_GETOPTIONFLAGS	cmd_common.h	/^	AUTOTEST_GETOPTIONFLAGS = 0xff,$/;"	e	enum:__anon8
+AUTOTEST_GPS	cmd_common.h	/^	AUTOTEST_GPS,$/;"	e	enum:__anon8
+AUTOTEST_GSENSOR	cmd_common.h	/^	AUTOTEST_GSENSOR,$/;"	e	enum:__anon8
+AUTOTEST_HEADSET	cmd_common.h	/^	AUTOTEST_HEADSET,$/;"	e	enum:__anon8
+AUTOTEST_INVALID	cmd_common.h	/^	AUTOTEST_INVALID$/;"	e	enum:__anon8
+AUTOTEST_KEYBL	cmd_common.h	/^	AUTOTEST_KEYBL,$/;"	e	enum:__anon8
+AUTOTEST_KEYPRESS	cmd_common.h	/^	AUTOTEST_KEYPRESS,$/;"	e	enum:__anon8
+AUTOTEST_LCD	cmd_common.h	/^	AUTOTEST_LCD,$/;"	e	enum:__anon8
+AUTOTEST_LED	cmd_common.h	/^	AUTOTEST_LED,$/;"	e	enum:__anon8
+AUTOTEST_MEMORYCARD	cmd_common.h	/^	AUTOTEST_MEMORYCARD,$/;"	e	enum:__anon8
+AUTOTEST_MSENSOR	cmd_common.h	/^	AUTOTEST_MSENSOR,$/;"	e	enum:__anon8
+AUTOTEST_OK	cmd_common.h	/^	AUTOTEST_OK,$/;"	e	enum:__anon8
+AUTOTEST_OVER	cmd_common.h	/^	AUTOTEST_OVER,$/;"	e	enum:__anon8
+AUTOTEST_PHONECALL	cmd_common.h	/^	AUTOTEST_PHONECALL,$/;"	e	enum:__anon8
+AUTOTEST_P_L_SENSOR	cmd_common.h	/^	AUTOTEST_P_L_SENSOR,$/;"	e	enum:__anon8
+AUTOTEST_RECEIVE	cmd_common.h	/^	AUTOTEST_RECEIVE,$/;"	e	enum:__anon8
+AUTOTEST_RET_CMD	cmd_common.h	/^	AUTOTEST_RET_CMD,$/;"	e	enum:__anon9
+AUTOTEST_RET_DONE	cmd_common.h	/^	AUTOTEST_RET_DONE,$/;"	e	enum:__anon9
+AUTOTEST_RET_E	cmd_common.h	/^}AUTOTEST_RET_E;$/;"	t	typeref:enum:__anon9
+AUTOTEST_RET_FAIL	cmd_common.h	/^	AUTOTEST_RET_FAIL,$/;"	e	enum:__anon9
+AUTOTEST_RET_NOTSUPPORT	cmd_common.h	/^	AUTOTEST_RET_NOTSUPPORT,$/;"	e	enum:__anon9
+AUTOTEST_RET_PASS	cmd_common.h	/^	AUTOTEST_RET_PASS = 0,$/;"	e	enum:__anon9
+AUTOTEST_RET_STEP1	cmd_common.h	/^	AUTOTEST_RET_STEP1,$/;"	e	enum:__anon9
+AUTOTEST_RET_STEP2	cmd_common.h	/^	AUTOTEST_RET_STEP2,$/;"	e	enum:__anon9
+AUTOTEST_RET_STEP3	cmd_common.h	/^	AUTOTEST_RET_STEP3$/;"	e	enum:__anon9
+AUTOTEST_RET_TIMEOUT	cmd_common.h	/^	AUTOTEST_RET_TIMEOUT,$/;"	e	enum:__anon9
+AUTOTEST_RING	cmd_common.h	/^	AUTOTEST_RING,\/\/09$/;"	e	enum:__anon8
+AUTOTEST_RTC	cmd_common.h	/^	AUTOTEST_RTC,$/;"	e	enum:__anon8
+AUTOTEST_SIM	cmd_common.h	/^	AUTOTEST_SIM,$/;"	e	enum:__anon8
+AUTOTEST_TP	cmd_common.h	/^	AUTOTEST_TP,$/;"	e	enum:__anon8
+AUTOTEST_TRACE	cmd_common.h	/^	AUTOTEST_TRACE,$/;"	e	enum:__anon8
+AUTOTEST_VERSIONINFO	cmd_common.h	/^	AUTOTEST_VERSIONINFO = 0,$/;"	e	enum:__anon8
+AUTOTEST_VIBRATOR	cmd_common.h	/^	AUTOTEST_VIBRATOR,$/;"	e	enum:__anon8
+AUTOTEST_WIFI	cmd_common.h	/^	AUTOTEST_WIFI,\/\/0x19$/;"	e	enum:__anon8
+AUTO_TEST_UTILS_H	utils.h	2;"	d
+BACKLIGHT_CMD_H	backlight_cmd.h	2;"	d
+BUFLEN	cmd_listener.c	37;"	d	file:
+CMD_COMMON_H	cmd_common.h	2;"	d
+CMD_INTERFACE_H	cmd_interface.h	2;"	d
+CMD_LISTENER_H	cmd_listener.h	2;"	d
+CMD_MAX	cmd_listener.c	39;"	d	file:
+CmdInterface	cmd_interface.h	/^typedef  struct _CmdInterface CmdInterface;$/;"	t	typeref:struct:_CmdInterface
+CmdInterfaceDestroy	cmd_interface.h	/^typedef void (*CmdInterfaceDestroy)(CmdInterface* thiz);$/;"	t
+CmdInterfaceExecute	cmd_interface.h	/^typedef int (*CmdInterfaceExecute)(CmdInterface* thiz, void* ctx);$/;"	t
+CmdListener	cmd_listener.h	/^typedef struct _CmdListener CmdListener;$/;"	t	typeref:struct:_CmdListener
+DECLES_BEGIN	typedef.h	31;"	d
+DECLES_BEGIN	typedef.h	34;"	d
+DECLES_END	typedef.h	32;"	d
+DECLES_END	typedef.h	35;"	d
+DECLES_PRIV	typedef.h	19;"	d
+DIAG_AUTOTEST_F	cmd_common.h	9;"	d
+DIAG_BOOT_MAIN_CMD	cmd_common.h	10;"	d
+DIAG_BOOT_SUB_CMD_1	cmd_common.h	11;"	d
+DIAG_BOOT_SUB_CMD_2	cmd_common.h	12;"	d
+ECHOLOOP2_CMD_H	echoloop2_cmd.h	2;"	d
+ECHOLOOP_CMD_H	echoloop_cmd.h	2;"	d
+ENG_TMP_FILE	utils.c	14;"	d	file:
+GET_OPTION_FLAGS_H	getoption_cmd.h	2;"	d
+HEADSET_CMD_H	headset_cmd.h	2;"	d
+HWINFO_PATH	keypress_cmd.c	17;"	d	file:
+KEYPRESS_CMD_H	keypress_cmd.h	2;"	d
+KEY_BACKLIGHT_DEV	backlight_cmd.c	16;"	d	file:
+KEY_BACKLIGHT_MAX_DEV	backlight_cmd.c	18;"	d	file:
+KEY_INPUT	keypress_cmd.c	19;"	d	file:
+KEY_MAP_S	keypress_cmd.c	18;"	d	file:
+LCD_AUTOTEST	lcd_cmd.c	12;"	d	file:
+LCD_BACKLIGHT_DEV	backlight_cmd.c	15;"	d	file:
+LCD_BACKLIGHT_MAX_DEV	backlight_cmd.c	17;"	d	file:
+LCD_CMD_H	lcd_cmd.h	2;"	d
+LISTENER_UART	cmd_listener.c	35;"	d	file:
+LOCAL_ARM_MODE	Android.mk	/^LOCAL_ARM_MODE := arm$/;"	m
+LOCAL_MODULE	Android.mk	/^LOCAL_MODULE:= auto_test$/;"	m
+LOCAL_MODULE_TAGS	Android.mk	/^LOCAL_MODULE_TAGS := optional$/;"	m
+LOCAL_PATH	Android.mk	/^LOCAL_PATH:= $(call my-dir)$/;"	m
+LOCAL_SHARED_LIBRARIES	Android.mk	/^LOCAL_SHARED_LIBRARIES := libasound$/;"	m
+LOCAL_SRC_FILES	Android.mk	/^LOCAL_SRC_FILES := parcel.c \\$/;"	m
+LOCAL_STATIC_LIBRARIES	Android.mk	/^LOCAL_STATIC_LIBRARIES := libcutils$/;"	m
+LOG_TAG	backlight_cmd.c	5;"	d	file:
+LOG_TAG	cmd_listener.c	19;"	d	file:
+LOG_TAG	echoloop2_cmd.c	13;"	d	file:
+LOG_TAG	echoloop_cmd.c	13;"	d	file:
+LOG_TAG	getoption_cmd.c	8;"	d	file:
+LOG_TAG	headset_cmd.c	14;"	d	file:
+LOG_TAG	keypress_cmd.c	14;"	d	file:
+LOG_TAG	main.c	4;"	d	file:
+LOG_TAG	parcel.c	7;"	d	file:
+LOG_TAG	tp_cmd.c	12;"	d	file:
+LOG_TAG	typedef.h	7;"	d
+LOG_TAG	version_info_cmd.c	5;"	d	file:
+LOG_TAG	vibrator_cmd.c	12;"	d	file:
+MAX_KEYS	keypress_cmd.c	21;"	d	file:
+PACKAGE_END	cmd_common.h	7;"	d
+PACKAGE_HEAD	cmd_common.h	6;"	d
+PARCEL_H	parcel.h	2;"	d
+PROP_DISPLAY_ID	version_info_cmd.c	12;"	d	file:
+Parcel	parcel.h	/^typedef struct _Parcel Parcel;$/;"	t	typeref:struct:_Parcel
+PrivInfo	backlight_cmd.c	/^} PrivInfo;$/;"	t	typeref:struct:__anon10	file:
+PrivInfo	echoloop2_cmd.c	/^} PrivInfo;$/;"	t	typeref:struct:__anon2	file:
+PrivInfo	echoloop_cmd.c	/^} PrivInfo;$/;"	t	typeref:struct:__anon11	file:
+PrivInfo	getoption_cmd.c	/^} PrivInfo;$/;"	t	typeref:struct:__anon1	file:
+PrivInfo	headset_cmd.c	/^} PrivInfo;$/;"	t	typeref:struct:__anon5	file:
+PrivInfo	keypress_cmd.c	/^} PrivInfo;$/;"	t	typeref:struct:__anon14	file:
+PrivInfo	lcd_cmd.c	/^} PrivInfo;$/;"	t	typeref:struct:__anon12	file:
+PrivInfo	receive_cmd.c	/^} PrivInfo;$/;"	t	typeref:struct:__anon13	file:
+PrivInfo	ring_cmd.c	/^} PrivInfo;$/;"	t	typeref:struct:__anon7	file:
+PrivInfo	tp_cmd.c	/^} PrivInfo;$/;"	t	typeref:struct:__anon3	file:
+PrivInfo	version_info_cmd.c	/^} PrivInfo;$/;"	t	typeref:struct:__anon6	file:
+PrivInfo	vibrator_cmd.c	/^} PrivInfo;$/;"	t	typeref:struct:__anon4	file:
+QUIT_MSG	cmd_listener.c	36;"	d	file:
+RECEIVE_CMD_H	receive_cmd.h	2;"	d
+RET_FAIL	typedef.h	/^	RET_FAIL$/;"	e	enum:_Ret
+RET_INVALID_PARAMS	typedef.h	/^	RET_INVALID_PARAMS,$/;"	e	enum:_Ret
+RET_OK	typedef.h	/^	RET_OK,$/;"	e	enum:_Ret
+RET_OOM	typedef.h	/^	RET_OOM,$/;"	e	enum:_Ret
+RET_STOP	typedef.h	/^	RET_STOP,$/;"	e	enum:_Ret
+RING_CMD_H	ring_cmd.h	2;"	d
+Ret	typedef.h	/^} Ret;$/;"	t	typeref:enum:_Ret
+SAFE_FREE	typedef.h	28;"	d
+SPRD_HEADSET_SWITCH_DEV	headset_cmd.c	12;"	d	file:
+SPRD_LCD_AUTOTEST_PATH	lcd_cmd.c	11;"	d	file:
+SPRD_TS_INPUT_DEV	tp_cmd.c	15;"	d	file:
+TP_CMD_H	tp_cmd.h	2;"	d
+TYPE_DEF_H	typedef.h	2;"	d
+VERSION_INFO_CMD_H	version_info_cmd.h	2;"	d
+VIBRATE_CMD_H	vibrator_cmd.h	2;"	d
+VIBRATOR_ENABLE_DEV	vibrator_cmd.c	15;"	d	file:
+_CmdInterface	cmd_interface.h	/^struct _CmdInterface {$/;"	s
+_CmdListener	cmd_listener.c	/^struct _CmdListener {$/;"	s	file:
+_Parcel	parcel.c	/^struct _Parcel {$/;"	s	file:
+_Ret	typedef.h	/^typedef enum _Ret$/;"	g
+backlight_cmd_create	backlight_cmd.c	/^CmdInterface* backlight_cmd_create(CmdListener* listener)$/;"	f
+backlight_cmd_destroy	backlight_cmd.c	/^static void backlight_cmd_destroy(CmdInterface* thiz)$/;"	f	file:
+backlight_cmd_execute	backlight_cmd.c	/^static int backlight_cmd_execute(CmdInterface* thiz, void* ctx)$/;"	f	file:
+buf	parcel.c	/^	char* buf;$/;"	m	struct:_Parcel	file:
+capture_handle	echoloop2_cmd.c	/^	snd_pcm_t* capture_handle;$/;"	m	struct:__anon2	file:
+capture_handle	echoloop_cmd.c	/^	snd_pcm_t* capture_handle;$/;"	m	struct:__anon11	file:
+cmd	cmd_interface.h	/^	int cmd;$/;"	m	struct:_CmdInterface
+cmd_count	cmd_listener.c	/^	int cmd_count;$/;"	m	struct:_CmdListener	file:
+cmd_interface_destroy	cmd_interface.h	/^static inline void cmd_interface_destroy(CmdInterface* thiz)$/;"	f
+cmd_interface_execute	cmd_interface.h	/^static inline int cmd_interface_execute(CmdInterface* thiz, void* ctx)$/;"	f
+cmd_interface_get_cmd	cmd_interface.h	/^static inline int cmd_interface_get_cmd(CmdInterface* thiz)$/;"	f
+cmd_listener_create	cmd_listener.c	/^CmdListener* cmd_listener_create(void)$/;"	f
+cmd_listener_destroy	cmd_listener.c	/^void cmd_listener_destroy(CmdListener* thiz)$/;"	f
+cmd_listener_find_cmd	cmd_listener.c	/^static CmdInterface* cmd_listener_find_cmd(CmdListener* thiz, uint8_t sub_cmd)$/;"	f	file:
+cmd_listener_on_data_available	cmd_listener.c	/^static void cmd_listener_on_data_available(CmdListener* thiz)$/;"	f	file:
+cmd_listener_quit	cmd_listener.c	/^void cmd_listener_quit(CmdListener* thiz)$/;"	f
+cmd_listener_register_cmd	cmd_listener.c	/^static void cmd_listener_register_cmd(CmdListener* thiz, CmdInterface* cmd)$/;"	f	file:
+cmd_listener_reply	cmd_listener.c	/^void cmd_listener_reply(CmdListener* thiz, Parcel* parcel)$/;"	f
+cmd_listener_start	cmd_listener.c	/^void cmd_listener_start(CmdListener* thiz)$/;"	f
+cmd_max_size	cmd_listener.c	/^	int cmd_max_size;$/;"	m	struct:_CmdListener	file:
+cmds	cmd_listener.c	/^	CmdInterface** cmds;$/;"	m	struct:_CmdListener	file:
+content	parcel.c	/^	char* content;$/;"	m	struct:_Parcel	file:
+ctrl_fd	cmd_listener.c	/^	int ctrl_fd[2];$/;"	m	struct:_CmdListener	file:
+destroy	cmd_interface.h	/^	CmdInterfaceDestroy destroy;$/;"	m	struct:_CmdInterface
+echoloop2_cmd_create	echoloop2_cmd.c	/^CmdInterface* echoloop2_cmd_create(CmdListener* listener)$/;"	f
+echoloop2_cmd_destroy	echoloop2_cmd.c	/^static void echoloop2_cmd_destroy(CmdInterface* thiz)$/;"	f	file:
+echoloop2_cmd_execute	echoloop2_cmd.c	/^static int echoloop2_cmd_execute(CmdInterface* thiz, void* ctx)$/;"	f	file:
+echoloop2_cmd_set_capture_handle	echoloop2_cmd.c	/^static void echoloop2_cmd_set_capture_handle(CmdInterface* thiz)$/;"	f	file:
+echoloop2_cmd_set_playback_handle	echoloop2_cmd.c	/^static void echoloop2_cmd_set_playback_handle(CmdInterface* thiz)$/;"	f	file:
+echoloop2_cmd_thread_run	echoloop2_cmd.c	/^static void* echoloop2_cmd_thread_run(void* ctx)$/;"	f	file:
+echoloop_cmd_create	echoloop_cmd.c	/^CmdInterface* echoloop_cmd_create(CmdListener* listener)$/;"	f
+echoloop_cmd_destroy	echoloop_cmd.c	/^static void echoloop_cmd_destroy(CmdInterface* thiz)$/;"	f	file:
+echoloop_cmd_execute	echoloop_cmd.c	/^static int echoloop_cmd_execute(CmdInterface* thiz, void* ctx)$/;"	f	file:
+echoloop_cmd_set_capture_handle	echoloop_cmd.c	/^static void echoloop_cmd_set_capture_handle(CmdInterface* thiz)$/;"	f	file:
+echoloop_cmd_set_playback_handle	echoloop_cmd.c	/^static void echoloop_cmd_set_playback_handle(CmdInterface* thiz)$/;"	f	file:
+echoloop_cmd_thread_run	echoloop_cmd.c	/^static void* echoloop_cmd_thread_run(void* ctx)$/;"	f	file:
+execute	cmd_interface.h	/^	CmdInterfaceExecute execute;$/;"	m	struct:_CmdInterface
+frames	echoloop2_cmd.c	/^	int frames;$/;"	m	struct:__anon2	file:
+frames	echoloop_cmd.c	/^	int frames;$/;"	m	struct:__anon11	file:
+getoption_cmd_create	getoption_cmd.c	/^CmdInterface* getoption_cmd_create(CmdListener* listener)$/;"	f
+getoption_cmd_destroy	getoption_cmd.c	/^static void getoption_cmd_destroy(CmdInterface* thiz)$/;"	f	file:
+getoption_cmd_execute	getoption_cmd.c	/^static int getoption_cmd_execute(CmdInterface* thiz, void* ctx)$/;"	f	file:
+headset_cmd_create	headset_cmd.c	/^CmdInterface* headset_cmd_create(CmdListener* listener)$/;"	f
+headset_cmd_destroy	headset_cmd.c	/^static void headset_cmd_destroy(CmdInterface* thiz)$/;"	f	file:
+headset_cmd_execute	headset_cmd.c	/^static int headset_cmd_execute(CmdInterface* thiz, void* ctx)$/;"	f	file:
+headset_cmd_headset_status	headset_cmd.c	/^static int headset_cmd_headset_status(int fd)$/;"	f	file:
+hexstr2dec	keypress_cmd.c	/^static int hexstr2dec(const char* hex)$/;"	f	file:
+keypress_cmd_create	keypress_cmd.c	/^CmdInterface* keypress_cmd_create(CmdListener* listener)$/;"	f
+keypress_cmd_destroy	keypress_cmd.c	/^static void keypress_cmd_destroy(CmdInterface* thiz)$/;"	f	file:
+keypress_cmd_execute	keypress_cmd.c	/^static int keypress_cmd_execute(CmdInterface* thiz, void* ctx)$/;"	f	file:
+keypress_cmd_init_keys	keypress_cmd.c	/^static void keypress_cmd_init_keys(CmdInterface* thiz)$/;"	f	file:
+keypress_cmd_timer_thread	keypress_cmd.c	/^static void* keypress_cmd_timer_thread(void* ctx)$/;"	f	file:
+keys	keypress_cmd.c	/^	int keys[MAX_KEYS];$/;"	m	struct:__anon14	file:
+keys_count	keypress_cmd.c	/^	int keys_count;$/;"	m	struct:__anon14	file:
+lcd_cmd_create	lcd_cmd.c	/^CmdInterface* lcd_cmd_create(CmdListener* listener)$/;"	f
+lcd_cmd_destroy	lcd_cmd.c	/^static void lcd_cmd_destroy(CmdInterface* thiz)$/;"	f	file:
+lcd_cmd_execute	lcd_cmd.c	/^static int lcd_cmd_execute(CmdInterface* thiz, void* ctx)$/;"	f	file:
+lcd_max_bright	backlight_cmd.c	/^	int lcd_max_bright;$/;"	m	struct:__anon10	file:
+length	parcel.c	/^	uint16_t length;$/;"	m	struct:_Parcel	file:
+listener	backlight_cmd.c	/^	CmdListener* listener;$/;"	m	struct:__anon10	file:
+listener	echoloop2_cmd.c	/^	CmdListener* listener;$/;"	m	struct:__anon2	file:
+listener	echoloop_cmd.c	/^	CmdListener* listener;$/;"	m	struct:__anon11	file:
+listener	getoption_cmd.c	/^	CmdListener* listener;$/;"	m	struct:__anon1	file:
+listener	headset_cmd.c	/^	CmdListener* listener;$/;"	m	struct:__anon5	file:
+listener	keypress_cmd.c	/^	CmdListener* listener;$/;"	m	struct:__anon14	file:
+listener	lcd_cmd.c	/^	CmdListener* listener;$/;"	m	struct:__anon12	file:
+listener	receive_cmd.c	/^	CmdListener* listener;$/;"	m	struct:__anon13	file:
+listener	ring_cmd.c	/^	CmdListener* listener;$/;"	m	struct:__anon7	file:
+listener	tp_cmd.c	/^	CmdListener* listener;$/;"	m	struct:__anon3	file:
+listener	version_info_cmd.c	/^	CmdListener* listener;$/;"	m	struct:__anon6	file:
+listener	vibrator_cmd.c	/^	CmdListener* listener;$/;"	m	struct:__anon4	file:
+listener_start	cmd_listener.c	/^	int listener_start;$/;"	m	struct:_CmdListener	file:
+main	main.c	/^int main(int argc, char* argv[])$/;"	f
+main	parcel.c	/^int main(int argc, char* argv[])$/;"	f
+main_cmd	parcel.c	/^	uint8_t main_cmd;$/;"	m	struct:_Parcel	file:
+mfds	cmd_listener.c	/^	struct pollfd* mfds;$/;"	m	struct:_CmdListener	typeref:struct:_CmdListener::pollfd	file:
+open_input	utils.c	/^int open_input(const char* dev_name, int mode)$/;"	f
+opt	cmd_listener.c	/^	struct termios opt;$/;"	m	struct:_CmdListener	typeref:struct:_CmdListener::termios	file:
+parcel_create	parcel.c	/^Parcel* parcel_create()$/;"	f
+parcel_destroy	parcel.c	/^void parcel_destroy(Parcel* thiz)$/;"	f
+parcel_get_buf	parcel.c	/^size_t parcel_get_buf(Parcel* thiz, char** buf)$/;"	f
+parcel_get_content	parcel.c	/^size_t parcel_get_content(Parcel* thiz, char** content)$/;"	f
+parcel_get_length	parcel.c	/^uint16_t parcel_get_length(Parcel* thiz) $/;"	f
+parcel_get_main_cmd	parcel.c	/^Ret parcel_get_main_cmd(Parcel* thiz, uint8_t* main_cmd)$/;"	f
+parcel_get_sub_cmd	parcel.c	/^Ret parcel_get_sub_cmd(Parcel* thiz, uint8_t* sub_cmd)$/;"	f
+parcel_set_buf	parcel.c	/^Ret parcel_set_buf(Parcel* thiz, char* buf, size_t len)$/;"	f
+parcel_set_content	parcel.c	/^Ret parcel_set_content(Parcel* thiz, char* content, size_t len)$/;"	f
+parcel_set_main_cmd	parcel.c	/^Ret parcel_set_main_cmd(Parcel* thiz, uint8_t main_cmd)$/;"	f
+parcel_set_sub_cmd	parcel.c	/^Ret parcel_set_sub_cmd(Parcel* thiz, uint8_t sub_cmd)$/;"	f
+playback_handle	echoloop2_cmd.c	/^	snd_pcm_t* playback_handle;$/;"	m	struct:__anon2	file:
+playback_handle	echoloop_cmd.c	/^	snd_pcm_t* playback_handle;$/;"	m	struct:__anon11	file:
+priv	cmd_interface.h	/^	char priv[1];$/;"	m	struct:_CmdInterface
+read_len	cmd_listener.c	/^	ssize_t read_len;$/;"	m	struct:_CmdListener	file:
+readbuf	cmd_listener.c	/^	char readbuf[BUFLEN];$/;"	m	struct:_CmdListener	file:
+receive_cmd_create	receive_cmd.c	/^CmdInterface* receive_cmd_create(CmdListener* listener)$/;"	f
+receive_cmd_destroy	receive_cmd.c	/^static void receive_cmd_destroy(CmdInterface* thiz)$/;"	f	file:
+receive_cmd_execute	receive_cmd.c	/^static int receive_cmd_execute(CmdInterface* thiz, void* ctx)$/;"	f	file:
+received_parcel	cmd_listener.c	/^	Parcel* received_parcel;$/;"	m	struct:_CmdListener	file:
+return_if_fail	typedef.h	21;"	d
+return_val_if_fail	typedef.h	24;"	d
+ring_cmd_create	ring_cmd.c	/^CmdInterface* ring_cmd_create(CmdListener* listener)$/;"	f
+ring_cmd_destroy	ring_cmd.c	/^static void ring_cmd_destroy(CmdInterface* thiz)$/;"	f	file:
+ring_cmd_execute	ring_cmd.c	/^static int ring_cmd_execute(CmdInterface* thiz, void* ctx)$/;"	f	file:
+start_service	utils.c	/^int start_service(const char* name)$/;"	f
+start_test	cmd_listener.c	/^	int start_test;$/;"	m	struct:_CmdListener	file:
+stop_service	utils.c	/^int stop_service(const char* name)$/;"	f
+sub_cmd	parcel.c	/^	uint8_t sub_cmd;$/;"	m	struct:_Parcel	file:
+thread_run	echoloop2_cmd.c	/^	int thread_run;$/;"	m	struct:__anon2	file:
+thread_run	echoloop_cmd.c	/^	int thread_run;$/;"	m	struct:__anon11	file:
+tp_cmd_create	tp_cmd.c	/^CmdInterface* tp_cmd_create(CmdListener* listener)$/;"	f
+tp_cmd_destroy	tp_cmd.c	/^static void tp_cmd_destroy(CmdInterface* thiz)$/;"	f	file:
+tp_cmd_execute	tp_cmd.c	/^static int tp_cmd_execute(CmdInterface* thiz, void* ctx)$/;"	f	file:
+try_stop_service	utils.c	/^static int try_stop_service(const char* name)$/;"	f	file:
+uart_fd	cmd_listener.c	/^	int uart_fd;$/;"	m	struct:_CmdListener	file:
+version_info_cmd_create	version_info_cmd.c	/^CmdInterface* version_info_cmd_create(CmdListener* listener)$/;"	f
+version_info_destroy	version_info_cmd.c	/^static void version_info_destroy(CmdInterface* thiz)$/;"	f	file:
+version_info_execute	version_info_cmd.c	/^static int version_info_execute(CmdInterface* thiz, void* ctx)$/;"	f	file:
+vibrator_cmd_create	vibrator_cmd.c	/^CmdInterface* vibrator_cmd_create(CmdListener* listener)$/;"	f
+vibrator_cmd_destroy	vibrator_cmd.c	/^static void vibrator_cmd_destroy(CmdInterface* thiz)$/;"	f	file:
+vibrator_cmd_execute	vibrator_cmd.c	/^static int vibrator_cmd_execute(CmdInterface* thiz, void* ctx)$/;"	f	file:
+vibrator_on	vibrator_cmd.c	/^static int vibrator_on(int on_time)$/;"	f	file:
+wait_keys	keypress_cmd.c	/^	int wait_keys;$/;"	m	struct:__anon14	file:

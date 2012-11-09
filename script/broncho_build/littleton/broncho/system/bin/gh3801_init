@@ -1,0 +1,23 @@
+#!/system/bin/busybox sh
+
+insmod /system/lib/modules/sd8688.ko
+if [ "$?" == "0" ]; then
+    sleep 2
+    iwpriv mlan0 scantype passive
+    iwpriv mlan0 deepsleep 1
+    iwpriv mlan0 sdioclock 0
+    
+    hciattach /dev/ttyS1 any 38400 flow
+    hciconfig hci0 up
+    hciconfig hci0 noscan
+    hcitool cmd 0x3f 0x07 0x02                #pcm settings
+    hcitool cmd 0x3f 0x08 0x00 0x00 0x00 0x00 0x01 0x00 0x5f 0x5f 0x5f 0x5f
+    hcitool cmd 0x3f 0x28 0x00 0x00 0x03      #pcm sync settings
+    hcitool cmd 0x3f 0x09 0x00 0x08 0x07 0x00 &
+
+    sleep 2
+    killall -9 hcitool
+    killall -9 hciattach
+fi
+
+exit 0

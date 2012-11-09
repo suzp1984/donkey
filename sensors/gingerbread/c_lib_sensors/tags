@@ -1,0 +1,100 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+ACC_SENSOR_H	acc_sensor.h	2;"	d
+ARRAY_SIZE	sensors.c	4;"	d	file:
+DECLES_BEGIN	typedef.h	33;"	d
+DECLES_BEGIN	typedef.h	36;"	d
+DECLES_END	typedef.h	34;"	d
+DECLES_END	typedef.h	37;"	d
+DECLES_PRIV	typedef.h	21;"	d
+DataCompareFunc	typedef.h	/^typedef int      (*DataCompareFunc)(void* ctx, void* data);$/;"	t
+DataDestroyFunc	typedef.h	/^typedef void     (*DataDestroyFunc)(void* ctx, void* data);$/;"	t
+DataHashFunc	typedef.h	/^typedef int       (*DataHashFunc)(void* data);$/;"	t
+DataVisitFunc	typedef.h	/^typedef Ret      (*DataVisitFunc)(void* ctx, void* data);$/;"	t
+G_SENSOR_CMD_POWER_OFF	acc_sensor.c	10;"	d	file:
+G_SENSOR_CMD_POWER_ON	acc_sensor.c	9;"	d	file:
+G_SENSOR_CMD_START_TIMER	acc_sensor.c	11;"	d	file:
+G_SENSOR_CMD_STOP_TIMER	acc_sensor.c	12;"	d	file:
+G_SENSOR_DEFAULT_TIMER	acc_sensor.c	14;"	d	file:
+G_SENSOR_DEVICE_STATE	acc_sensor.c	8;"	d	file:
+HAL_MODULE_INFO_SYM	sensors.c	/^const struct sensors_module_t HAL_MODULE_INFO_SYM = {$/;"	v	typeref:struct:sensors_module_t
+ID_A	common.h	4;"	d
+ID_L	common.h	8;"	d
+ID_M	common.h	6;"	d
+ID_O	common.h	5;"	d
+ID_P	common.h	7;"	d
+ModuleClose	sensors_poll_context.c	/^typedef int (*ModuleClose)(struct hw_device_t* dev);$/;"	t	file:
+NUM_SENSORS	sensors_manager.c	6;"	d	file:
+PrivInfo	acc_sensor.c	/^} PrivInfo;$/;"	t	typeref:struct:__anon1	file:
+RET_FAIL	typedef.h	/^	RET_FAIL$/;"	e	enum:_Ret
+RET_INVALID_PARAMS	typedef.h	/^	RET_INVALID_PARAMS,$/;"	e	enum:_Ret
+RET_OK	typedef.h	/^	RET_OK,$/;"	e	enum:_Ret
+RET_OOM	typedef.h	/^	RET_OOM,$/;"	e	enum:_Ret
+RET_STOP	typedef.h	/^	RET_STOP,$/;"	e	enum:_Ret
+Ret	typedef.h	/^} Ret;$/;"	t	typeref:enum:_Ret
+SAFE_FREE	typedef.h	30;"	d
+SENSORS_MANAGER_H	sensors_manager.h	2;"	d
+SENSORS_POLL_CONTEXT_H	sensors_poll_context.h	2;"	d
+SENSOR_BASE_H	sensor_base.h	2;"	d
+SENSOR_COMMON_H	common.h	2;"	d
+SensorActivate	sensors_poll_context.c	/^typedef int (*SensorActivate)(struct sensors_poll_device_t *dev,$/;"	t	file:
+SensorBase	sensor_base.h	/^typedef struct _SensorBase SensorBase;$/;"	t	typeref:struct:_SensorBase
+SensorBaseActivate	sensor_base.h	/^typedef int (*SensorBaseActivate)(SensorBase* thiz, int handle, int enabled);$/;"	t
+SensorBaseGetFd	sensor_base.h	/^typedef int (*SensorBaseGetFd)(SensorBase* thiz);$/;"	t
+SensorBasePoll	sensor_base.h	/^typedef int (*SensorBasePoll)(SensorBase* thiz, sensors_event_t* data, int count);$/;"	t
+SensorBaseSetDelay	sensor_base.h	/^typedef int (*SensorBaseSetDelay)(SensorBase* thiz, int handle, int64_t ns);$/;"	t
+SensorPoll	sensors_poll_context.c	/^typedef int (*SensorPoll)(struct sensors_poll_device_t *dev,$/;"	t	file:
+SensorSetDelay	sensors_poll_context.c	/^typedef int (*SensorSetDelay)(struct sensors_poll_device_t *dev,$/;"	t	file:
+SensorsManager	sensors_manager.h	/^typedef struct _SensorsManager SensorsManager;$/;"	t	typeref:struct:_SensorsManager
+SensorsPollContext	sensors_poll_context.h	/^typedef struct _SensorsPollContext SensorsPollContext;$/;"	t	typeref:struct:_SensorsPollContext
+_HW_TYPEDEF_H	typedef.h	5;"	d
+_Ret	typedef.h	/^typedef enum _Ret $/;"	g
+_SensorBase	sensor_base.h	/^struct _SensorBase {$/;"	s
+_SensorsManager	sensors_manager.c	/^struct _SensorsManager {$/;"	s	file:
+_SensorsPollContext	sensors_poll_context.c	/^struct _SensorsPollContext {$/;"	s	file:
+acc_sensor_activate	acc_sensor.c	/^static int acc_sensor_activate(SensorBase* thiz, int handle, int enabled)$/;"	f	file:
+acc_sensor_create	acc_sensor.c	/^SensorBase* acc_sensor_create(const char* devname) $/;"	f
+accelerometer	sensors_manager.h	/^	accelerometer = 0,$/;"	e	enum:__anon2
+activate	sensor_base.h	/^	SensorBaseActivate activate;$/;"	m	struct:_SensorBase
+akm	sensors_manager.h	/^	akm			  = 1,$/;"	e	enum:__anon2
+device	sensors.c	/^	struct sensors_poll_device_t device;$/;"	m	struct:sensors_poll_context_t	typeref:struct:sensors_poll_context_t::sensors_poll_device_t	file:
+device	sensors_poll_context.c	/^	struct sensors_poll_device_t device;  \/\/ must be first;$/;"	m	struct:_SensorsPollContext	typeref:struct:_SensorsPollContext::sensors_poll_device_t	file:
+fd	acc_sensor.c	/^	int fd;$/;"	m	struct:__anon1	file:
+get_fd	sensor_base.h	/^	SensorBaseGetFd get_fd;$/;"	m	struct:_SensorBase
+handle_to_driver	sensors_manager.c	/^static int handle_to_driver(int handle) const {$/;"	f	file:
+light	sensors_manager.h	/^	light 	      = 2,$/;"	e	enum:__anon2
+main	acc_sensor.c	/^int main(int argc, char** argv)$/;"	f
+numFds	sensors_manager.h	/^	numFds$/;"	e	enum:__anon2
+numSensorDrivers	sensors_manager.h	/^	numSensorDrivers,$/;"	e	enum:__anon2
+open_sensors	sensors.c	/^static int open_sensors(const struct hw_module_t* module, const char* name, $/;"	f	file:
+poll	sensor_base.h	/^	SensorBasePoll poll;$/;"	m	struct:_SensorBase
+priv	sensor_base.h	/^	char priv[1];$/;"	m	struct:_SensorBase
+proximity	sensors_manager.h	/^	proximity     = 3,$/;"	e	enum:__anon2
+return_if_fail	typedef.h	23;"	d
+return_val_if_fail	typedef.h	26;"	d
+sSensorList	sensors.c	/^static const struct sensor_t sSensorList[] = {$/;"	v	typeref:struct:sensor_t	file:
+sensor_activate	sensor_base.h	/^static inline int sensor_activate(SensorBase* thiz, int handle, int enabled)$/;"	f
+sensor_get_fd	sensor_base.h	/^static inline int sensor_get_fd(SensorBase* thiz)$/;"	f
+sensor_poll	sensor_base.h	/^static inline int sensor_poll(SensorBase* thiz, sensors_event_t* data, int count)$/;"	f
+sensor_set_delay	sensor_base.h	/^static inline int sensor_set_delay(SensorBase* thiz, int handle, int64_t ns)$/;"	f
+sensors	sensors_manager.c	/^	SensorBase* sensors[NUM_SENSORS];$/;"	m	struct:_SensorsManager	file:
+sensors_activate	sensors_poll_context.c	/^static int sensors_activate(struct sensors_poll_device_t* dev, $/;"	f	file:
+sensors_close	sensors_poll_context.c	/^static int sensors_close(struct hw_device_t* dev)$/;"	f	file:
+sensors_get_list	sensors.c	/^static int sensors_get_list(struct sensors_module_t* module, $/;"	f	file:
+sensors_manager	sensors_poll_context.c	/^	SensorsManager* sensors_manager;$/;"	m	struct:_SensorsPollContext	file:
+sensors_manager_activate	sensors_manager.c	/^int sensors_manager_activate(SensorsManager* thiz, int handle, int enabled)$/;"	f
+sensors_manager_create	sensors_manager.c	/^SensorsManager* sensors_manager_create()$/;"	f
+sensors_manager_destroy	sensors_manager.c	/^void sensors_manager_destroy(SensorsManager* thiz)$/;"	f
+sensors_manager_poll	sensors_manager.c	/^int sensors_manager_poll(SensorsManager* thiz, sensors_event_t* data, int count)$/;"	f
+sensors_manager_set_delay	sensors_manager.c	/^int sensors_manager_set_delay(SensorsManager* thiz, int handle, int64_t ns)$/;"	f
+sensors_module_methods	sensors.c	/^static struct hw_module_methods_t sensors_module_methods = {$/;"	v	typeref:struct:hw_module_methods_t	file:
+sensors_poll	sensors_poll_context.c	/^static int sensors_poll(struct sensors_poll_device_t* dev,$/;"	f	file:
+sensors_poll_context_create	sensors_poll_context.c	/^SensorsPollContext* sensors_poll_context_create(const struct hw_module_t* module)$/;"	f
+sensors_poll_context_destroy	sensors_poll_context.c	/^void sensors_poll_context_destroy(SensorsPollContext* thiz)$/;"	f
+sensors_poll_context_t	sensors.c	/^struct sensors_poll_context_t {$/;"	s	file:
+sensors_set_delay	sensors_poll_context.c	/^static int sensors_set_delay(struct sensors_poll_device_t* dev,$/;"	f	file:
+set_delay	sensor_base.h	/^	SensorBaseSetDelay set_delay;$/;"	m	struct:_SensorBase

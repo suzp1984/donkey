@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/fileActionDialogTableLayoutGeneral"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" 
+    android:layout_gravity="center_vertical|center_horizontal">
+    
+    <TextView
+        android:text="@+id/TextView01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:id="@+id/fileActionDialogTextPartial">
+    </TextView>
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/fileActionDialogProgressPartial"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_marginLeft="5px"
+        android:layout_marginRight="5px"
+        android:layout_marginBottom="3px"
+        android:layout_marginTop="3px">
+    </ProgressBar>
+    <TextView android:text="@+id/TextView01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:id="@+id/fileActionDialogTextAbsolute">
+    </TextView>
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/fileActionDialogProgressAbsolute"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_marginLeft="5px"
+        android:layout_marginRight="5px"
+        android:layout_marginTop="3px"
+        android:layout_marginBottom="3px">
+    </ProgressBar>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/fileActionDialogButtonCancel"
+        android:text="@string/cancel">
+    </Button>
+</TableLayout>

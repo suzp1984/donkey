@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, CalibrationActivity!</string>
+    <string name="app_name">MSensorCalibrate</string>
+<string name="step1">place your machine in horizontal plane and Rotated 360 degrees. Then press OK</string>
+<string name="ok">ok</string>
+<string name="step2">Put the device vertically, and do 360 degree vertical rotation, then press OK</string>
+</resources>

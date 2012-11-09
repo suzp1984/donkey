@@ -1,0 +1,67 @@
+Version: 0x030101
+Trusted: 0
+
+Issue Date: 0x08152006
+OEM UniqueID: 0xf00df00d
+Boot Flash Signature: 0x4e414e04
+Number of Images: 7
+Size of Reserved in bytes: 32
+
+Image ID: 0x54494D48
+Next Image ID: 0x4f424d49
+Flash Entry Address: 0x0
+Load Address: 0x5c008000
+Image Size To CRC in bytes: 0x0
+Image Filename: tim.bin
+
+Image ID: 0x4F424D49
+Next Image ID: 0x4F534C4F
+Flash Entry Address: 0x20000
+Load Address: 0x5c013000
+Image Size To CRC in bytes: 0
+Image Filename: MHLV_linux_NTOBM.bin
+
+Image ID: 0x4F534C4F
+Next Image ID: 0x4F534C4E
+Flash Entry Address: 0x40000
+Load Address: 0x81000000
+Image Size To CRC in bytes: 0
+Image Filename: blob
+
+Image ID: 0x4F534C4E
+Next Image ID: 0x4F534C4D
+Flash Entry Address: 0x100000
+Load Address: 0x91000000
+Image Size To CRC in bytes: 0
+Image Filename: kernel.bin
+
+Image ID: 0x4F534C4D
+Next Image ID: 0x4F534C4C
+Flash Entry Address: 0x600000
+Load Address: 0xa1000000
+Image Size To CRC in bytes: 0
+Image Filename: recovery.bin
+
+Image ID: 0x4F534C4C
+Next Image ID: 0x4F534C4B
+Flash Entry Address: 0xb00000
+Load Address: 0xb1000000
+Image Size To CRC in bytes: 0
+Image Filename: factory.bin
+
+Image ID: 0x4F534C4B
+Next Image ID: 0xFFFFFFFF
+Flash Entry Address: 0x1100000
+Load Address: 0xc1000000
+Image Size To CRC in bytes: 0
+Image Filename: system.bin
+
+Reserved Data:
+0xf0f0f0f0
+0x00000000
+0x00000000
+0x00000000
+0x00000000
+0x00000000
+0x00000000
+0x0000000f

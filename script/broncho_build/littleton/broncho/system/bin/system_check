@@ -1,0 +1,3 @@
+#!/system/bin/busybox sh
+
+record calibrate load

@@ -1,0 +1,55 @@
+
+on init
+
+sysclktz 0
+loglevel 3
+
+# setup the global environment
+    export PATH /sbin:/data/bin:/data/busybox
+    export ANDROID_BOOTLOGO 1
+    export ANDROID_ROOT /system
+    export ANDROID_DATA /data
+    export EXTERNAL_STORAGE /sdcard
+
+# create mountpoints and mount tmpfs on sqlite_stmt_journals
+    mkdir /sdcard 0000 system system
+    mkdir /system
+    mkdir /data 0771 system system
+    mkdir /cache 0770 system cache
+    mkdir /tmp 01777 root root
+    mount tmpfs tmpfs /tmp size=4m
+
+    chmod 0755 /sbin/busybox
+    chmod 0755 /sbin/adbd
+    chmod 0755 /sbin/flash_image
+    chmod 0755 /sbin/mkyaffs2image
+    chmod 0755 /sbin/dump_image
+    chmod 0755 /sbin/nandroid.sh
+    chmod 0755 /sbin/recovery
+    chmod 0755 /sbin/unyaffs
+
+    mount rootfs rootfs / ro remount
+
+on boot
+# basic network init
+    ifup lo
+    hostname localhost
+    domainname localdomain
+
+    class_start default
+
+## Daemon processes to be run by init.
+service console /sbin/busybox sh
+    console
+
+# adbd is controlled by the persist.service.adb.enable system property
+service adbd /sbin/adbd
+    disabled
+
+on property:persist.service.adb.enable=1
+    start adbd
+
+on property:persist.service.adb.enable=0
+    stop adbd
+
+service recovery /sbin/recovery

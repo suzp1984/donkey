@@ -1,0 +1,28 @@
+import glob
+
+Help("""
+I don't known, I don't care
+""")
+
+Progress('$TARGET\r', 
+	file=open('/dev/tty', 'w'), overwrite=True, interval=5000)
+#screen = open('/dev/tty', 'w')
+#count = 0
+#
+#def progress_function(node):
+#	count += 1
+#	screen.write('Node %4d: %s\r' % (count, node))
+#
+#Progress(progress_function)
+#Progress(['-\r', '\\\r', '|\r', '/\r'], interval=50)
+
+glib_env = Environment()
+glib_env.ParseConfig("pkg-config glib-2.0 --libs --cflags")
+glib_env.Program('hwinfo_builder.c')
+
+parser_env = Environment()
+d = parser_env.ParseFlags("-Wall -g -DHWINFO_PARSER_TEST")
+parser_env.MergeFlags(d)
+
+parser_env.Program('hwinfo_parser.c')
+Decider('timestamp-match')

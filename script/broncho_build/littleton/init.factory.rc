@@ -1,0 +1,222 @@
+
+on init
+
+sysclktz 0
+loglevel 3
+
+# setup the global environment
+    export PATH /sbin:/system/sbin:/system/bin:/system/xbin:/data/bin:/data/busybox
+    export LD_LIBRARY_PATH /system/lib
+    export ANDROID_BOOTLOGO 1
+    export ANDROID_ROOT /system
+    export ANDROID_ASSETS /system/app
+    export ANDROID_DATA /data
+    export EXTERNAL_STORAGE /sdcard
+    export BOOTCLASSPATH /system/framework/core.jar:/system/framework/ext.jar:/system/framework/framework.jar:/system/framework/android.policy.jar:/system/framework/services.jar
+
+# Backward compatibility
+    symlink /system/etc /etc
+
+# create mountpoints and mount tmpfs on sqlite_stmt_journals
+    mkdir /sdcard 0000 system system
+    mkdir /system
+    mkdir /data 0771 system system
+    mkdir /cache 0770 system cache
+    mkdir /sqlite_stmt_journals 01777 root root
+    mount tmpfs tmpfs /sqlite_stmt_journals size=4m
+
+    symlink /sqlite_stmt_journals /tmp
+
+    mount rootfs rootfs / ro remount
+
+    write /proc/sys/kernel/panic_on_oops 0
+    write /proc/sys/kernel/panic 8
+    write /proc/sys/kernel/hung_task_timeout_secs 0
+    write /proc/cpu/alignment 4
+    write /proc/sys/kernel/sched_latency_ns 10000000
+    write /proc/sys/kernel/sched_wakeup_granularity_ns 2000000
+
+# mount mtd partitions
+    # Mount /system rw first to give the filesystem a chance to save a checkpoint
+    # mount yaffs2 mtd@system /system 
+    mount cramfs mtd@factory /system 
+
+    chown root root /system/xbin/su
+    chmod 6755 /system/xbin/su
+
+    # mount yaffs2 mtd@system /system ro remount
+
+    # This may have been created by the recovery system with odd permissions
+    chown system system /cache/recovery
+    chmod 0770 /cache/recovery
+
+    # We chown/chmod /data again so because mount is run as root + defaults
+    # mount yaffs2 mtd@userdata /data nosuid nodev
+    mount yaffs2 mtd@cache /data nosuid nodev
+    chown system system /data
+    chmod 0771 /data
+
+    # Same reason as /data above
+    # mount yaffs2 mtd@cache /cache nosuid nodev
+    chown system cache /cache
+    chmod 0770 /cache
+
+# create basic filesystem structure
+    # create the lost+found directories, so as to enforce our permissions
+    mkdir /data/lost+found 0770
+    mkdir /cache/lost+found 0770
+
+    # double check the perms, in case lost+found already exists, and set owner
+    chown root root /data/lost+found
+    chmod 0770 /data/lost+found
+    chown root root /cache/lost+found
+    chmod 0770 /cache/lost+found
+
+	chmod 0777 /dev/ttyS0
+	chmod 0777 /dev/modem
+    chmod 0777 /dev/video0
+
+    chmod 0660 /dev/ttyS1 
+    chown bluetooth bluetooth /dev/ttyS1 
+    chown system system /sys/class/g_sensor/g_sensor_lis35de/device
+    chmod 0777 /sys/class/fm/fm_rda5800/device
+    chmod 0777 /sys/class/fm/fm_rda5800/rssi
+    chmod 0777 /sys/class/fm/fm_rda5800/seek
+    chmod 0777 /sys/class/timed_output/flashlight/enable
+
+    setprop ro.radio.use-ppp yes
+	setprop keyguard.no_require_sim 1
+	setprop ro.device-provisioned 1
+    setprop android.telephony.apn-restore 600000
+	exec /system/bin/rzscontrol  /dev/block/ramzswap0 --init
+	exec /system/bin/busybox swapon /dev/block/ramzswap0
+
+on boot
+# basic network init
+    ifup lo
+    hostname localhost
+    domainname localdomain
+
+# set RLIMIT_NICE to allow priorities from 19 to -20
+    setrlimit 13 40 40
+
+# Set timeout value for rmnet stats.
+    write /sys/devices/virtual/net/rmnet0/timeout_suspend 5000000
+
+# Define the oom_adj values for the classes of processes that can be
+# killed by the kernel.  These are used in ActivityManagerService.
+    setprop ro.FOREGROUND_APP_ADJ 0
+    setprop ro.VISIBLE_APP_ADJ 1
+    setprop ro.SECONDARY_SERVER_ADJ 2
+    setprop ro.HOME_APP_ADJ 4
+    setprop ro.HIDDEN_APP_MIN_ADJ 7
+    setprop ro.CONTENT_PROVIDER_ADJ 14
+    setprop ro.EMPTY_APP_ADJ 15
+
+# Define the memory thresholds at which the above process classes will
+# be killed.  These numbers are in pages (4k).
+    setprop ro.FOREGROUND_APP_MEM 1536
+    setprop ro.VISIBLE_APP_MEM 2048
+    setprop ro.SECONDARY_SERVER_MEM 4096
+    setprop ro.HOME_APP_MEM 4096
+    setprop ro.HIDDEN_APP_MEM 5120
+    setprop ro.CONTENT_PROVIDER_MEM 5632
+    setprop ro.EMPTY_APP_MEM 6144
+
+# Write value must be consistent with the above properties.
+# Note that the driver only supports 6 slots, so we have HOME_APP at the
+# same memory level as services.
+    write /sys/module/lowmemorykiller/parameters/adj 0,1,2,7,14,15
+
+    write /proc/sys/vm/overcommit_memory 1
+    write /proc/sys/vm/min_free_order_shift 4
+    write /sys/module/lowmemorykiller/parameters/minfree 1536,2048,4096,5120,5632,6144
+
+    # Set init its forked children's oom_adj.
+    write /proc/1/oom_adj -16
+
+    # Permissions for System Server and daemons.
+    chown radio system /sys/android_power/state
+    chown radio system /sys/android_power/request_state
+    chown radio system /sys/android_power/acquire_full_wake_lock
+    chown radio system /sys/android_power/acquire_partial_wake_lock
+    chown radio system /sys/android_power/release_wake_lock
+    chown radio system /sys/power/state
+    chown radio system /sys/power/wake_lock
+    chown radio system /sys/power/wake_unlock
+    chmod 0660 /sys/power/state
+    chmod 0660 /sys/power/wake_lock
+    chmod 0660 /sys/power/wake_unlock
+    chown system system /sys/class/timed_output/vibrator/enable
+    chown system system /sys/class/timed_output/flashlight/enable
+    chown system system /sys/class/leds/keyboard-backlight/brightness
+    chown system system /sys/class/leds/lcd-backlight/brightness
+    chown system system /sys/class/leds/button-backlight/brightness
+    chown system system /sys/class/leds/jogball-backlight/brightness
+    chown system system /sys/class/leds/red/brightness
+    chown system system /sys/class/leds/green/brightness
+    chown system system /sys/class/leds/blue/brightness
+    chown system system /sys/class/leds/red/device/grpfreq
+    chown system system /sys/class/leds/red/device/grppwm
+    chown system system /sys/class/leds/red/device/blink
+    chown system system /sys/class/leds/red/brightness
+    chown system system /sys/class/leds/green/brightness
+    chown system system /sys/class/leds/blue/brightness
+    chown system system /sys/class/leds/red/device/grpfreq
+    chown system system /sys/class/leds/red/device/grppwm
+    chown system system /sys/class/leds/red/device/blink
+    chown system system /sys/class/timed_output/vibrator/enable
+    chown system system /sys/module/sco/parameters/disable_esco
+    chown system system /sys/kernel/ipv4/tcp_wmem_min
+    chown system system /sys/kernel/ipv4/tcp_wmem_def
+    chown system system /sys/kernel/ipv4/tcp_wmem_max
+    chown system system /sys/kernel/ipv4/tcp_rmem_min
+    chown system system /sys/kernel/ipv4/tcp_rmem_def
+    chown system system /sys/kernel/ipv4/tcp_rmem_max
+    chown root radio /proc/cmdline
+    chown system system /dev/mtd/mtd1
+
+# Define TCP buffer sizes for various networks
+#   ReadMin, ReadInitial, ReadMax, WriteMin, WriteInitial, WriteMax,
+    setprop net.tcp.buffersize.default 4096,87380,110208,4096,16384,110208
+    setprop net.tcp.buffersize.wifi    4095,87380,110208,4096,16384,110208
+    setprop net.tcp.buffersize.umts    4094,87380,110208,4096,16384,110208
+    setprop net.tcp.buffersize.edge    4093,26280,35040,4096,16384,35040
+    setprop net.tcp.buffersize.gprs    4092,8760,11680,4096,8760,11680
+
+    class_start default
+
+## Daemon processes to be run by init.
+##
+service console /system/bin/sh
+    console
+
+service gh3801_init /system/bin/gh3801_init
+    user root
+    group root
+    oneshot
+
+# adbd is controlled by the persist.service.adb.enable system property
+service adbd /sbin/adbd
+    disabled
+
+# adbd on at boot in emulator
+on property:ro.kernel.qemu=1
+    start adbd
+
+on property:persist.service.adb.enable=1
+    start adbd
+
+on property:persist.service.adb.enable=0
+    stop adbd
+
+service factory_test /system/bin/factory_test
+
+# service debuggerd /system/bin/debuggerd
+  
+service hciattach /system/bin/hciattach -n /dev/ttyS1 any 460800 flow
+    user  root
+    group root bluetooth
+    oneshot
+    disabled
+

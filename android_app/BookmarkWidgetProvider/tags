@@ -1,0 +1,129 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+AppWidgetItem	src/com/broncho/widget/BookmarkWidgetService.java	/^        public AppWidgetItem(int id, String prev, String next, String changeMode, int mode) {$/;"	m	class:BookmarkWidgetService.AppWidgetItem
+AppWidgetItem	src/com/broncho/widget/BookmarkWidgetService.java	/^    private static class AppWidgetItem {$/;"	c	class:BookmarkWidgetService
+BookMarkRenderResult	src/com/broncho/widget/BookmarkWidgetService.java	/^        BookMarkRenderResult(int id, String title, String url,$/;"	m	class:BookmarkWidgetService.BookMarkRenderResult
+BookMarkRenderResult	src/com/broncho/widget/BookmarkWidgetService.java	/^    private static class BookMarkRenderResult {$/;"	c	class:BookmarkWidgetService
+BookmarkConfigActivity	src/com/broncho/widget/BookmarkConfigActivity.java	/^public class BookmarkConfigActivity extends Activity {$/;"	c
+BookmarkViewMode	src/com/broncho/widget/BookmarkWidgetProvider.java	/^enum BookmarkViewMode {$/;"	g
+BookmarkWidgetProvider	src/com/broncho/widget/BookmarkWidgetProvider.java	/^public class BookmarkWidgetProvider extends AppWidgetProvider {$/;"	c
+BookmarkWidgetService	src/com/broncho/widget/BookmarkWidgetService.java	/^public class BookmarkWidgetService extends Service {$/;"	c
+CHANGMODE	src/com/broncho/widget/BookmarkWidgetService.java	/^    private static final String CHANGMODE = "com.broncho.bookmarkwidget.CHANGMODE";$/;"	f	class:BookmarkWidgetService	file:
+CURRENT_SCREEN_ID	src/com/broncho/widget/BookmarkWidgetService.java	/^    public static final String CURRENT_SCREEN_ID = "currentScreenID";$/;"	f	class:BookmarkWidgetService
+DELETE	src/com/broncho/widget/BookmarkWidgetService.java	/^    public static final String DELETE = "com.broncho.bookmarkwidget.delete";$/;"	f	class:BookmarkWidgetService
+EXTRA_ID	src/com/broncho/widget/widgetService.java	/^    private static final String EXTRA_ID =$/;"	f	class:widgetService	file:
+FAVICON_LIST	src/com/broncho/widget/BookmarkWidgetService.java	/^    private static final int[] FAVICON_LIST = { R.id.favicon_1, R.id.favicon_2,$/;"	f	class:BookmarkWidgetService	file:
+GRID	src/com/broncho/widget/BookmarkWidgetProvider.java	/^    GRID, LIST$/;"	e	enum:BookmarkViewMode	file:
+GRIDVIEW	src/com/broncho/widget/BookmarkWidgetService.java	/^    public static final int GRIDVIEW = 0;$/;"	f	class:BookmarkWidgetService
+IMAGE	src/com/broncho/widget/BookmarkConfigActivity.java	/^    private final int[] IMAGE = {$/;"	f	class:BookmarkConfigActivity	file:
+IMAGE_GRID	src/com/broncho/widget/BookmarkWidgetService.java	/^    private static final int[] IMAGE_GRID = { R.id.image_tl, R.id.image_tr,$/;"	f	class:BookmarkWidgetService	file:
+ITEMNUMB	src/com/broncho/widget/BookmarkWidgetService.java	/^    public static final int ITEMNUMB = 4;$/;"	f	class:BookmarkWidgetService
+LIST	src/com/broncho/widget/BookmarkWidgetProvider.java	/^    GRID, LIST$/;"	e	enum:BookmarkViewMode	file:
+LISTVIEW	src/com/broncho/widget/BookmarkWidgetService.java	/^    public static final int LISTVIEW = 1;$/;"	f	class:BookmarkWidgetService
+LOCAL_MODULE_TAGS	Android.mk	/^LOCAL_MODULE_TAGS := optional$/;"	m
+LOCAL_PACKAGE_NAME	Android.mk	/^LOCAL_PACKAGE_NAME := BookmarkWidget$/;"	m
+LOCAL_PATH	Android.mk	/^LOCAL_PATH:= $(call my-dir)$/;"	m
+LOCAL_SDK_VERSION	Android.mk	/^LOCAL_SDK_VERSION := current$/;"	m
+LOCAL_SRC_FILES	Android.mk	/^LOCAL_SRC_FILES := $(call all-java-files-under, src)$/;"	m
+Log	src/com/broncho/util/Log.java	/^    public Log() {$/;"	m	class:Log
+Log	src/com/broncho/util/Log.java	/^public class Log {$/;"	c
+NEXT	src/com/broncho/widget/BookmarkWidgetService.java	/^    private static final String NEXT = "com.broncho.bookmarkwidget.NEXT";$/;"	f	class:BookmarkWidgetService	file:
+NEXT	src/com/broncho/widget/widgetService.java	/^    private static final String NEXT = "com.android.browser.widget.NEXT";$/;"	f	class:widgetService	file:
+PREFS_NAME	src/com/broncho/widget/BookmarkConfigActivity.java	/^    private static final String PREFS_NAME = "com.broncho.widget.bookmark";$/;"	f	class:BookmarkConfigActivity	file:
+PREF_PREFERENCE_MODE_KEY	src/com/broncho/widget/BookmarkConfigActivity.java	/^    private static final String PREF_PREFERENCE_MODE_KEY = "prefix_mode";$/;"	f	class:BookmarkConfigActivity	file:
+PREF_PREFERENCE_SCREEN_KEY	src/com/broncho/widget/BookmarkConfigActivity.java	/^    private static final String PREF_PREFERENCE_SCREEN_KEY = "prefix_screen";$/;"	f	class:BookmarkConfigActivity	file:
+PREV	src/com/broncho/widget/BookmarkWidgetService.java	/^    private static final String PREV = "com.broncho.bookmarkwidget.PREV";$/;"	f	class:BookmarkWidgetService	file:
+PREV	src/com/broncho/widget/widgetService.java	/^    private static final String PREV = "com.android.browser.widget.PREV";$/;"	f	class:widgetService	file:
+PROJECTION	src/com/broncho/widget/BookmarkWidgetService.java	/^    private static final String[] PROJECTION = new String[] {$/;"	f	class:BookmarkWidgetService	file:
+QUERY_WHERE	src/com/broncho/widget/BookmarkWidgetService.java	/^    private static final String QUERY_WHERE = BookmarkColumns.BOOKMARK$/;"	f	class:BookmarkWidgetService	file:
+TAG	src/com/broncho/util/Log.java	/^    protected static final String TAG = "BrnBookmark";$/;"	f	class:Log
+TAG	src/com/broncho/widget/widgetService.java	/^    private static final String TAG = "BookmarkWidgetService";$/;"	f	class:widgetService	file:
+THUMBNAIL	src/com/broncho/widget/BookmarkWidgetService.java	/^    private static final String THUMBNAIL = "thumbnail";$/;"	f	class:BookmarkWidgetService	file:
+TITLE_GRID	src/com/broncho/widget/BookmarkWidgetService.java	/^    private static final int[] TITLE_GRID = { R.id.title_tl, R.id.title_tr,$/;"	f	class:BookmarkWidgetService	file:
+TITLE_LIST	src/com/broncho/widget/BookmarkWidgetService.java	/^    private static final int[] TITLE_LIST = { R.id.title_1, R.id.title_2,$/;"	f	class:BookmarkWidgetService	file:
+UPDATE	src/com/broncho/widget/BookmarkWidgetService.java	/^    public static final String UPDATE = "com.broncho.bookmarkwidget.UPDATE";$/;"	f	class:BookmarkWidgetService
+UPDATE	src/com/broncho/widget/widgetService.java	/^    public static final String UPDATE = "com.android.browser.widget.UPDATE";$/;"	f	class:widgetService
+URL_LIST	src/com/broncho/widget/BookmarkWidgetService.java	/^    private static final int[] URL_LIST = { R.id.url_1, R.id.url_2, R.id.url_3,$/;"	f	class:BookmarkWidgetService	file:
+VIEWMODE	src/com/broncho/widget/BookmarkWidgetService.java	/^    public static final String VIEWMODE = "viewmode";$/;"	f	class:BookmarkWidgetService
+appWidgetId	src/com/broncho/widget/BookmarkWidgetService.java	/^        int appWidgetId;$/;"	f	class:BookmarkWidgetService.AppWidgetItem
+buildMessage	src/com/broncho/util/Log.java	/^    protected static String buildMessage(String msg) {      $/;"	m	class:Log
+buildRemoteViews	src/com/broncho/widget/widgetService.java	/^    private RemoteViews buildRemoteViews() {$/;"	m	class:widgetService	file:
+changeModeAction	src/com/broncho/widget/BookmarkWidgetService.java	/^        String changeModeAction;$/;"	f	class:BookmarkWidgetService.AppWidgetItem
+com.broncho.util	src/com/broncho/util/Log.java	/^package com.broncho.util;$/;"	p
+com.broncho.widget	src/com/broncho/widget/BookmarkConfigActivity.java	/^package com.broncho.widget;$/;"	p
+com.broncho.widget	src/com/broncho/widget/BookmarkWidgetProvider.java	/^package com.broncho.widget;$/;"	p
+com.broncho.widget	src/com/broncho/widget/BookmarkWidgetService.java	/^package com.broncho.widget;$/;"	p
+com.broncho.widget	src/com/broncho/widget/widgetService.java	/^package com.broncho.widget;$/;"	p
+com.broncho.widget	src/com/broncho/widget/widgetprovider.java	/^package com.broncho.widget;$/;"	p
+d	src/com/broncho/util/Log.java	/^    public static void d(String msg) {$/;"	m	class:Log
+d	src/com/broncho/util/Log.java	/^    public static void d(String msg, Throwable thr) {$/;"	m	class:Log
+defaultUpdateWidget	src/com/broncho/widget/BookmarkWidgetProvider.java	/^    private void defaultUpdateWidget(Context context, int appWidgetId) {$/;"	m	class:BookmarkWidgetProvider	file:
+deleteWidgetIdPref	src/com/broncho/widget/BookmarkConfigActivity.java	/^	static void deleteWidgetIdPref(Context context, int appWidgetId) {$/;"	m	class:BookmarkConfigActivity
+e	src/com/broncho/util/Log.java	/^    public static void e(String msg) {$/;"	m	class:Log
+e	src/com/broncho/util/Log.java	/^    public static void e(String msg, Throwable thr) {$/;"	m	class:Log
+filteAction	src/com/broncho/widget/BookmarkWidgetService.java	/^    private boolean filteAction(String action) {$/;"	m	class:BookmarkWidgetService	file:
+getBitMap	src/com/broncho/widget/BookmarkWidgetService.java	/^    private Bitmap getBitMap(byte[] data) {$/;"	m	class:BookmarkWidgetService	file:
+getBitMap	src/com/broncho/widget/widgetService.java	/^    private Bitmap getBitMap(Cursor mcursor) {$/;"	m	class:widgetService	file:
+getBookmarkGridView	src/com/broncho/widget/BookmarkWidgetService.java	/^    private RemoteViews getBookmarkGridView() {$/;"	m	class:BookmarkWidgetService	file:
+getBookmarkListView	src/com/broncho/widget/BookmarkWidgetService.java	/^    private RemoteViews getBookmarkListView() {$/;"	m	class:BookmarkWidgetService	file:
+getNextScreen	src/com/broncho/widget/BookmarkWidgetService.java	/^    private int getNextScreen() {$/;"	m	class:BookmarkWidgetService	file:
+getNextViewMode	src/com/broncho/widget/BookmarkWidgetService.java	/^    private int getNextViewMode() {$/;"	m	class:BookmarkWidgetService	file:
+getPrevScreen	src/com/broncho/widget/BookmarkWidgetService.java	/^    private int getPrevScreen() {$/;"	m	class:BookmarkWidgetService	file:
+getScreenNum	src/com/broncho/widget/BookmarkWidgetService.java	/^    private int getScreenNum(Cursor c) {$/;"	m	class:BookmarkWidgetService	file:
+i	src/com/broncho/util/Log.java	/^    public static void i(String msg) {$/;"	m	class:Log
+i	src/com/broncho/util/Log.java	/^    public static void i(String msg, Throwable thr) {$/;"	m	class:Log
+loadCurrentScreenPref	src/com/broncho/widget/BookmarkConfigActivity.java	/^	static int loadCurrentScreenPref(Context context, int appwidgetId) {$/;"	m	class:BookmarkConfigActivity
+loadModePref	src/com/broncho/widget/BookmarkConfigActivity.java	/^	static int loadModePref(Context context, int appwidgetId) {$/;"	m	class:BookmarkConfigActivity
+mAppWidgetId	src/com/broncho/widget/BookmarkConfigActivity.java	/^    private int mAppWidgetId = AppWidgetManager.INVALID_APPWIDGET_ID;$/;"	f	class:BookmarkConfigActivity	file:
+mAppWidgetId	src/com/broncho/widget/BookmarkWidgetService.java	/^    private int mAppWidgetId;$/;"	f	class:BookmarkWidgetService	file:
+mCurrentScreen	src/com/broncho/widget/BookmarkWidgetService.java	/^    private int mCurrentScreen;$/;"	f	class:BookmarkWidgetService	file:
+mDbId2BookMarkRenderResult	src/com/broncho/widget/BookmarkWidgetService.java	/^    private final HashMap<Integer, BookMarkRenderResult> mDbId2BookMarkRenderResult = new HashMap<Integer, BookMarkRenderResult>();$/;"	f	class:BookmarkWidgetService	file:
+mDbIdList	src/com/broncho/widget/BookmarkWidgetService.java	/^    private final ArrayList<Integer> mDbIdList = new ArrayList<Integer>();$/;"	f	class:BookmarkWidgetService	file:
+mFavicon	src/com/broncho/widget/BookmarkWidgetService.java	/^        Bitmap mFavicon;$/;"	f	class:BookmarkWidgetService.BookMarkRenderResult
+mId	src/com/broncho/widget/BookmarkWidgetService.java	/^        final int mId;$/;"	f	class:BookmarkWidgetService.BookMarkRenderResult
+mLastScreenItemNum	src/com/broncho/widget/BookmarkWidgetService.java	/^    private int mLastScreenItemNum;$/;"	f	class:BookmarkWidgetService	file:
+mModeId	src/com/broncho/widget/BookmarkConfigActivity.java	/^    private int mModeId = 0;$/;"	f	class:BookmarkConfigActivity	file:
+mObserver	src/com/broncho/widget/BookmarkWidgetService.java	/^    private final ContentObserver mObserver = new ContentObserver(new Handler()) {$/;"	f	class:BookmarkWidgetService	file:
+mOnClickListener	src/com/broncho/widget/BookmarkConfigActivity.java	/^    View.OnClickListener mOnClickListener = new View.OnClickListener() {$/;"	f	class:BookmarkConfigActivity
+mScreenNum	src/com/broncho/widget/BookmarkWidgetService.java	/^    private int mScreenNum;$/;"	f	class:BookmarkWidgetService	file:
+mThumbnail	src/com/broncho/widget/BookmarkWidgetService.java	/^        Bitmap mThumbnail;$/;"	f	class:BookmarkWidgetService.BookMarkRenderResult
+mTitle	src/com/broncho/widget/BookmarkWidgetService.java	/^        final String mTitle;$/;"	f	class:BookmarkWidgetService.BookMarkRenderResult
+mUrl	src/com/broncho/widget/BookmarkWidgetService.java	/^        final String mUrl;$/;"	f	class:BookmarkWidgetService.BookMarkRenderResult
+mViewMode	src/com/broncho/widget/BookmarkWidgetService.java	/^    private int mViewMode;$/;"	f	class:BookmarkWidgetService	file:
+mWidgetId2WidgetItem	src/com/broncho/widget/BookmarkWidgetService.java	/^    private HashMap<Integer, AppWidgetItem> mWidgetId2WidgetItem = new HashMap<Integer, AppWidgetItem>();$/;"	f	class:BookmarkWidgetService	file:
+mWidgetIdList	src/com/broncho/widget/BookmarkWidgetService.java	/^    private final ArrayList<Integer> mWidgetIdList = new ArrayList<Integer>();$/;"	f	class:BookmarkWidgetService	file:
+nextAction	src/com/broncho/widget/BookmarkWidgetService.java	/^        String nextAction;$/;"	f	class:BookmarkWidgetService.AppWidgetItem
+onBind	src/com/broncho/widget/BookmarkWidgetService.java	/^    public android.os.IBinder onBind(Intent intent) {$/;"	m	class:BookmarkWidgetService
+onBind	src/com/broncho/widget/widgetService.java	/^    public IBinder onBind(Intent arg0) {$/;"	m	class:widgetService
+onCreate	src/com/broncho/widget/BookmarkConfigActivity.java	/^    public void onCreate(Bundle icicle) {$/;"	m	class:BookmarkConfigActivity
+onCreate	src/com/broncho/widget/BookmarkWidgetService.java	/^    public void onCreate() {$/;"	m	class:BookmarkWidgetService
+onDeleted	src/com/broncho/widget/BookmarkWidgetProvider.java	/^    public void onDeleted(Context context, int[] appWidgetIds) {$/;"	m	class:BookmarkWidgetProvider
+onDestroy	src/com/broncho/widget/BookmarkWidgetService.java	/^    public void onDestroy() {$/;"	m	class:BookmarkWidgetService
+onDisabled	src/com/broncho/widget/BookmarkWidgetProvider.java	/^    public void onDisabled(Context context) {$/;"	m	class:BookmarkWidgetProvider
+onDisabled	src/com/broncho/widget/widgetprovider.java	/^    public void onDisabled(Context context) {$/;"	m	class:widgetprovider
+onEnabled	src/com/broncho/widget/BookmarkWidgetProvider.java	/^    public void onEnabled(Context context) {$/;"	m	class:BookmarkWidgetProvider
+onEnabled	src/com/broncho/widget/widgetprovider.java	/^    public void onEnabled(Context context) {$/;"	m	class:widgetprovider
+onStartCommand	src/com/broncho/widget/BookmarkWidgetService.java	/^    public int onStartCommand(Intent intent, int flags, int startId) {$/;"	m	class:BookmarkWidgetService
+onStartCommand	src/com/broncho/widget/widgetService.java	/^    public int onStartCommand(Intent intent, int flags, int startId) {$/;"	m	class:widgetService
+onUpdate	src/com/broncho/widget/BookmarkWidgetProvider.java	/^    public void onUpdate(Context context, AppWidgetManager mngr, int[] ids) {$/;"	m	class:BookmarkWidgetProvider
+onUpdate	src/com/broncho/widget/widgetprovider.java	/^    public void onUpdate(Context context, AppWidgetManager mngr, int[] ids) {$/;"	m	class:widgetprovider
+prevAction	src/com/broncho/widget/BookmarkWidgetService.java	/^        String prevAction;$/;"	f	class:BookmarkWidgetService.AppWidgetItem
+queryCursorAndRender	src/com/broncho/widget/BookmarkWidgetService.java	/^    private void queryCursorAndRender() {$/;"	m	class:BookmarkWidgetService	file:
+saveCurrentScreenPref	src/com/broncho/widget/BookmarkConfigActivity.java	/^	static void saveCurrentScreenPref(Context context, int appWidgetId, $/;"	m	class:BookmarkConfigActivity
+saveModePref	src/com/broncho/widget/BookmarkConfigActivity.java	/^	static void saveModePref(Context context, int appWidgetId,$/;"	m	class:BookmarkConfigActivity
+setWidgetState	src/com/broncho/widget/BookmarkWidgetProvider.java	/^    public static void setWidgetState(Context context, int ids, int viewmode, int currentScreen) {$/;"	m	class:BookmarkWidgetProvider
+sortOrder	src/com/broncho/widget/BookmarkWidgetService.java	/^    private final String sortOrder = Browser.BookmarkColumns.VISITS + " DESC";$/;"	f	class:BookmarkWidgetService	file:
+sortOrder	src/com/broncho/widget/widgetService.java	/^    private final String sortOrder = Browser.BookmarkColumns.VISITS + " DESC";$/;"	f	class:widgetService	file:
+updateWidget	src/com/broncho/widget/BookmarkWidgetService.java	/^    private void updateWidget() {$/;"	m	class:BookmarkWidgetService	file:
+v	src/com/broncho/util/Log.java	/^    public static void v(String msg) {$/;"	m	class:Log
+v	src/com/broncho/util/Log.java	/^    public static void v(String msg, Throwable thr) {$/;"	m	class:Log
+viewMode	src/com/broncho/widget/BookmarkWidgetService.java	/^        int viewMode;$/;"	f	class:BookmarkWidgetService.AppWidgetItem
+w	src/com/broncho/util/Log.java	/^    public static void w(String msg) {$/;"	m	class:Log
+w	src/com/broncho/util/Log.java	/^    public static void w(String msg, Throwable thr) {$/;"	m	class:Log
+w	src/com/broncho/util/Log.java	/^    public static void w(Throwable thr) {$/;"	m	class:Log
+widgetService	src/com/broncho/widget/widgetService.java	/^public class widgetService extends Service {$/;"	c
+widgetprovider	src/com/broncho/widget/widgetprovider.java	/^public class widgetprovider extends AppWidgetProvider {$/;"	c

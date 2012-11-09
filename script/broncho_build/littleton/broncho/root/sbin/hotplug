@@ -1,0 +1,38 @@
+#!/system/bin/busybox sh
+
+export PATH=/system/bin/:/system/xbin/
+
+if [ "$1" != "firmware" ]; then
+    exit 0
+fi
+
+SYSFS="/sys"
+FIRMWARE_DIR="/etc/firmware"
+
+case "$ACTION" in
+add)
+    if [ ! -e $SYSFS/$DEVPATH/loading ]; then
+        sleep 2
+    fi
+
+    if [ -f "$FIRMWARE_DIR/$FIRMWARE" ]; then
+        echo 1 > $SYSFS/$DEVPATH/loading
+        sleep 2
+        cp "$FIRMWARE_DIR/$FIRMWARE"  $SYSFS/$DEVPATH/data
+        echo 0 > $SYSFS/$DEVPATH/loading
+    else
+        echo -1 > $SYSFS/$DEVPATH/loading
+    fi
+
+    ;;
+
+remove)
+    ;;
+
+*)
+    exit 0
+    ;;
+
+esac
+
+exit 0

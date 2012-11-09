@@ -1,0 +1,9 @@
+#!/system/bin/sh
+
+iwpriv mlan0 autodeepsleep 0
+iwpriv mlan0 reasso-off
+iwconfig mlan0 power off
+sleep 2
+iwpriv mlan0 deepsleep 1
+iwpriv mlan0 sdioclock 0
+echo 0 > /sys/class/switch/wlan_pa/state

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+	Description : this file should include all system input the devices 
+	that are not HCI devices such as mouse, touch-screen and keyboards.
+	Copyright (C) 2010 Malata Inc.
+-->
+
+<cases>
+  <case name="version"/>
+  <case name="RF CALI"/>
+  <case name="lcd"/>
+  <case name="vibrator" />
+  <case name="backlight" />
+  <case name="phone loopback" />
+  <case name="Camera test" />
+  <case name="speaker" />
+  <case name="SD card test" />
+  <case name="RTC" />
+  <case name="phone call" />
+  <case name="charger" />
+  <case name="headset" />
+  <case name="sim test" />
+  <case name="fm test" />
+  <case name="tp" />
+  <case name="multi touch" />
+  <case name="key test" />
+  <case name="gsensor test" />
+  <case name="wifi test" />
+  <case name="bluetooth test" />
+  <case name="Proximity test" />
+  <case name="Light Sensor test" />
+  <case name="Twinkle light test" />
+  <case name="Gps test" />
+</cases>

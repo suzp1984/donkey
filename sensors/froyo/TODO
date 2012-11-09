@@ -1,0 +1,16 @@
+v3:
+	add magnetic celibration;
+v4:
+	add g_sensor celibration;
+bugs:
+	poll axi problem: in game
+	enable orientation when needed.
+
+fixed:
+	stop sensors when useless
+	destroy sources(meory leak)
+	__set_delay: start the enabled dev
+	set_dalay: ms >= 20ms 
+
+TODO:
+	magnetic axis (x,y) problem

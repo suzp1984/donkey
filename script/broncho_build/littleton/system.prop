@@ -1,0 +1,13 @@
+# system.prop for 
+# This overrides settings in the products/generic/system.prop file
+#
+#rild.libpath=/system/lib/libreference-ril.so
+#rild.libargs=-d /dev/ttyS0
+ro.setupwizard.mode=DISABLED
+wifi.supplicant_scan_interval=45
+ro.BACKUP_APP_ADJ=0
+ro.BACKUP_APP_MEM=0
+ro.config.notification_sound=F1_New_MMS.ogg
+ro.config.ringtone=Road_Trip.ogg
+ro.config.alarm_alert=Alarm_Classic.ogg
+dalvik.vm.jniopts=warnonly

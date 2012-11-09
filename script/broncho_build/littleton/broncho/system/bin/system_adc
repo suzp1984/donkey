@@ -1,0 +1,20 @@
+#!/system/bin/busybox sh
+
+mount -t yaffs2 -o remount,rw /dev/block/mtdblock3 /parameters
+mkdir /parameters/battery/ -p
+
+echo $1 > /parameters/battery/calibrate
+
+sync
+
+if [ -f /parameters/battery/calibrate ]; then
+
+echo "**@CALIBRATE:OK @**" 
+
+else
+
+echo "**@CALIBRATE:ERROR @**" 
+
+fi
+
+mount -t yaffs2 -o remount,ro /dev/block/mtdblock3 /parameters

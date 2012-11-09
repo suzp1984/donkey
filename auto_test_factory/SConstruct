@@ -1,0 +1,7 @@
+parcel_env = Environment()
+
+p_test_flags = parcel_env.ParseFlags("-Wall -g -DPARCEL_TEST")
+parcel_env.MergeFlags(p_test_flags)
+
+parcel_env.Program("test_parcel", ['parcel.c'])
+

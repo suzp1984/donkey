@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, BronchoFileManager!</string>
+    <string name="app_name">BronchoFileManager</string>
+	<string name="flipper">ViewFlipper</string>
+	<string name="cancel">Cancel</string>
+	<string name="smenu_multi_select">Multi-select"</string>
+	<string name="smenu_edit">Edit</string>
+	<string name="smenu_sort">Sort</string>
+	<string name="smenu_fresh">Fresh</string>
+	<string name="smenu_bookmark">Bookmark</string>
+	<string name="smenu_create">Create</string>
+	<string name="smenu_about">About</string>
+	<string name="smenu_navigation">Navigation</string>
+	<string name="smenu_exit">Exit</string>
+	<string name="custom_title_left">BronchoFileManager</string>
+	<string name="custom_title_right">BronchoFileManager</string>
+	<string name="exit_alert_dialog_title">BronchoFileManager</string>
+	<string name="exit_alert_dialog_message">Are You Sure You Want to Exit?</string>
+	<string name="exit_alert_dialog_ok">OK</string>
+	<string name="exit_alert_dialog_cancel">Cancel</string>
+	
+</resources>

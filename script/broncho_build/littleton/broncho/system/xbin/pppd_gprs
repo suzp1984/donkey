@@ -1,0 +1,8 @@
+#!/system/bin/sh
+
+USER=`/system/bin/getprop net.gprs.user`
+PASSWORD=`/system/bin/getprop net.gprs.password`
+/system/bin/setprop net.gprs.ppp-exit ""
+/system/bin/pppd -detach crtscts /dev/mtk1 115200 noipdefault noauth debug novj usepeerdns noccp ipcp-no-addresses kdebug 4 defaultroute user $USER password $PASSWORD
+/system/bin/setprop net.gprs.ppp-exit $?
+#exit $?

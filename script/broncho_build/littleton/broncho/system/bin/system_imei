@@ -1,0 +1,20 @@
+#!/system/bin/busybox sh
+
+mount -t yaffs2 -o remount,rw /dev/block/mtdblock3 /parameters
+mkdir /parameters/modem/ -p
+
+echo $1 > /parameters/modem/imei
+
+sync
+
+if [ -f /parameters/modem/imei ]; then
+
+echo "**@IMEI:OK @**" 
+
+else
+
+echo "**@IMEI:ERROR @**" 
+
+fi
+
+mount -t yaffs2 -o remount,ro /dev/block/mtdblock3 /parameters

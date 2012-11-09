@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string-array name="audio">
+<item>mp3</item>
+<item>ogg</item>
+<item>wav</item>
+</string-array>
+<string-array name="image">
+<item>bmp</item>
+<item>gif</item>
+<item>ico</item>
+<item>jpe</item>
+<item>JPE</item>
+<item>jpeg</item>
+<item>JPEG</item>
+<item>jpg</item>
+<item>JPG</item>
+<item>png</item>
+<item>PNG</item>
+</string-array>
+<string-array name="pack"><item>zip</item>
+<item>gz</item>
+<item>tar</item>
+<item>rar</item>
+<item>apk</item>
+<item>jar</item>
+</string-array>
+<string-array name="video"><item>rmvb</item>
+<item>wmv</item>
+<item>mp4</item>
+<item>avi</item>
+</string-array>
+<string-array name="web"><item>html</item>
+<item>xhtml</item>
+<item>htm</item>
+</string-array>
+</resources>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">BrnCarLocker</string>
+
+
+<string name="locker">locker</string>
+<string name="unlocker">unlocker</string>
+<string name="warning_message">your car is moving</string>
+<string name="lockcar">lock car</string>
+<string name="unlockcar">free the locker</string>
+<string name="car_crash">car crash</string>
+</resources>

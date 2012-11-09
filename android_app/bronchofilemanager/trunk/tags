@@ -1,0 +1,439 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+AUTHORITY	src/com/broncho/filemanager/BookMark.java	/^	public static final String AUTHORITY = "com.broncho.filemanager.bookmark";$/;"	f	class:BookMark
+BOOKMARK	src/com/broncho/filemanager/BookMark.java	/^		public static final String BOOKMARK = "bookmark";$/;"	f	class:BookMark.CustomMark
+BOOKMARK	src/com/broncho/filemanager/BookMarkProvider.java	/^	private static final int BOOKMARK = 1;$/;"	f	class:BookMarkProvider	file:
+BOOKMARK_ID	src/com/broncho/filemanager/BookMarkProvider.java	/^	private static final int BOOKMARK_ID = 2;$/;"	f	class:BookMarkProvider	file:
+BOOKMARK_TABLE_NAME	src/com/broncho/filemanager/BookMarkProvider.java	/^	private static final String BOOKMARK_TABLE_NAME = "bookmark";$/;"	f	class:BookMarkProvider	file:
+BookMark	src/com/broncho/filemanager/BookMark.java	/^	private BookMark() {}$/;"	m	class:BookMark	file:
+BookMark	src/com/broncho/filemanager/BookMark.java	/^public final class BookMark {$/;"	c
+BookMarkProvider	src/com/broncho/filemanager/BookMarkProvider.java	/^public class BookMarkProvider extends ContentProvider {$/;"	c
+BronchoFileManager	src/com/broncho/filemanager/BronchoFileManager.java	/^public class BronchoFileManager extends Activity {$/;"	c
+COLUMN_INDEX_NOTE	src/com/broncho/filemanager/BronchoFileManager.java	/^	private static final int COLUMN_INDEX_NOTE = 1;$/;"	f	class:BronchoFileManager	file:
+CONTENT_URL	src/com/broncho/filemanager/BookMark.java	/^		public static final Uri CONTENT_URL = Uri.parse("content:\/\/"+AUTHORITY+"\/bookmark");$/;"	f	class:BookMark.CustomMark
+CREATED_DATE	src/com/broncho/filemanager/BookMark.java	/^		public static final String CREATED_DATE = "created";$/;"	f	class:BookMark.CustomMark
+CustomMark	src/com/broncho/filemanager/BookMark.java	/^		private CustomMark() {}$/;"	m	class:BookMark.CustomMark	file:
+CustomMark	src/com/broncho/filemanager/BookMark.java	/^	public static final class CustomMark implements BaseColumns {$/;"	c	class:BookMark
+DATABASE_NAME	src/com/broncho/filemanager/BookMarkProvider.java	/^	private static final String DATABASE_NAME = "bookmark.db";$/;"	f	class:BookMarkProvider	file:
+DATABASE_VERSION	src/com/broncho/filemanager/BookMarkProvider.java	/^	private static final int DATABASE_VERSION = 2;$/;"	f	class:BookMarkProvider	file:
+DEFAULT_SORT_ORDER	src/com/broncho/filemanager/BookMark.java	/^		public static final String DEFAULT_SORT_ORDER = "modified DESC";$/;"	f	class:BookMark.CustomMark
+DIALOG_edit	src/com/broncho/filemanager/BronchoFileManager.java	/^	private static final int DIALOG_edit = 1;$/;"	f	class:BronchoFileManager	file:
+DIALOG_navigation	src/com/broncho/filemanager/BronchoFileManager.java	/^	private static final int DIALOG_navigation = 3;$/;"	f	class:BronchoFileManager	file:
+DIALOG_sort	src/com/broncho/filemanager/BronchoFileManager.java	/^	private static final int DIALOG_sort = 2;$/;"	f	class:BronchoFileManager	file:
+DatabaseHelper	src/com/broncho/filemanager/BookMarkProvider.java	/^		DatabaseHelper(Context context) {$/;"	m	class:BookMarkProvider.DatabaseHelper
+DatabaseHelper	src/com/broncho/filemanager/BookMarkProvider.java	/^	private static class DatabaseHelper extends SQLiteOpenHelper {$/;"	c	class:BookMarkProvider
+FDataAdapter	src/com/broncho/android/widget/FDataAdapter.java	/^    public FDataAdapter(Context context, int viewid, ArrayList<T> listItem) {$/;"	m	class:FDataAdapter
+FDataAdapter	src/com/broncho/android/widget/FDataAdapter.java	/^public abstract class FDataAdapter<T, V extends ViewHolder<T>> extends BaseAdapter {$/;"	c
+FileActionDialog	src/com/broncho/filemanager/FileActionDialog.java	/^    public FileActionDialog(Context context, String title) {$/;"	m	class:FileActionDialog
+FileActionDialog	src/com/broncho/filemanager/FileActionDialog.java	/^public class FileActionDialog extends Dialog {$/;"	c
+FileAdapter	src/com/broncho/filemanager/FileAdapter.java	/^    public FileAdapter(Context c) {$/;"	m	class:FileAdapter
+FileAdapter	src/com/broncho/filemanager/FileAdapter.java	/^public class FileAdapter extends BaseAdapter {$/;"	c
+FileDataProvider	src/com/broncho/filemanager/FileDataProvider.java	/^    public FileDataProvider(Context context) {$/;"	m	class:FileDataProvider
+FileDataProvider	src/com/broncho/filemanager/FileDataProvider.java	/^public class FileDataProvider {$/;"	c
+FileLastModifiedComp	src/com/broncho/filemanager/FileLastModifiedComp.java	/^public class FileLastModifiedComp implements Comparator<File> {$/;"	c
+FileListAdapter	src/com/broncho/filemanager/FileListAdapter.java	/^    public FileListAdapter(Context context, int viewid, ArrayList listItem) {$/;"	m	class:FileListAdapter
+FileListAdapter	src/com/broncho/filemanager/FileListAdapter.java	/^public class FileListAdapter extends FDataAdapter<FileListAdapterEntry, FileListAdapterViewHolder> {$/;"	c
+FileListAdapterEntry	src/com/broncho/filemanager/FileListAdapterEntry.java	/^    public FileListAdapterEntry(File file, boolean selected, Integer iconResource) {$/;"	m	class:FileListAdapterEntry
+FileListAdapterEntry	src/com/broncho/filemanager/FileListAdapterEntry.java	/^public class FileListAdapterEntry {$/;"	c
+FileListAdapterViewHolder	src/com/broncho/filemanager/FileListAdapterViewHolder.java	/^    public FileListAdapterViewHolder(ImageView icon, TextView fileName, TextView fileSize) {$/;"	m	class:FileListAdapterViewHolder
+FileListAdapterViewHolder	src/com/broncho/filemanager/FileListAdapterViewHolder.java	/^public class FileListAdapterViewHolder extends ViewHolder<FileListAdapterEntry> {$/;"	c
+FileListView	src/com/broncho/filemanager/FileListView.java	/^    public FileListView(Context context) {$/;"	m	class:FileListView
+FileListView	src/com/broncho/filemanager/FileListView.java	/^    public FileListView(Context context, AttributeSet attrs) {$/;"	m	class:FileListView
+FileListView	src/com/broncho/filemanager/FileListView.java	/^    public FileListView(Context context, AttributeSet attrs, int defStyle) {$/;"	m	class:FileListView
+FileListView	src/com/broncho/filemanager/FileListView.java	/^public class FileListView extends ListView {$/;"	c
+FileNameComp	src/com/broncho/filemanager/FileNameComp.java	/^public class FileNameComp implements Comparator<File> {$/;"	c
+FileSizeComp	src/com/broncho/filemanager/FileSizeComp.java	/^public class FileSizeComp implements Comparator<File> {$/;"	c
+FileWorker	src/com/broncho/filemanager/FileWorker.java	/^    public FileWorker(FileActionDialog progressDialog) {$/;"	m	class:FileWorker
+FileWorker	src/com/broncho/filemanager/FileWorker.java	/^public abstract class FileWorker {$/;"	c
+FileWorkerPaste	src/com/broncho/filemanager/FileWorkerPaste.java	/^    public FileWorkerPaste(FileActionDialog progressDialog, ArrayList<File> list,$/;"	m	class:FileWorkerPaste
+FileWorkerPaste	src/com/broncho/filemanager/FileWorkerPaste.java	/^public abstract class FileWorkerPaste extends FileWorker {$/;"	c
+ImageAdapter	src/com/broncho/filemanager/ImageAdapter.java	/^    public ImageAdapter(Context c) {$/;"	m	class:ImageAdapter
+ImageAdapter	src/com/broncho/filemanager/ImageAdapter.java	/^public class ImageAdapter extends BaseAdapter {$/;"	c
+ImageView01	gen/com/broncho/filemanager/R.java	/^        public static final int ImageView01=0x7f08000d;$/;"	f	class:R.id
+ImageView02	gen/com/broncho/filemanager/R.java	/^        public static final int ImageView02=0x7f08000f;$/;"	f	class:R.id
+LinearLayout01	gen/com/broncho/filemanager/R.java	/^        public static final int LinearLayout01=0x7f080028;$/;"	f	class:R.id
+Log	src/com/broncho/filemanager/util/Log.java	/^    public Log() {$/;"	m	class:Log
+Log	src/com/broncho/filemanager/util/Log.java	/^public class Log {$/;"	c
+MENU_ITEM_FLIPPER	src/com/broncho/filemanager/BronchoFileManager.java	/^	private final static int MENU_ITEM_FLIPPER = 1;$/;"	f	class:BronchoFileManager	file:
+MODIFIED_DATE	src/com/broncho/filemanager/BookMark.java	/^		public static final String MODIFIED_DATE = "modified";$/;"	f	class:BookMark.CustomMark
+PROJECTION	src/com/broncho/filemanager/BronchoFileManager.java	/^	private static final String[] PROJECTION = new String[] { CustomMark._ID,$/;"	f	class:BronchoFileManager	file:
+R	gen/com/broncho/filemanager/R.java	/^public final class R {$/;"	c
+TAG	src/com/broncho/filemanager/util/Log.java	/^    protected static final String TAG = "BronchoFileManager";$/;"	f	class:Log
+TITLE	src/com/broncho/filemanager/BookMark.java	/^		public static final String TITLE = "title";$/;"	f	class:BookMark.CustomMark
+TextView01	gen/com/broncho/filemanager/R.java	/^        public static final int TextView01=0x7f080006;$/;"	f	class:R.id
+TextView02	gen/com/broncho/filemanager/R.java	/^        public static final int TextView02=0x7f080010;$/;"	f	class:R.id
+ViewHolder	src/com/broncho/android/widget/ViewHolder.java	/^public class ViewHolder<T> {$/;"	c
+_TAG	src/com/broncho/filemanager/BronchoFileManager.java	/^	private final static String _TAG = "BronchoFileManager";$/;"	f	class:BronchoFileManager	file:
+actionCancelled	src/com/broncho/filemanager/FileWorker.java	/^    public boolean actionCancelled;$/;"	f	class:FileWorker
+addBookMark	src/com/broncho/filemanager/FileDataProvider.java	/^	public void addBookMark() {$/;"	m	class:FileDataProvider
+app_name	gen/com/broncho/filemanager/R.java	/^        public static final int app_name=0x7f060001;$/;"	f	class:R.string
+array	gen/com/broncho/filemanager/R.java	/^    public static final class array {$/;"	c	class:R
+attr	gen/com/broncho/filemanager/R.java	/^    public static final class attr {$/;"	c	class:R
+audio	gen/com/broncho/filemanager/R.java	/^        public static final int audio=0x7f020000;$/;"	f	class:R.drawable
+audio	gen/com/broncho/filemanager/R.java	/^        public static final int audio=0x7f050000;$/;"	f	class:R.array
+back	gen/com/broncho/filemanager/R.java	/^        public static final int back=0x7f020001;$/;"	f	class:R.drawable
+back_default	gen/com/broncho/filemanager/R.java	/^        public static final int back_default=0x7f020002;$/;"	f	class:R.drawable
+back_focused	gen/com/broncho/filemanager/R.java	/^        public static final int back_focused=0x7f020003;$/;"	f	class:R.drawable
+back_pressed	gen/com/broncho/filemanager/R.java	/^        public static final int back_pressed=0x7f020004;$/;"	f	class:R.drawable
+backward	gen/com/broncho/filemanager/R.java	/^        public static final int backward=0x7f080019;$/;"	f	class:R.id
+backward	src/com/broncho/filemanager/FileDataProvider.java	/^    public void backward() {$/;"	m	class:FileDataProvider
+bindHolder	src/com/broncho/android/widget/FDataAdapter.java	/^    protected abstract void bindHolder(V h);$/;"	m	class:FDataAdapter
+bindHolder	src/com/broncho/filemanager/FileListAdapter.java	/^    protected void bindHolder(FileListAdapterViewHolder h) {$/;"	m	class:FileListAdapter
+bookmark	gen/com/broncho/filemanager/R.java	/^        public static final int bookmark=0x7f020005;$/;"	f	class:R.drawable
+bookmark_default	gen/com/broncho/filemanager/R.java	/^        public static final int bookmark_default=0x7f020006;$/;"	f	class:R.drawable
+bookmark_focused	gen/com/broncho/filemanager/R.java	/^        public static final int bookmark_focused=0x7f020007;$/;"	f	class:R.drawable
+bookmark_pressed	gen/com/broncho/filemanager/R.java	/^        public static final int bookmark_pressed=0x7f020008;$/;"	f	class:R.drawable
+brflipper	gen/com/broncho/filemanager/R.java	/^        public static final int brflipper=0x7f08001e;$/;"	f	class:R.id
+brgridview	gen/com/broncho/filemanager/R.java	/^        public static final int brgridview=0x7f080020;$/;"	f	class:R.id
+brlayout	gen/com/broncho/filemanager/R.java	/^        public static final int brlayout=0x7f080011;$/;"	f	class:R.id
+brlistview	gen/com/broncho/filemanager/R.java	/^        public static final int brlistview=0x7f08001f;$/;"	f	class:R.id
+btn_back	gen/com/broncho/filemanager/R.java	/^        public static final int btn_back=0x7f020009;$/;"	f	class:R.drawable
+btn_bookmark	gen/com/broncho/filemanager/R.java	/^        public static final int btn_bookmark=0x7f02000a;$/;"	f	class:R.drawable
+btn_create	gen/com/broncho/filemanager/R.java	/^        public static final int btn_create=0x7f02000b;$/;"	f	class:R.drawable
+btn_edit	gen/com/broncho/filemanager/R.java	/^        public static final int btn_edit=0x7f02000c;$/;"	f	class:R.drawable
+btn_forward	gen/com/broncho/filemanager/R.java	/^        public static final int btn_forward=0x7f02000d;$/;"	f	class:R.drawable
+btn_home	gen/com/broncho/filemanager/R.java	/^        public static final int btn_home=0x7f02000e;$/;"	f	class:R.drawable
+btn_multi_select	gen/com/broncho/filemanager/R.java	/^        public static final int btn_multi_select=0x7f02000f;$/;"	f	class:R.drawable
+btn_parent	gen/com/broncho/filemanager/R.java	/^        public static final int btn_parent=0x7f020010;$/;"	f	class:R.drawable
+btn_refresh	gen/com/broncho/filemanager/R.java	/^        public static final int btn_refresh=0x7f020011;$/;"	f	class:R.drawable
+btn_sort	gen/com/broncho/filemanager/R.java	/^        public static final int btn_sort=0x7f020012;$/;"	f	class:R.drawable
+btn_viewflip	gen/com/broncho/filemanager/R.java	/^        public static final int btn_viewflip=0x7f020013;$/;"	f	class:R.drawable
+buildMessage	src/com/broncho/filemanager/util/Log.java	/^    protected static String buildMessage(String msg) {      $/;"	m	class:Log
+buttonCancel	src/com/broncho/filemanager/FileActionDialog.java	/^    public Button buttonCancel;$/;"	f	class:FileActionDialog
+canDelete	src/com/broncho/filemanager/FileDataProvider.java	/^    public boolean canDelete;$/;"	f	class:FileDataProvider
+canPaste	src/com/broncho/filemanager/FileDataProvider.java	/^    public boolean canPaste;$/;"	f	class:FileDataProvider
+canRename	src/com/broncho/filemanager/FileDataProvider.java	/^    public boolean canRename;$/;"	f	class:FileDataProvider
+canWrite	src/com/broncho/filemanager/FileDataProvider.java	/^    public boolean canWrite;$/;"	f	class:FileDataProvider
+cancel	gen/com/broncho/filemanager/R.java	/^        public static final int cancel=0x7f060003;$/;"	f	class:R.string
+cancel	src/com/broncho/filemanager/FileWorker.java	/^    private void cancel() {$/;"	m	class:FileWorker	file:
+color	gen/com/broncho/filemanager/R.java	/^    public static final class color {$/;"	c	class:R
+com.broncho.android.widget	src/com/broncho/android/widget/FDataAdapter.java	/^package com.broncho.android.widget;$/;"	p
+com.broncho.android.widget	src/com/broncho/android/widget/ViewHolder.java	/^package com.broncho.android.widget;$/;"	p
+com.broncho.filemanager	gen/com/broncho/filemanager/R.java	/^package com.broncho.filemanager;$/;"	p
+com.broncho.filemanager	src/com/broncho/filemanager/BookMark.java	/^package com.broncho.filemanager;$/;"	p
+com.broncho.filemanager	src/com/broncho/filemanager/BookMarkProvider.java	/^package com.broncho.filemanager;$/;"	p
+com.broncho.filemanager	src/com/broncho/filemanager/BronchoFileManager.java	/^package com.broncho.filemanager;$/;"	p
+com.broncho.filemanager	src/com/broncho/filemanager/FileActionDialog.java	/^package com.broncho.filemanager;$/;"	p
+com.broncho.filemanager	src/com/broncho/filemanager/FileAdapter.java	/^package com.broncho.filemanager;$/;"	p
+com.broncho.filemanager	src/com/broncho/filemanager/FileDataProvider.java	/^package com.broncho.filemanager;$/;"	p
+com.broncho.filemanager	src/com/broncho/filemanager/FileLastModifiedComp.java	/^package com.broncho.filemanager;$/;"	p
+com.broncho.filemanager	src/com/broncho/filemanager/FileListAdapter.java	/^package com.broncho.filemanager;$/;"	p
+com.broncho.filemanager	src/com/broncho/filemanager/FileListAdapterEntry.java	/^package com.broncho.filemanager;$/;"	p
+com.broncho.filemanager	src/com/broncho/filemanager/FileListAdapterViewHolder.java	/^package com.broncho.filemanager;$/;"	p
+com.broncho.filemanager	src/com/broncho/filemanager/FileListView.java	/^package com.broncho.filemanager;$/;"	p
+com.broncho.filemanager	src/com/broncho/filemanager/FileNameComp.java	/^package com.broncho.filemanager;$/;"	p
+com.broncho.filemanager	src/com/broncho/filemanager/FileSizeComp.java	/^package com.broncho.filemanager;$/;"	p
+com.broncho.filemanager	src/com/broncho/filemanager/FileWorker.java	/^package com.broncho.filemanager;$/;"	p
+com.broncho.filemanager	src/com/broncho/filemanager/FileWorkerPaste.java	/^package com.broncho.filemanager;$/;"	p
+com.broncho.filemanager	src/com/broncho/filemanager/ImageAdapter.java	/^package com.broncho.filemanager;$/;"	p
+com.broncho.filemanager.util	src/com/broncho/filemanager/util/Log.java	/^package com.broncho.filemanager.util;$/;"	p
+compare	src/com/broncho/filemanager/FileLastModifiedComp.java	/^    public int compare(File file, File compared) {$/;"	m	class:FileLastModifiedComp
+compare	src/com/broncho/filemanager/FileNameComp.java	/^    public int compare(File file, File compared) {$/;"	m	class:FileNameComp
+compare	src/com/broncho/filemanager/FileSizeComp.java	/^    public int compare(File file, File compared) {$/;"	m	class:FileSizeComp
+copy	src/com/broncho/filemanager/BronchoFileManager.java	/^	private void copy() {$/;"	m	class:BronchoFileManager	file:
+copy	src/com/broncho/filemanager/FileDataProvider.java	/^    private void copy(boolean isCut) {$/;"	m	class:FileDataProvider	file:
+copy	src/com/broncho/filemanager/FileDataProvider.java	/^    public void copy() {$/;"	m	class:FileDataProvider
+copy	src/com/broncho/filemanager/FileWorkerPaste.java	/^    private void copy(File source, File destination) throws IOException, FileNotFoundException {$/;"	m	class:FileWorkerPaste	file:
+create	gen/com/broncho/filemanager/R.java	/^        public static final int create=0x7f020014;$/;"	f	class:R.drawable
+create	gen/com/broncho/filemanager/R.java	/^        public static final int create=0x7f080018;$/;"	f	class:R.id
+createDirectory	src/com/broncho/filemanager/BronchoFileManager.java	/^	private void createDirectory() {$/;"	m	class:BronchoFileManager	file:
+createDirectory	src/com/broncho/filemanager/FileDataProvider.java	/^    public void createDirectory(String directoryName) throws IOException {$/;"	m	class:FileDataProvider
+createHolder	src/com/broncho/android/widget/FDataAdapter.java	/^    protected abstract V createHolder(View v);$/;"	m	class:FDataAdapter
+createHolder	src/com/broncho/filemanager/FileListAdapter.java	/^    protected FileListAdapterViewHolder createHolder(View v) {$/;"	m	class:FileListAdapter
+create_default	gen/com/broncho/filemanager/R.java	/^        public static final int create_default=0x7f020015;$/;"	f	class:R.drawable
+create_focused	gen/com/broncho/filemanager/R.java	/^        public static final int create_focused=0x7f020016;$/;"	f	class:R.drawable
+create_pressed	gen/com/broncho/filemanager/R.java	/^        public static final int create_pressed=0x7f020017;$/;"	f	class:R.drawable
+currentDirectory	src/com/broncho/filemanager/FileWorkerPaste.java	/^    private File currentDirectory;$/;"	f	class:FileWorkerPaste	file:
+custom_title	gen/com/broncho/filemanager/R.java	/^        public static final int custom_title=0x7f030000;$/;"	f	class:R.layout
+custom_title_left	gen/com/broncho/filemanager/R.java	/^        public static final int custom_title_left=0x7f06000d;$/;"	f	class:R.string
+custom_title_right	gen/com/broncho/filemanager/R.java	/^        public static final int custom_title_right=0x7f06000e;$/;"	f	class:R.string
+cut	src/com/broncho/filemanager/FileWorkerPaste.java	/^    private boolean cut;$/;"	f	class:FileWorkerPaste	file:
+cutError	src/com/broncho/filemanager/FileWorkerPaste.java	/^    public boolean cutError;$/;"	f	class:FileWorkerPaste
+d	src/com/broncho/filemanager/util/Log.java	/^    public static void d(String msg) {$/;"	m	class:Log
+d	src/com/broncho/filemanager/util/Log.java	/^    public static void d(String msg, Throwable thr) {$/;"	m	class:Log
+data	src/com/broncho/android/widget/ViewHolder.java	/^    public T data;$/;"	f	class:ViewHolder
+delete	src/com/broncho/filemanager/BookMarkProvider.java	/^	public int delete(Uri uri, String selection, String[] selectionArgs) {$/;"	m	class:BookMarkProvider
+delete	src/com/broncho/filemanager/BronchoFileManager.java	/^	private void delete() {$/;"	m	class:BronchoFileManager	file:
+delete	src/com/broncho/filemanager/FileDataProvider.java	/^    public FileWorker delete(FileActionDialog progressDialog) {$/;"	m	class:FileDataProvider
+doInBackGround	src/com/broncho/filemanager/FileWorker.java	/^    protected abstract void doInBackGround() throws Exception;$/;"	m	class:FileWorker
+doInBackGround	src/com/broncho/filemanager/FileWorkerPaste.java	/^    protected void doInBackGround() throws Exception {$/;"	m	class:FileWorkerPaste
+done	src/com/broncho/filemanager/FileWorker.java	/^    protected abstract void done(Exception exception);$/;"	m	class:FileWorker
+drawable	gen/com/broncho/filemanager/R.java	/^    public static final class drawable {$/;"	c	class:R
+e	src/com/broncho/filemanager/util/Log.java	/^    public static void e(String msg) {$/;"	m	class:Log
+e	src/com/broncho/filemanager/util/Log.java	/^    public static void e(String msg, Throwable thr) {$/;"	m	class:Log
+edit	gen/com/broncho/filemanager/R.java	/^        public static final int edit=0x7f020018;$/;"	f	class:R.drawable
+edit	gen/com/broncho/filemanager/R.java	/^        public static final int edit=0x7f030001;$/;"	f	class:R.layout
+edit	gen/com/broncho/filemanager/R.java	/^        public static final int edit=0x7f080017;$/;"	f	class:R.id
+edit_default	gen/com/broncho/filemanager/R.java	/^        public static final int edit_default=0x7f020019;$/;"	f	class:R.drawable
+edit_focused	gen/com/broncho/filemanager/R.java	/^        public static final int edit_focused=0x7f02001a;$/;"	f	class:R.drawable
+edit_list	gen/com/broncho/filemanager/R.java	/^        public static final int edit_list=0x7f080004;$/;"	f	class:R.id
+edit_pressed	gen/com/broncho/filemanager/R.java	/^        public static final int edit_pressed=0x7f02001b;$/;"	f	class:R.drawable
+edit_root	gen/com/broncho/filemanager/R.java	/^        public static final int edit_root=0x7f080003;$/;"	f	class:R.id
+equals	src/com/broncho/android/widget/ViewHolder.java	/^    public boolean equals(Object obj) {$/;"	m	class:ViewHolder
+equals	src/com/broncho/filemanager/FileListAdapterEntry.java	/^    public boolean equals(Object obj) {$/;"	m	class:FileListAdapterEntry
+execute	src/com/broncho/filemanager/FileWorker.java	/^    public void execute() {$/;"	m	class:FileWorker
+exit_alert_dialog_cancel	gen/com/broncho/filemanager/R.java	/^        public static final int exit_alert_dialog_cancel=0x7f060012;$/;"	f	class:R.string
+exit_alert_dialog_message	gen/com/broncho/filemanager/R.java	/^        public static final int exit_alert_dialog_message=0x7f060010;$/;"	f	class:R.string
+exit_alert_dialog_ok	gen/com/broncho/filemanager/R.java	/^        public static final int exit_alert_dialog_ok=0x7f060011;$/;"	f	class:R.string
+exit_alert_dialog_title	gen/com/broncho/filemanager/R.java	/^        public static final int exit_alert_dialog_title=0x7f06000f;$/;"	f	class:R.string
+file	src/com/broncho/filemanager/FileListAdapterEntry.java	/^    public File file;$/;"	f	class:FileListAdapterEntry
+fileActionDialogButtonCancel	gen/com/broncho/filemanager/R.java	/^        public static final int fileActionDialogButtonCancel=0x7f08000b;$/;"	f	class:R.id
+fileActionDialogProgressAbsolute	gen/com/broncho/filemanager/R.java	/^        public static final int fileActionDialogProgressAbsolute=0x7f08000a;$/;"	f	class:R.id
+fileActionDialogProgressPartial	gen/com/broncho/filemanager/R.java	/^        public static final int fileActionDialogProgressPartial=0x7f080008;$/;"	f	class:R.id
+fileActionDialogTableLayoutGeneral	gen/com/broncho/filemanager/R.java	/^        public static final int fileActionDialogTableLayoutGeneral=0x7f080005;$/;"	f	class:R.id
+fileActionDialogTextAbsolute	gen/com/broncho/filemanager/R.java	/^        public static final int fileActionDialogTextAbsolute=0x7f080009;$/;"	f	class:R.id
+fileActionDialogTextPartial	gen/com/broncho/filemanager/R.java	/^        public static final int fileActionDialogTextPartial=0x7f080007;$/;"	f	class:R.id
+fileName	src/com/broncho/filemanager/FileListAdapterViewHolder.java	/^    public TextView fileName;$/;"	f	class:FileListAdapterViewHolder
+fileSize	src/com/broncho/filemanager/FileListAdapterViewHolder.java	/^    public TextView fileSize;$/;"	f	class:FileListAdapterViewHolder
+fileViewFlipper	src/com/broncho/filemanager/BronchoFileManager.java	/^	private void fileViewFlipper() {$/;"	m	class:BronchoFileManager	file:
+file_audio	gen/com/broncho/filemanager/R.java	/^        public static final int file_audio=0x7f02001c;$/;"	f	class:R.drawable
+file_image	gen/com/broncho/filemanager/R.java	/^        public static final int file_image=0x7f02001d;$/;"	f	class:R.drawable
+file_pack	gen/com/broncho/filemanager/R.java	/^        public static final int file_pack=0x7f02001e;$/;"	f	class:R.drawable
+file_text	gen/com/broncho/filemanager/R.java	/^        public static final int file_text=0x7f02001f;$/;"	f	class:R.drawable
+file_video	gen/com/broncho/filemanager/R.java	/^        public static final int file_video=0x7f020020;$/;"	f	class:R.drawable
+file_web	gen/com/broncho/filemanager/R.java	/^        public static final int file_web=0x7f020021;$/;"	f	class:R.drawable
+fileactiondialog	gen/com/broncho/filemanager/R.java	/^        public static final int fileactiondialog=0x7f030002;$/;"	f	class:R.layout
+flipper	gen/com/broncho/filemanager/R.java	/^        public static final int flipper=0x7f060002;$/;"	f	class:R.string
+folder	gen/com/broncho/filemanager/R.java	/^        public static final int folder=0x7f020022;$/;"	f	class:R.drawable
+folder_1	gen/com/broncho/filemanager/R.java	/^        public static final int folder_1=0x7f020023;$/;"	f	class:R.drawable
+forward	gen/com/broncho/filemanager/R.java	/^        public static final int forward=0x7f020024;$/;"	f	class:R.drawable
+forward	gen/com/broncho/filemanager/R.java	/^        public static final int forward=0x7f08001a;$/;"	f	class:R.id
+forward	src/com/broncho/filemanager/FileDataProvider.java	/^    public void forward() {$/;"	m	class:FileDataProvider
+forward_default	gen/com/broncho/filemanager/R.java	/^        public static final int forward_default=0x7f020025;$/;"	f	class:R.drawable
+forward_focused	gen/com/broncho/filemanager/R.java	/^        public static final int forward_focused=0x7f020026;$/;"	f	class:R.drawable
+forward_pressed	gen/com/broncho/filemanager/R.java	/^        public static final int forward_pressed=0x7f020027;$/;"	f	class:R.drawable
+futureTaskHandler	src/com/broncho/filemanager/FileWorker.java	/^    private Handler futureTaskHandler;$/;"	f	class:FileWorker	file:
+futureTaskRunnable	src/com/broncho/filemanager/FileWorker.java	/^    private Runnable futureTaskRunnable;$/;"	f	class:FileWorker	file:
+gather	src/com/broncho/filemanager/FileDataProvider.java	/^    private void gather(File source, ArrayList<File> cached, FileWorker worker) {$/;"	m	class:FileDataProvider	file:
+gather	src/com/broncho/filemanager/FileWorkerPaste.java	/^    private void gather(File source, File destination, LinkedHashMap<File, File> cached) {$/;"	m	class:FileWorkerPaste	file:
+getCount	src/com/broncho/android/widget/FDataAdapter.java	/^    public int getCount() {$/;"	m	class:FDataAdapter
+getCount	src/com/broncho/filemanager/FileAdapter.java	/^    public int getCount() {$/;"	m	class:FileAdapter
+getCount	src/com/broncho/filemanager/ImageAdapter.java	/^    public int getCount() {$/;"	m	class:ImageAdapter
+getCurrentDirectory	src/com/broncho/filemanager/FileDataProvider.java	/^    public File getCurrentDirectory() {$/;"	m	class:FileDataProvider
+getFileListAdapterEntryFormFile	src/com/broncho/filemanager/FileDataProvider.java	/^    private FileListAdapterEntry getFileListAdapterEntryFormFile(File file) {$/;"	m	class:FileDataProvider	file:
+getIcon	src/com/broncho/filemanager/FileListAdapter.java	/^    private Integer getIcon(FileListAdapterEntry data) {$/;"	m	class:FileListAdapter	file:
+getItem	src/com/broncho/android/widget/FDataAdapter.java	/^    public T getItem(int position) {$/;"	m	class:FDataAdapter
+getItem	src/com/broncho/filemanager/FileAdapter.java	/^    public Object getItem(int position) {$/;"	m	class:FileAdapter
+getItem	src/com/broncho/filemanager/ImageAdapter.java	/^    public Object getItem(int position) {$/;"	m	class:ImageAdapter
+getItemId	src/com/broncho/android/widget/FDataAdapter.java	/^    public long getItemId(int position) {$/;"	m	class:FDataAdapter
+getItemId	src/com/broncho/filemanager/FileAdapter.java	/^    public long getItemId(int position) {$/;"	m	class:FileAdapter
+getItemId	src/com/broncho/filemanager/ImageAdapter.java	/^    public long getItemId(int position) {$/;"	m	class:ImageAdapter
+getListAdapter	src/com/broncho/filemanager/FileDataProvider.java	/^    public FileListAdapter getListAdapter() {$/;"	m	class:FileDataProvider
+getMIMEType	src/com/broncho/filemanager/FileDataProvider.java	/^    private String getMIMEType(File f) {$/;"	m	class:FileDataProvider	file:
+getType	src/com/broncho/filemanager/BookMarkProvider.java	/^	public String getType(Uri uri) {$/;"	m	class:BookMarkProvider
+getView	src/com/broncho/android/widget/FDataAdapter.java	/^    public View getView(int position, View convertView, ViewGroup parent) {$/;"	m	class:FDataAdapter
+getView	src/com/broncho/filemanager/FileAdapter.java	/^    public View getView(int position, View convertView, ViewGroup parent) {$/;"	m	class:FileAdapter
+getView	src/com/broncho/filemanager/ImageAdapter.java	/^    public View getView(int position, View convertView, ViewGroup parent) {$/;"	m	class:ImageAdapter
+getViewAdapter	src/com/broncho/filemanager/FileDataProvider.java	/^    public FileListAdapter getViewAdapter() {$/;"	m	class:FileDataProvider
+hashCode	src/com/broncho/android/widget/ViewHolder.java	/^    public int hashCode() {$/;"	m	class:ViewHolder
+hashCode	src/com/broncho/filemanager/FileListAdapterEntry.java	/^    public int hashCode() {$/;"	m	class:FileListAdapterEntry
+hello	gen/com/broncho/filemanager/R.java	/^        public static final int hello=0x7f060000;$/;"	f	class:R.string
+home	gen/com/broncho/filemanager/R.java	/^        public static final int home=0x7f020028;$/;"	f	class:R.drawable
+home	gen/com/broncho/filemanager/R.java	/^        public static final int home=0x7f080014;$/;"	f	class:R.id
+home	src/com/broncho/filemanager/FileDataProvider.java	/^    public void home() {$/;"	m	class:FileDataProvider
+home_default	gen/com/broncho/filemanager/R.java	/^        public static final int home_default=0x7f020029;$/;"	f	class:R.drawable
+home_focused	gen/com/broncho/filemanager/R.java	/^        public static final int home_focused=0x7f02002a;$/;"	f	class:R.drawable
+home_pressed	gen/com/broncho/filemanager/R.java	/^        public static final int home_pressed=0x7f02002b;$/;"	f	class:R.drawable
+i	src/com/broncho/filemanager/util/Log.java	/^    public static void i(String msg) {$/;"	m	class:Log
+i	src/com/broncho/filemanager/util/Log.java	/^    public static void i(String msg, Throwable thr) {$/;"	m	class:Log
+icon	gen/com/broncho/filemanager/R.java	/^        public static final int icon=0x7f02002c;$/;"	f	class:R.drawable
+icon	src/com/broncho/filemanager/FileListAdapterViewHolder.java	/^    public ImageView icon;$/;"	f	class:FileListAdapterViewHolder
+iconResource	src/com/broncho/filemanager/FileListAdapterEntry.java	/^    public Integer iconResource;$/;"	f	class:FileListAdapterEntry
+id	gen/com/broncho/filemanager/R.java	/^    public static final class id {$/;"	c	class:R
+image	gen/com/broncho/filemanager/R.java	/^        public static final int image=0x7f02002d;$/;"	f	class:R.drawable
+image	gen/com/broncho/filemanager/R.java	/^        public static final int image=0x7f050001;$/;"	f	class:R.array
+imageIcon	gen/com/broncho/filemanager/R.java	/^        public static final int imageIcon=0x7f080023;$/;"	f	class:R.id
+initButton	src/com/broncho/filemanager/BronchoFileManager.java	/^	private void initButton() {$/;"	m	class:BronchoFileManager	file:
+initComponents	src/com/broncho/filemanager/BronchoFileManager.java	/^	private void initComponents() {$/;"	m	class:BronchoFileManager	file:
+initMimeTypes	src/com/broncho/filemanager/FileListAdapter.java	/^    private void initMimeTypes() {$/;"	m	class:FileListAdapter	file:
+insert	src/com/broncho/filemanager/BookMarkProvider.java	/^	public Uri insert(Uri uri, ContentValues initvalues) {$/;"	m	class:BookMarkProvider
+isSelectEnable	src/com/broncho/filemanager/FileDataProvider.java	/^    public boolean isSelectEnable() {$/;"	m	class:FileDataProvider
+isTrace	src/com/broncho/filemanager/FileDataProvider.java	/^    private boolean isTrace;$/;"	f	class:FileDataProvider	file:
+layout	gen/com/broncho/filemanager/R.java	/^    public static final class layout {$/;"	c	class:R
+list	src/com/broncho/filemanager/FileWorkerPaste.java	/^    private ArrayList<File> list;$/;"	f	class:FileWorkerPaste	file:
+list_item	gen/com/broncho/filemanager/R.java	/^        public static final int list_item=0x7f030003;$/;"	f	class:R.layout
+list_item_navigation	gen/com/broncho/filemanager/R.java	/^        public static final int list_item_navigation=0x7f030004;$/;"	f	class:R.layout
+list_item_sort	gen/com/broncho/filemanager/R.java	/^        public static final int list_item_sort=0x7f030005;$/;"	f	class:R.layout
+listitemlayout	gen/com/broncho/filemanager/R.java	/^        public static final int listitemlayout=0x7f08000c;$/;"	f	class:R.id
+listitemsortlayout	gen/com/broncho/filemanager/R.java	/^        public static final int listitemsortlayout=0x7f08000e;$/;"	f	class:R.id
+mContext	src/com/broncho/android/widget/FDataAdapter.java	/^    protected Context mContext;$/;"	f	class:FDataAdapter
+mContext	src/com/broncho/filemanager/FileAdapter.java	/^    private Context mContext;$/;"	f	class:FileAdapter	file:
+mContext	src/com/broncho/filemanager/FileDataProvider.java	/^    private Context mContext;$/;"	f	class:FileDataProvider	file:
+mContext	src/com/broncho/filemanager/ImageAdapter.java	/^    private Context mContext;$/;"	f	class:ImageAdapter	file:
+mCurrentDirectory	src/com/broncho/filemanager/FileDataProvider.java	/^    private File mCurrentDirectory;$/;"	f	class:FileDataProvider	file:
+mCut	src/com/broncho/filemanager/FileDataProvider.java	/^    private boolean mCut;$/;"	f	class:FileDataProvider	file:
+mDataProvider	src/com/broncho/filemanager/BronchoFileManager.java	/^	private FileDataProvider mDataProvider;$/;"	f	class:BronchoFileManager	file:
+mEntryList	src/com/broncho/filemanager/FileDataProvider.java	/^    private ArrayList<FileListAdapterEntry> mEntryList;$/;"	f	class:FileDataProvider	file:
+mFileListView	src/com/broncho/filemanager/BronchoFileManager.java	/^	private FileListView mFileListView;$/;"	f	class:BronchoFileManager	file:
+mFileViewFlipper	src/com/broncho/filemanager/BronchoFileManager.java	/^	private ViewFlipper mFileViewFlipper;$/;"	f	class:BronchoFileManager	file:
+mImageContain	src/com/broncho/filemanager/BronchoFileManager.java	/^	private static final Integer[] mImageContain = { R.drawable.menu_copy,$/;"	f	class:BronchoFileManager	file:
+mLayoutInflater	src/com/broncho/android/widget/FDataAdapter.java	/^    private LayoutInflater mLayoutInflater;$/;"	f	class:FDataAdapter	file:
+mListAdapter	src/com/broncho/filemanager/FileDataProvider.java	/^    private FileListAdapter mListAdapter;$/;"	f	class:FileDataProvider	file:
+mListClipBoard	src/com/broncho/filemanager/FileDataProvider.java	/^    private ArrayList<File> mListClipBoard;$/;"	f	class:FileDataProvider	file:
+mListItems	src/com/broncho/android/widget/FDataAdapter.java	/^    private ArrayList<T> mListItems = new ArrayList<T>();$/;"	f	class:FDataAdapter	file:
+mOpenHelper	src/com/broncho/filemanager/BookMarkProvider.java	/^	private DatabaseHelper mOpenHelper;$/;"	f	class:BookMarkProvider	file:
+mPathPosition	src/com/broncho/filemanager/FileDataProvider.java	/^    private int mPathPosition;$/;"	f	class:FileDataProvider	file:
+mPathRecoder	src/com/broncho/filemanager/FileDataProvider.java	/^    private List<File> mPathRecoder;$/;"	f	class:FileDataProvider	file:
+mSortImageContain	src/com/broncho/filemanager/BronchoFileManager.java	/^	private static final Integer[] mSortImageContain = {$/;"	f	class:BronchoFileManager	file:
+mSortTextContain	src/com/broncho/filemanager/BronchoFileManager.java	/^	private static final String[] mSortTextContain = { "Sort by name",$/;"	f	class:BronchoFileManager	file:
+mStr	src/com/broncho/filemanager/FileAdapter.java	/^    private String[] mStr = {$/;"	f	class:FileAdapter	file:
+mTextContain	src/com/broncho/filemanager/BronchoFileManager.java	/^	private static final String[] mTextContain = { "Copy", "Move", "Paste",$/;"	f	class:BronchoFileManager	file:
+mThumbIds	src/com/broncho/filemanager/ImageAdapter.java	/^    private Integer[] mThumbIds = {$/;"	f	class:ImageAdapter	file:
+mViewAdapter	src/com/broncho/filemanager/FileDataProvider.java	/^    private FileListAdapter mViewAdapter;$/;"	f	class:FileDataProvider	file:
+mViewId	src/com/broncho/android/widget/FDataAdapter.java	/^    private int mViewId;$/;"	f	class:FDataAdapter	file:
+main	gen/com/broncho/filemanager/R.java	/^        public static final int main=0x7f030006;$/;"	f	class:R.layout
+menu	gen/com/broncho/filemanager/R.java	/^    public static final class menu {$/;"	c	class:R
+menu_about	gen/com/broncho/filemanager/R.java	/^        public static final int menu_about=0x7f080030;$/;"	f	class:R.id
+menu_bookmark	gen/com/broncho/filemanager/R.java	/^        public static final int menu_bookmark=0x7f08002d;$/;"	f	class:R.id
+menu_copy	gen/com/broncho/filemanager/R.java	/^        public static final int menu_copy=0x7f02002e;$/;"	f	class:R.drawable
+menu_create	gen/com/broncho/filemanager/R.java	/^        public static final int menu_create=0x7f08002e;$/;"	f	class:R.id
+menu_delete	gen/com/broncho/filemanager/R.java	/^        public static final int menu_delete=0x7f02002f;$/;"	f	class:R.drawable
+menu_detail	gen/com/broncho/filemanager/R.java	/^        public static final int menu_detail=0x7f020030;$/;"	f	class:R.drawable
+menu_edit	gen/com/broncho/filemanager/R.java	/^        public static final int menu_edit=0x7f08002a;$/;"	f	class:R.id
+menu_exit	gen/com/broncho/filemanager/R.java	/^        public static final int menu_exit=0x7f080031;$/;"	f	class:R.id
+menu_extract	gen/com/broncho/filemanager/R.java	/^        public static final int menu_extract=0x7f020031;$/;"	f	class:R.drawable
+menu_move	gen/com/broncho/filemanager/R.java	/^        public static final int menu_move=0x7f020032;$/;"	f	class:R.drawable
+menu_multi_select	gen/com/broncho/filemanager/R.java	/^        public static final int menu_multi_select=0x7f080029;$/;"	f	class:R.id
+menu_navigation	gen/com/broncho/filemanager/R.java	/^        public static final int menu_navigation=0x7f08002f;$/;"	f	class:R.id
+menu_open	gen/com/broncho/filemanager/R.java	/^        public static final int menu_open=0x7f020033;$/;"	f	class:R.drawable
+menu_paste	gen/com/broncho/filemanager/R.java	/^        public static final int menu_paste=0x7f020034;$/;"	f	class:R.drawable
+menu_refresh	gen/com/broncho/filemanager/R.java	/^        public static final int menu_refresh=0x7f08002c;$/;"	f	class:R.id
+menu_rename	gen/com/broncho/filemanager/R.java	/^        public static final int menu_rename=0x7f020035;$/;"	f	class:R.drawable
+menu_select_all	gen/com/broncho/filemanager/R.java	/^        public static final int menu_select_all=0x7f020036;$/;"	f	class:R.drawable
+menu_send	gen/com/broncho/filemanager/R.java	/^        public static final int menu_send=0x7f020037;$/;"	f	class:R.drawable
+menu_sort	gen/com/broncho/filemanager/R.java	/^        public static final int menu_sort=0x7f08002b;$/;"	f	class:R.id
+mimeTypes	src/com/broncho/filemanager/FileListAdapter.java	/^    private HashMap<String, Integer> mimeTypes;$/;"	f	class:FileListAdapter	file:
+move	src/com/broncho/filemanager/BronchoFileManager.java	/^	private void move() {$/;"	m	class:BronchoFileManager	file:
+move	src/com/broncho/filemanager/FileDataProvider.java	/^    public void move() {$/;"	m	class:FileDataProvider
+mselectEnable	src/com/broncho/filemanager/FileDataProvider.java	/^    private static boolean mselectEnable = false;$/;"	f	class:FileDataProvider	file:
+multi_select	gen/com/broncho/filemanager/R.java	/^        public static final int multi_select=0x7f020038;$/;"	f	class:R.drawable
+multi_select_default	gen/com/broncho/filemanager/R.java	/^        public static final int multi_select_default=0x7f020039;$/;"	f	class:R.drawable
+multi_select_focused	gen/com/broncho/filemanager/R.java	/^        public static final int multi_select_focused=0x7f02003a;$/;"	f	class:R.drawable
+multi_select_pressed	gen/com/broncho/filemanager/R.java	/^        public static final int multi_select_pressed=0x7f02003b;$/;"	f	class:R.drawable
+muti_select	src/com/broncho/filemanager/BronchoFileManager.java	/^	private void muti_select() {$/;"	m	class:BronchoFileManager	file:
+mutisellect	gen/com/broncho/filemanager/R.java	/^        public static final int mutisellect=0x7f080016;$/;"	f	class:R.id
+navagateTo	src/com/broncho/filemanager/BronchoFileManager.java	/^	private void navagateTo(int position) {$/;"	m	class:BronchoFileManager	file:
+navigateTo	src/com/broncho/filemanager/FileDataProvider.java	/^    public void navigateTo(File file) {$/;"	m	class:FileDataProvider
+navigateTo	src/com/broncho/filemanager/FileDataProvider.java	/^    public void navigateTo(int position) {$/;"	m	class:FileDataProvider
+navigation	gen/com/broncho/filemanager/R.java	/^        public static final int navigation=0x7f030007;$/;"	f	class:R.layout
+navigation_list	gen/com/broncho/filemanager/R.java	/^        public static final int navigation_list=0x7f080022;$/;"	f	class:R.id
+navigation_root	gen/com/broncho/filemanager/R.java	/^        public static final int navigation_root=0x7f080021;$/;"	f	class:R.id
+normal_color	gen/com/broncho/filemanager/R.java	/^        public static final int normal_color=0x7f040001;$/;"	f	class:R.color
+notifyDataChanged	src/com/broncho/filemanager/FileDataProvider.java	/^    private void notifyDataChanged() {$/;"	m	class:FileDataProvider	file:
+onCreate	src/com/broncho/filemanager/BookMarkProvider.java	/^		public void onCreate(SQLiteDatabase db) {$/;"	m	class:BookMarkProvider.DatabaseHelper
+onCreate	src/com/broncho/filemanager/BookMarkProvider.java	/^	public boolean onCreate() {$/;"	m	class:BookMarkProvider
+onCreate	src/com/broncho/filemanager/BronchoFileManager.java	/^	public void onCreate(Bundle savedInstanceState) {$/;"	m	class:BronchoFileManager
+onCreateDialog	src/com/broncho/filemanager/BronchoFileManager.java	/^	protected Dialog onCreateDialog(int id) {$/;"	m	class:BronchoFileManager
+onCreateOptionsMenu	src/com/broncho/filemanager/BronchoFileManager.java	/^	public boolean onCreateOptionsMenu(Menu menu) {$/;"	m	class:BronchoFileManager
+onKeyDown	src/com/broncho/filemanager/BronchoFileManager.java	/^	public boolean onKeyDown(int keyCode, KeyEvent event) {$/;"	m	class:BronchoFileManager
+onOptionsItemSelected	src/com/broncho/filemanager/BronchoFileManager.java	/^	public boolean onOptionsItemSelected(MenuItem item) {$/;"	m	class:BronchoFileManager
+onUpgrade	src/com/broncho/filemanager/BookMarkProvider.java	/^		public void onUpgrade(SQLiteDatabase db, int oldVersion, int newVersion) {$/;"	m	class:BookMarkProvider.DatabaseHelper
+openFile	src/com/broncho/filemanager/FileDataProvider.java	/^    private void openFile(Context context, File f) {$/;"	m	class:FileDataProvider	file:
+option_menu	gen/com/broncho/filemanager/R.java	/^        public static final int option_menu=0x7f070000;$/;"	f	class:R.menu
+pack	gen/com/broncho/filemanager/R.java	/^        public static final int pack=0x7f050002;$/;"	f	class:R.array
+parent	gen/com/broncho/filemanager/R.java	/^        public static final int parent=0x7f02003c;$/;"	f	class:R.drawable
+parent	gen/com/broncho/filemanager/R.java	/^        public static final int parent=0x7f080015;$/;"	f	class:R.id
+parent_default	gen/com/broncho/filemanager/R.java	/^        public static final int parent_default=0x7f02003d;$/;"	f	class:R.drawable
+parent_focused	gen/com/broncho/filemanager/R.java	/^        public static final int parent_focused=0x7f02003e;$/;"	f	class:R.drawable
+parent_pressed	gen/com/broncho/filemanager/R.java	/^        public static final int parent_pressed=0x7f02003f;$/;"	f	class:R.drawable
+paste	src/com/broncho/filemanager/BronchoFileManager.java	/^	private void paste() {$/;"	m	class:BronchoFileManager	file:
+paste	src/com/broncho/filemanager/FileDataProvider.java	/^    public FileWorker paste(FileActionDialog progressDialog) {$/;"	m	class:FileDataProvider
+process	src/com/broncho/filemanager/FileWorker.java	/^    private void process(String partialMessage, Integer partialProgress, Integer partialMax,$/;"	m	class:FileWorker	file:
+progressAbsolute	src/com/broncho/filemanager/FileActionDialog.java	/^    public ProgressBar progressAbsolute;$/;"	f	class:FileActionDialog
+progressDialog	src/com/broncho/filemanager/FileWorker.java	/^    private FileActionDialog progressDialog;$/;"	f	class:FileWorker	file:
+progressPartial	src/com/broncho/filemanager/FileActionDialog.java	/^    public ProgressBar progressPartial;$/;"	f	class:FileActionDialog
+publish	src/com/broncho/filemanager/FileWorker.java	/^    public void publish(final String partialMessage, final Integer partialProgress,$/;"	m	class:FileWorker
+query	src/com/broncho/filemanager/BookMarkProvider.java	/^	public Cursor query(Uri uri, String[] projection, String selection,$/;"	m	class:BookMarkProvider
+refresh	gen/com/broncho/filemanager/R.java	/^        public static final int refresh=0x7f020040;$/;"	f	class:R.drawable
+refresh	gen/com/broncho/filemanager/R.java	/^        public static final int refresh=0x7f08001c;$/;"	f	class:R.id
+refresh	src/com/broncho/filemanager/FileDataProvider.java	/^    public void refresh() {$/;"	m	class:FileDataProvider
+refresh_default	gen/com/broncho/filemanager/R.java	/^        public static final int refresh_default=0x7f020041;$/;"	f	class:R.drawable
+refresh_focused	gen/com/broncho/filemanager/R.java	/^        public static final int refresh_focused=0x7f020042;$/;"	f	class:R.drawable
+refresh_pressed	gen/com/broncho/filemanager/R.java	/^        public static final int refresh_pressed=0x7f020043;$/;"	f	class:R.drawable
+sBookMarkProjectionMap	src/com/broncho/filemanager/BookMarkProvider.java	/^	private static HashMap<String, String> sBookMarkProjectionMap;$/;"	f	class:BookMarkProvider	file:
+sUriMatcher	src/com/broncho/filemanager/BookMarkProvider.java	/^	private static final UriMatcher sUriMatcher;$/;"	f	class:BookMarkProvider	file:
+sample_0	gen/com/broncho/filemanager/R.java	/^        public static final int sample_0=0x7f020044;$/;"	f	class:R.drawable
+sample_1	gen/com/broncho/filemanager/R.java	/^        public static final int sample_1=0x7f020045;$/;"	f	class:R.drawable
+sample_2	gen/com/broncho/filemanager/R.java	/^        public static final int sample_2=0x7f020046;$/;"	f	class:R.drawable
+sample_3	gen/com/broncho/filemanager/R.java	/^        public static final int sample_3=0x7f020047;$/;"	f	class:R.drawable
+sample_4	gen/com/broncho/filemanager/R.java	/^        public static final int sample_4=0x7f020048;$/;"	f	class:R.drawable
+sample_5	gen/com/broncho/filemanager/R.java	/^        public static final int sample_5=0x7f020049;$/;"	f	class:R.drawable
+sample_6	gen/com/broncho/filemanager/R.java	/^        public static final int sample_6=0x7f02004a;$/;"	f	class:R.drawable
+sample_7	gen/com/broncho/filemanager/R.java	/^        public static final int sample_7=0x7f02004b;$/;"	f	class:R.drawable
+screen	gen/com/broncho/filemanager/R.java	/^        public static final int screen=0x7f080000;$/;"	f	class:R.id
+scrollview1	gen/com/broncho/filemanager/R.java	/^        public static final int scrollview1=0x7f080012;$/;"	f	class:R.id
+sdcard	gen/com/broncho/filemanager/R.java	/^        public static final int sdcard=0x7f02004c;$/;"	f	class:R.drawable
+selectAll	src/com/broncho/filemanager/FileDataProvider.java	/^    public void selectAll() {$/;"	m	class:FileDataProvider
+selectFile	src/com/broncho/filemanager/FileDataProvider.java	/^    public void selectFile(int position) {$/;"	m	class:FileDataProvider
+selectNone	src/com/broncho/filemanager/FileDataProvider.java	/^    public void selectNone() {$/;"	m	class:FileDataProvider
+select_all	src/com/broncho/filemanager/BronchoFileManager.java	/^	private void select_all() {$/;"	m	class:BronchoFileManager	file:
+select_red	gen/com/broncho/filemanager/R.java	/^        public static final int select_red=0x7f040000;$/;"	f	class:R.color
+selected	src/com/broncho/filemanager/FileListAdapterEntry.java	/^    public boolean selected;$/;"	f	class:FileListAdapterEntry
+selectedFile	src/com/broncho/filemanager/FileDataProvider.java	/^    public File selectedFile;$/;"	f	class:FileDataProvider
+selectedFiles	src/com/broncho/filemanager/FileDataProvider.java	/^    public int selectedFiles;$/;"	f	class:FileDataProvider
+setCustomTitle	src/com/broncho/filemanager/BronchoFileManager.java	/^	private void setCustomTitle() {$/;"	m	class:BronchoFileManager	file:
+setPathRecoder	src/com/broncho/filemanager/FileDataProvider.java	/^    private void setPathRecoder(File file) {$/;"	m	class:FileDataProvider	file:
+setSelect	src/com/broncho/filemanager/FileDataProvider.java	/^    private void setSelect(boolean b) {$/;"	m	class:FileDataProvider	file:
+setSelectEnable	src/com/broncho/filemanager/FileDataProvider.java	/^    public void setSelectEnable() {$/;"	m	class:FileDataProvider
+setSelectFalse	src/com/broncho/filemanager/FileDataProvider.java	/^    public void setSelectFalse() {$/;"	m	class:FileDataProvider
+simple_list	gen/com/broncho/filemanager/R.java	/^        public static final int simple_list=0x7f030008;$/;"	f	class:R.layout
+smenu_about	gen/com/broncho/filemanager/R.java	/^        public static final int smenu_about=0x7f06000a;$/;"	f	class:R.string
+smenu_bookmark	gen/com/broncho/filemanager/R.java	/^        public static final int smenu_bookmark=0x7f060008;$/;"	f	class:R.string
+smenu_create	gen/com/broncho/filemanager/R.java	/^        public static final int smenu_create=0x7f060009;$/;"	f	class:R.string
+smenu_edit	gen/com/broncho/filemanager/R.java	/^        public static final int smenu_edit=0x7f060005;$/;"	f	class:R.string
+smenu_exit	gen/com/broncho/filemanager/R.java	/^        public static final int smenu_exit=0x7f06000c;$/;"	f	class:R.string
+smenu_fresh	gen/com/broncho/filemanager/R.java	/^        public static final int smenu_fresh=0x7f060007;$/;"	f	class:R.string
+smenu_multi_select	gen/com/broncho/filemanager/R.java	/^        public static final int smenu_multi_select=0x7f060004;$/;"	f	class:R.string
+smenu_navigation	gen/com/broncho/filemanager/R.java	/^        public static final int smenu_navigation=0x7f06000b;$/;"	f	class:R.string
+smenu_sort	gen/com/broncho/filemanager/R.java	/^        public static final int smenu_sort=0x7f060006;$/;"	f	class:R.string
+sort	gen/com/broncho/filemanager/R.java	/^        public static final int sort=0x7f02004d;$/;"	f	class:R.drawable
+sort	gen/com/broncho/filemanager/R.java	/^        public static final int sort=0x7f030009;$/;"	f	class:R.layout
+sort	gen/com/broncho/filemanager/R.java	/^        public static final int sort=0x7f08001b;$/;"	f	class:R.id
+sortFiles	src/com/broncho/filemanager/FileDataProvider.java	/^    private void sortFiles(Comparator<File> comparator) {$/;"	m	class:FileDataProvider	file:
+sort_by_date	gen/com/broncho/filemanager/R.java	/^        public static final int sort_by_date=0x7f02004e;$/;"	f	class:R.drawable
+sort_by_date	src/com/broncho/filemanager/FileDataProvider.java	/^    public void sort_by_date() {$/;"	m	class:FileDataProvider
+sort_by_name	gen/com/broncho/filemanager/R.java	/^        public static final int sort_by_name=0x7f02004f;$/;"	f	class:R.drawable
+sort_by_name	src/com/broncho/filemanager/FileDataProvider.java	/^    public void sort_by_name() {$/;"	m	class:FileDataProvider
+sort_by_size	gen/com/broncho/filemanager/R.java	/^        public static final int sort_by_size=0x7f020050;$/;"	f	class:R.drawable
+sort_by_size	src/com/broncho/filemanager/FileDataProvider.java	/^    public void sort_by_size() {$/;"	m	class:FileDataProvider
+sort_by_type	gen/com/broncho/filemanager/R.java	/^        public static final int sort_by_type=0x7f020051;$/;"	f	class:R.drawable
+sort_default	gen/com/broncho/filemanager/R.java	/^        public static final int sort_default=0x7f020052;$/;"	f	class:R.drawable
+sort_focused	gen/com/broncho/filemanager/R.java	/^        public static final int sort_focused=0x7f020053;$/;"	f	class:R.drawable
+sort_list	gen/com/broncho/filemanager/R.java	/^        public static final int sort_list=0x7f080027;$/;"	f	class:R.id
+sort_pressed	gen/com/broncho/filemanager/R.java	/^        public static final int sort_pressed=0x7f020054;$/;"	f	class:R.drawable
+sort_root	gen/com/broncho/filemanager/R.java	/^        public static final int sort_root=0x7f080026;$/;"	f	class:R.id
+string	gen/com/broncho/filemanager/R.java	/^    public static final class string {$/;"	c	class:R
+svlayout01	gen/com/broncho/filemanager/R.java	/^        public static final int svlayout01=0x7f080013;$/;"	f	class:R.id
+text	gen/com/broncho/filemanager/R.java	/^        public static final int text=0x7f020055;$/;"	f	class:R.drawable
+textAbsolute	src/com/broncho/filemanager/FileActionDialog.java	/^    public TextView textAbsolute;$/;"	f	class:FileActionDialog
+textFileName	gen/com/broncho/filemanager/R.java	/^        public static final int textFileName=0x7f080024;$/;"	f	class:R.id
+textFileSize	gen/com/broncho/filemanager/R.java	/^        public static final int textFileSize=0x7f080025;$/;"	f	class:R.id
+textPartial	src/com/broncho/filemanager/FileActionDialog.java	/^    public TextView textPartial;$/;"	f	class:FileActionDialog
+title_left_text	gen/com/broncho/filemanager/R.java	/^        public static final int title_left_text=0x7f080001;$/;"	f	class:R.id
+title_right_text	gen/com/broncho/filemanager/R.java	/^        public static final int title_right_text=0x7f080002;$/;"	f	class:R.id
+up	src/com/broncho/filemanager/FileDataProvider.java	/^    public void up() {$/;"	m	class:FileDataProvider
+update	src/com/broncho/filemanager/BookMarkProvider.java	/^	public int update(Uri uri, ContentValues values, String selection,$/;"	m	class:BookMarkProvider
+updateProperties	src/com/broncho/filemanager/FileDataProvider.java	/^    private void updateProperties() {$/;"	m	class:FileDataProvider	file:
+v	src/com/broncho/filemanager/util/Log.java	/^    public static void v(String msg) {$/;"	m	class:Log
+v	src/com/broncho/filemanager/util/Log.java	/^    public static void v(String msg, Throwable thr) {$/;"	m	class:Log
+video	gen/com/broncho/filemanager/R.java	/^        public static final int video=0x7f020056;$/;"	f	class:R.drawable
+video	gen/com/broncho/filemanager/R.java	/^        public static final int video=0x7f050003;$/;"	f	class:R.array
+view_list	gen/com/broncho/filemanager/R.java	/^        public static final int view_list=0x7f03000a;$/;"	f	class:R.layout
+viewflip	gen/com/broncho/filemanager/R.java	/^        public static final int viewflip=0x7f020057;$/;"	f	class:R.drawable
+viewflip	gen/com/broncho/filemanager/R.java	/^        public static final int viewflip=0x7f08001d;$/;"	f	class:R.id
+viewflip_default	gen/com/broncho/filemanager/R.java	/^        public static final int viewflip_default=0x7f020058;$/;"	f	class:R.drawable
+viewflip_focused	gen/com/broncho/filemanager/R.java	/^        public static final int viewflip_focused=0x7f020059;$/;"	f	class:R.drawable
+viewflip_pressed	gen/com/broncho/filemanager/R.java	/^        public static final int viewflip_pressed=0x7f02005a;$/;"	f	class:R.drawable
+w	src/com/broncho/filemanager/util/Log.java	/^    public static void w(String msg) {$/;"	m	class:Log
+w	src/com/broncho/filemanager/util/Log.java	/^    public static void w(String msg, Throwable thr) {$/;"	m	class:Log
+w	src/com/broncho/filemanager/util/Log.java	/^    public static void w(Throwable thr) {$/;"	m	class:Log
+web	gen/com/broncho/filemanager/R.java	/^        public static final int web=0x7f050004;$/;"	f	class:R.array
+white	gen/com/broncho/filemanager/R.java	/^        public static final int white=0x7f040002;$/;"	f	class:R.color
+workerException	src/com/broncho/filemanager/FileWorker.java	/^    private Exception workerException;$/;"	f	class:FileWorker	file:
+workerRunnable	src/com/broncho/filemanager/FileWorker.java	/^    private Runnable workerRunnable;$/;"	f	class:FileWorker	file:
+workerThread	src/com/broncho/filemanager/FileWorker.java	/^    private Thread workerThread;$/;"	f	class:FileWorker	file:
+zoom_button	gen/com/broncho/filemanager/R.java	/^        public static final int zoom_button=0x7f02005b;$/;"	f	class:R.drawable

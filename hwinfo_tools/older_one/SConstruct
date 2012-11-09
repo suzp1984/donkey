@@ -1,0 +1,6 @@
+import glob
+
+Program('hwinfo_builder.c', LIBS=['glib-2.0'], CCFLAGS='-Wall -g  -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include')
+Program('bin_parser.c', CCFLAGS='-Wall -g ')
+Program('hwinfo_parser.c', CCFLAGS='-Wall -g -DHWINFO_PARSER_TEST')
+Decider('timestamp-match')

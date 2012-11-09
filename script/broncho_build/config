@@ -1,0 +1,55 @@
+[default]
+devices=littleton300_256M 
+modules=android rootfs kernel bootloader factory update release
+
+[littleton300_256M]
+TARGET_PRODUCT=littleton
+cpu_type=pxa300
+FLASH_SIZE=256M
+kernel=linux-2.6.28
+kernel_config=android_an0001_pxa300_release_defconfig
+recovery_kernel_config=android_an0001_pxa300_recovery_defconfig
+device_path=vendor/marvell/littleton
+bootloader=blob-wtptp
+bootloader_makefile=Makefile.256M
+customers=default default-preinstall
+out_dir=out
+
+[littleton300_128M]
+TARGET_PRODUCT=littleton
+cpu_type=pxa300
+FLASH_SIZE=128M
+kernel=linux-2.6.28
+kernel_config=android_an0001_pxa300_release_defconfig
+recovery_kernel_config=android_an0001_pxa300_recovery_defconfig
+device_path=vendor/marvell/littleton
+bootloader=blob-wtptp
+bootloader_makefile=Makefile.128M
+customers=default default-preinstall
+out_dir=out
+
+[littleton310_256M]
+TARGET_PRODUCT=littleton
+cpu_type=pxa310
+FLASH_SIZE=256M
+kernel=linux-2.6.28
+kernel_config=android_an0001_pxa310_release_defconfig
+recovery_kernel_config=android_an0001_pxa310_recovery_defconfig
+bootloader_makefile=Makefile.256M
+device_path=vendor/marvell/littleton
+bootloader=blob-wtptp
+customers=default default-preinstall
+out_dir=out
+
+[littleton310_128M]
+TARGET_PRODUCT=littleton
+cpu_type=pxa310
+FLASH_SIZE=128M
+kernel=linux-2.6.28
+kernel_config=android_an0001_pxa310_release_defconfig
+recovery_kernel_config=android_an0001_pxa310_recovery_defconfig
+bootloader_makefile=Makefile.128M
+device_path=vendor/marvell/littleton
+bootloader=blob-wtptp
+customers=default default-preinstall
+out_dir=out

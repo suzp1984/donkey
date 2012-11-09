@@ -1,0 +1,123 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+AKM_DEVICE_NAME	nusensors.h	57;"	d
+ANDROID_INPUT_EVENT_READER_H	InputEventReader.h	18;"	d
+ANDROID_LIGHT_SENSOR_H	LightSensor.h	18;"	d
+ANDROID_SENSORS_H	nusensors.h	18;"	d
+ANDROID_SENSOR_BASE_H	SensorBase.h	18;"	d
+ARRAY_SIZE	nusensors.h	38;"	d
+CM_DEVICE_NAME	nusensors.h	58;"	d
+CONVERT_A	nusensors.h	85;"	d
+CONVERT_A_X	nusensors.h	86;"	d
+CONVERT_A_Y	nusensors.h	87;"	d
+CONVERT_A_Z	nusensors.h	88;"	d
+CONVERT_M	nusensors.h	91;"	d
+CONVERT_M_X	nusensors.h	92;"	d
+CONVERT_M_Y	nusensors.h	93;"	d
+CONVERT_M_Z	nusensors.h	94;"	d
+CONVERT_O	nusensors.h	96;"	d
+CONVERT_O_P	nusensors.h	98;"	d
+CONVERT_O_R	nusensors.h	99;"	d
+CONVERT_O_Y	nusensors.h	97;"	d
+EVENT_TYPE_ACCEL_STATUS	nusensors.h	64;"	d
+EVENT_TYPE_ACCEL_X	nusensors.h	61;"	d
+EVENT_TYPE_ACCEL_Y	nusensors.h	62;"	d
+EVENT_TYPE_ACCEL_Z	nusensors.h	63;"	d
+EVENT_TYPE_LIGHT	nusensors.h	78;"	d
+EVENT_TYPE_MAGV_X	nusensors.h	71;"	d
+EVENT_TYPE_MAGV_Y	nusensors.h	72;"	d
+EVENT_TYPE_MAGV_Z	nusensors.h	73;"	d
+EVENT_TYPE_ORIENT_STATUS	nusensors.h	69;"	d
+EVENT_TYPE_PITCH	nusensors.h	67;"	d
+EVENT_TYPE_PROXIMITY	nusensors.h	77;"	d
+EVENT_TYPE_ROLL	nusensors.h	68;"	d
+EVENT_TYPE_STEP_COUNT	nusensors.h	76;"	d
+EVENT_TYPE_TEMPERATURE	nusensors.h	75;"	d
+EVENT_TYPE_YAW	nusensors.h	66;"	d
+HAL_MODULE_INFO_SYM	sensors.c	/^const struct sensors_module_t HAL_MODULE_INFO_SYM = {$/;"	v	typeref:struct:sensors_module_t
+ID_A	nusensors.h	40;"	d
+ID_L	nusensors.h	43;"	d
+ID_O	nusensors.h	41;"	d
+ID_P	nusensors.h	42;"	d
+InputEventCircularReader	InputEventReader.cpp	/^InputEventCircularReader::InputEventCircularReader(size_t numEvents)$/;"	f	class:InputEventCircularReader
+InputEventCircularReader	InputEventReader.h	/^class InputEventCircularReader$/;"	c
+LOCAL_CFLAGS	Android.mk	/^LOCAL_CFLAGS := -DLOG_TAG=\\"Sensors\\"$/;"	m
+LOCAL_MODULE	Android.mk	/^LOCAL_MODULE := sensors.emxx$/;"	m
+LOCAL_MODULE_PATH	Android.mk	/^LOCAL_MODULE_PATH := $(TARGET_OUT_SHARED_LIBRARIES)\/hw$/;"	m
+LOCAL_MODULE_TAGS	Android.mk	/^LOCAL_MODULE_TAGS := optional$/;"	m
+LOCAL_PATH	Android.mk	/^LOCAL_PATH := $(call my-dir)$/;"	m
+LOCAL_PRELINK_MODULE	Android.mk	/^LOCAL_PRELINK_MODULE := false$/;"	m
+LOCAL_SHARED_LIBRARIES	Android.mk	/^LOCAL_SHARED_LIBRARIES := liblog libcutils$/;"	m
+LOCAL_SRC_FILES	Android.mk	/^LOCAL_SRC_FILES := 						\\$/;"	m
+LSG	nusensors.h	81;"	d
+LS_DEVICE_NAME	nusensors.h	59;"	d
+LightSensor	LightSensor.cpp	/^LightSensor::LightSensor()$/;"	f	class:LightSensor
+LightSensor	LightSensor.h	/^class LightSensor : public SensorBase {$/;"	c
+PROXIMITY_THRESHOLD_CM	nusensors.h	53;"	d
+SENSOR_STATE_MASK	nusensors.h	101;"	d
+SensorBase	SensorBase.cpp	/^SensorBase::SensorBase($/;"	f	class:SensorBase
+SensorBase	SensorBase.h	/^class SensorBase {$/;"	c
+WAKE_MESSAGE	nusensors.cpp	/^    static const char WAKE_MESSAGE = 'W';$/;"	m	struct:sensors_poll_context_t	file:
+accelerometer	nusensors.cpp	/^    	accelerometer   = 0,$/;"	e	enum:sensors_poll_context_t::__anon1	file:
+activate	nusensors.cpp	/^int sensors_poll_context_t::activate(int handle, int enabled) {$/;"	f	class:sensors_poll_context_t
+close_device	SensorBase.cpp	/^int SensorBase::close_device() {$/;"	f	class:SensorBase
+data_fd	SensorBase.h	/^    int         data_fd;$/;"	m	class:SensorBase
+data_name	SensorBase.h	/^    const char* data_name;$/;"	m	class:SensorBase
+dev_fd	SensorBase.h	/^    int         dev_fd;$/;"	m	class:SensorBase
+dev_name	SensorBase.h	/^    const char* dev_name;$/;"	m	class:SensorBase
+device	nusensors.cpp	/^    struct sensors_poll_device_t device; \/\/ must be first$/;"	m	struct:sensors_poll_context_t	typeref:struct:sensors_poll_context_t::sensors_poll_device_t	file:
+enable	LightSensor.cpp	/^int LightSensor::enable(int32_t, int en) {$/;"	f	class:LightSensor
+fill	InputEventReader.cpp	/^ssize_t InputEventCircularReader::fill(int fd)$/;"	f	class:InputEventCircularReader
+getFd	SensorBase.cpp	/^int SensorBase::getFd() const {$/;"	f	class:SensorBase
+getTimestamp	SensorBase.cpp	/^int64_t SensorBase::getTimestamp() {$/;"	f	class:SensorBase
+handleToDriver	nusensors.cpp	/^    int handleToDriver(int handle) const {$/;"	f	struct:sensors_poll_context_t	file:
+hasPendingEvents	LightSensor.cpp	/^bool LightSensor::hasPendingEvents() const {$/;"	f	class:LightSensor
+hasPendingEvents	SensorBase.cpp	/^bool SensorBase::hasPendingEvents() const {$/;"	f	class:SensorBase
+indexToValue	LightSensor.cpp	/^float LightSensor::indexToValue(size_t index) const$/;"	f	class:LightSensor
+init_nusensors	nusensors.cpp	/^int init_nusensors(hw_module_t const* module, hw_device_t** device)$/;"	f
+light	nusensors.cpp	/^        light           = 1,$/;"	e	enum:sensors_poll_context_t::__anon1	file:
+mBuffer	InputEventReader.h	/^    struct input_event* const mBuffer;$/;"	m	class:InputEventCircularReader
+mBufferEnd	InputEventReader.h	/^    struct input_event* const mBufferEnd;$/;"	m	class:InputEventCircularReader
+mCurr	InputEventReader.h	/^    struct input_event* mCurr;$/;"	m	class:InputEventCircularReader	typeref:struct:InputEventCircularReader::input_event
+mEnabled	LightSensor.h	/^    int mEnabled;$/;"	m	class:LightSensor
+mFreeSpace	InputEventReader.h	/^    ssize_t mFreeSpace;$/;"	m	class:InputEventCircularReader
+mHasPendingEvent	LightSensor.h	/^    bool mHasPendingEvent;$/;"	m	class:LightSensor
+mHead	InputEventReader.h	/^    struct input_event* mHead;$/;"	m	class:InputEventCircularReader	typeref:struct:InputEventCircularReader::input_event
+mInputReader	LightSensor.h	/^    InputEventCircularReader mInputReader;$/;"	m	class:LightSensor
+mPendingEvent	LightSensor.h	/^    sensors_event_t mPendingEvent;$/;"	m	class:LightSensor
+mPollFds	nusensors.cpp	/^    struct pollfd mPollFds[numFds];$/;"	m	struct:sensors_poll_context_t	typeref:struct:sensors_poll_context_t::pollfd	file:
+mSensors	nusensors.cpp	/^    SensorBase* mSensors[numSensorDrivers];$/;"	m	struct:sensors_poll_context_t	file:
+mWritePipeFd	nusensors.cpp	/^    int mWritePipeFd;$/;"	m	struct:sensors_poll_context_t	file:
+next	InputEventReader.cpp	/^void InputEventCircularReader::next()$/;"	f	class:InputEventCircularReader
+numFds	nusensors.cpp	/^        numFds,$/;"	e	enum:sensors_poll_context_t::__anon1	file:
+numSensorDrivers	nusensors.cpp	/^        numSensorDrivers,$/;"	e	enum:sensors_poll_context_t::__anon1	file:
+openInput	SensorBase.cpp	/^int SensorBase::openInput(const char* inputName) {$/;"	f	class:SensorBase
+open_device	SensorBase.cpp	/^int SensorBase::open_device() {$/;"	f	class:SensorBase
+open_sensors	sensors.c	/^static int open_sensors(const struct hw_module_t* module, const char* name,$/;"	f	file:
+orientation	nusensors.cpp	/^        orientation		= 3,$/;"	e	enum:sensors_poll_context_t::__anon1	file:
+pollEvents	nusensors.cpp	/^int sensors_poll_context_t::pollEvents(sensors_event_t* data, int count)$/;"	f	class:sensors_poll_context_t
+poll__activate	nusensors.cpp	/^static int poll__activate(struct sensors_poll_device_t *dev,$/;"	f	file:
+poll__close	nusensors.cpp	/^static int poll__close(struct hw_device_t *dev)$/;"	f	file:
+poll__poll	nusensors.cpp	/^static int poll__poll(struct sensors_poll_device_t *dev,$/;"	f	file:
+poll__setDelay	nusensors.cpp	/^static int poll__setDelay(struct sensors_poll_device_t *dev,$/;"	f	file:
+proximity	nusensors.cpp	/^        proximity       = 2,$/;"	e	enum:sensors_poll_context_t::__anon1	file:
+readEvent	InputEventReader.cpp	/^ssize_t InputEventCircularReader::readEvent(input_event const** events)$/;"	f	class:InputEventCircularReader
+readEvents	LightSensor.cpp	/^int LightSensor::readEvents(sensors_event_t* data, int count)$/;"	f	class:LightSensor
+sSensorList	sensors.c	/^static const struct sensor_t sSensorList[] = {$/;"	v	typeref:struct:sensor_t	file:
+sensors__get_sensors_list	sensors.c	/^static int sensors__get_sensors_list(struct sensors_module_t* module,$/;"	f	file:
+sensors_module_methods	sensors.c	/^static struct hw_module_methods_t sensors_module_methods = {$/;"	v	typeref:struct:hw_module_methods_t	file:
+sensors_poll_context_t	nusensors.cpp	/^sensors_poll_context_t::sensors_poll_context_t()$/;"	f	class:sensors_poll_context_t
+sensors_poll_context_t	nusensors.cpp	/^struct sensors_poll_context_t {$/;"	s	file:
+setDelay	SensorBase.cpp	/^int SensorBase::setDelay(int32_t handle, int64_t ns) {$/;"	f	class:SensorBase
+setDelay	nusensors.cpp	/^int sensors_poll_context_t::setDelay(int handle, int64_t ns) {$/;"	f	class:sensors_poll_context_t
+setInitialState	LightSensor.cpp	/^int LightSensor::setInitialState() {$/;"	f	class:LightSensor
+timevalToNano	SensorBase.h	/^    static int64_t timevalToNano(timeval const& t) {$/;"	f	class:SensorBase
+wake	nusensors.cpp	/^    static const size_t wake = numFds - 1;$/;"	m	struct:sensors_poll_context_t	file:
+~InputEventCircularReader	InputEventReader.cpp	/^InputEventCircularReader::~InputEventCircularReader()$/;"	f	class:InputEventCircularReader
+~LightSensor	LightSensor.cpp	/^LightSensor::~LightSensor() {$/;"	f	class:LightSensor
+~SensorBase	SensorBase.cpp	/^SensorBase::~SensorBase() {$/;"	f	class:SensorBase
+~sensors_poll_context_t	nusensors.cpp	/^sensors_poll_context_t::~sensors_poll_context_t() {$/;"	f	class:sensors_poll_context_t

@@ -1,0 +1,6 @@
+ring_sources = ['ring_buffer.c', 'dlist.c']
+ring_test_env = Environment()
+d = ring_test_env.ParseFlags("-Wall -g -DRING_BUFFER_TEST")
+ring_test_env.MergeFlags(d)
+
+ring_test_env.Program('ring_test', ring_sources)

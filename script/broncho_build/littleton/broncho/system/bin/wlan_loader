@@ -1,0 +1,10 @@
+#!/system/bin/sh -x
+
+echo "##### wlan_loader #####"
+
+iwpriv mlan0 deepsleep 0
+iwpriv mlan0 autodeepsleep 1
+netcfg mlan0 up
+setprop wlan.driver.status ok
+
+exit 0

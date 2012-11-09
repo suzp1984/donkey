@@ -1,0 +1,25 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+BUTTON_BACKLIGHT	lights.c	44;"	d	file:
+BUTTON_BACKLIGHT	lights.c	46;"	d	file:
+HAL_MODULE_INFO_SYM	lights.c	/^const struct hw_module_t HAL_MODULE_INFO_SYM = {$/;"	v	typeref:struct:hw_module_t
+LCD_BACKLIGHT	lights.c	41;"	d	file:
+LIGHTS_SERVICE_NAME	lights.c	19;"	d	file:
+LOG_TAG	lights.c	18;"	d	file:
+TRIGGER_BLINK	lights.c	49;"	d	file:
+back_light_device_close	lights.c	/^int back_light_device_close (struct hw_device_t* device)$/;"	f
+back_light_max	lights.c	/^static int back_light_max = 0;$/;"	v	file:
+back_light_set_light	lights.c	/^int back_light_set_light (struct light_device_t* dev, struct light_state_t const* state)$/;"	f
+button_light_max	lights.c	/^static int button_light_max = 0;$/;"	v	file:
+buttons_light_device_close	lights.c	/^int buttons_light_device_close (struct hw_device_t* device)$/;"	f
+buttons_light_set_light	lights.c	/^int buttons_light_set_light (struct light_device_t* dev, struct light_state_t const* state)$/;"	f
+lights_module_methods	lights.c	/^static struct hw_module_methods_t lights_module_methods = {$/;"	v	typeref:struct:hw_module_methods_t	file:
+notifications_light_device_close	lights.c	/^int notifications_light_device_close (struct hw_device_t* device)$/;"	f
+notifications_light_set_light	lights.c	/^int notifications_light_set_light (struct light_device_t* dev, struct light_state_t const* state)$/;"	f
+open_lights	lights.c	/^static int open_lights(const struct hw_module_t* module, char const* name,$/;"	f	file:
+set_flash_by_name	lights.c	/^static int set_flash_by_name (const char *name, int on, int off)$/;"	f	file:
+set_light_by_name	lights.c	/^static int set_light_by_name (const char *name, int brightness)$/;"	f	file:

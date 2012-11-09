@@ -1,0 +1,7 @@
+#!/system/bin/sh
+
+hciconfig hci0 up
+hciconfig hci0 noscan
+sleep 1
+killall -9 hciattach
+

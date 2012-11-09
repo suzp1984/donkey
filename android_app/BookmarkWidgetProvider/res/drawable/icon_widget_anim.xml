@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<animation-list android:oneshot="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:duration="50" android:drawable="@drawable/earth_rotate_0000" />
+    <item android:duration="50" android:drawable="@drawable/earth_rotate_0001" />
+    <item android:duration="50" android:drawable="@drawable/earth_rotate_0002" />
+    <item android:duration="50" android:drawable="@drawable/earth_rotate_0003" />
+    <item android:duration="50" android:drawable="@drawable/earth_rotate_0004" />
+    <item android:duration="50" android:drawable="@drawable/earth_rotate_0005" />
+    <item android:duration="50" android:drawable="@drawable/earth_rotate_0006" />
+    <item android:duration="50" android:drawable="@drawable/earth_rotate_0007" />
+    <item android:duration="50" android:drawable="@drawable/earth_rotate_0008" />
+    <item android:duration="50" android:drawable="@drawable/earth_rotate_0009" />
+    <item android:duration="50" android:drawable="@drawable/earth_rotate_0010" />
+    <item android:duration="50" android:drawable="@drawable/earth_rotate_0011" />
+    <item android:duration="50" android:drawable="@drawable/earth_rotate_0012" />
+    <item android:duration="50" android:drawable="@drawable/earth_rotate_0013" />
+    <item android:duration="50" android:drawable="@drawable/earth_rotate_0014" />
+    <item android:duration="50" android:drawable="@drawable/earth_rotate_0015" />
+    <item android:duration="50" android:drawable="@drawable/earth_rotate_0016" />
+    <item android:duration="50" android:drawable="@drawable/earth_rotate_0017" />
+    <item android:duration="50" android:drawable="@drawable/earth_rotate_0018" />
+    <item android:duration="50" android:drawable="@drawable/earth_rotate_0019" />
+    <item android:duration="50" android:drawable="@drawable/earth_rotate_0020" />
+    <item android:duration="50" android:drawable="@drawable/earth_rotate_0021" />
+    <item android:duration="50" android:drawable="@drawable/earth_rotate_0022" />
+    <item android:duration="50" android:drawable="@drawable/earth_rotate_0023" />
+    <item android:duration="50" android:drawable="@drawable/earth_rotate_0024" />
+    <item android:duration="50" android:drawable="@drawable/earth_rotate_0025" />
+    <item android:duration="50" android:drawable="@drawable/earth_rotate_0026" />
+    <item android:duration="50" android:drawable="@drawable/earth_rotate_0027" />
+    <item android:duration="50" android:drawable="@drawable/earth_rotate_0028" />
+    <item android:duration="50" android:drawable="@drawable/earth_rotate_0029" />
+    <item android:duration="50" android:drawable="@drawable/earth_rotate_0030" />
+    <item android:duration="50" android:drawable="@drawable/earth_rotate_0031" />
+</animation-list>

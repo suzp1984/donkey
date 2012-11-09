@@ -1,0 +1,40 @@
+HOW TO:
+
+1. how to config
+	the config file located in integration/config
+
+2. how to use
+	[release version]
+	./integration/integration.sh [version number]
+	[daily build]
+	./integration/integration.sh
+	[help message]
+	./integration/integration.sh -h
+	[list the available devices and modules]
+	./integration/integration.sh -l
+	[choose the devices and modules to compile]
+	./integration/integration.sh [version number] -d "devices separated by white-space" -m "modules separated by white-space"
+
+	notes: the "clean" modules did not contain in the default modules list, this module just clean some tmp dir in target_out.
+	if you intend to clean the tmp output in integration/target_out and out dir, DIY(do it yourself).
+
+3. how to add a new customer and device
+	please add the right options in integration/broncho_build/config, it is case insensitive.
+
+	in the vender/*/device/ have following files:
+		build_$CPU_TYPE.sh factory_files.txt 
+	and something about this platform.
+
+	in the customer/$CUSTOMER/ have following files:
+		build_image.sh build_initram.sh 
+	and something about this customer
+
+
+NOTICE:
+	you can complie the single module, but the building system do not copy the result to the right place.
+	The output result located in $BRONCHO_INTEGRATION_TARGET_PRODUCT dir.
+
+	if you need a clean $BRONCHO_INTEGRATION_TARGET_PRODUCT dir, do clean module yourself. integration -m "clean"
+=====================================
+	build_image.sh -- including customer build stuff about system.bin
+	build_initram.sh -- including customer stuff about rootfs

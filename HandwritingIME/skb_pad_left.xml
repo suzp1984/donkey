@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Keyboard xmlns:android="http://schemas.android.com/apk/res/android"
+    android:horizontalGap="0px"
+    android:verticalGap="0px"
+    android:keyHeight="50dip"
+    android:keyWidth="50dip"
+    >  
+    <Row  android:rowEdgeFlags="bottom">
+        <Key android:codes="-6" 
+            android:keyLabel="\?123"
+            />
+    </Row>
+    <Row  android:rowEdgeFlags="bottom">
+        <Key android:codes="-7" 
+            android:keyLabel="全部"
+            />
+    </Row>
+    <Row  android:rowEdgeFlags="bottom">
+        <Key android:codes="-8" 
+            android:keyLabel="英文"
+            />
+    </Row>
+    <Row  android:rowEdgeFlags="bottom">
+        <Key android:codes="-9" 
+            android:keyLabel="数字"
+            />
+    </Row>
+</Keyboard>

@@ -1,0 +1,6 @@
+#!/system/bin/sh
+
+killall -9 hciattach
+sleep 1
+hciattach /dev/ttyS1 any 460800 flow
+hciconfig hci0 up

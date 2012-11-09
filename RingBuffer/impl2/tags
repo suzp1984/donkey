@@ -1,0 +1,49 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+DECLS_BEGIN	typedef.h	53;"	d
+DECLS_BEGIN	typedef.h	56;"	d
+DECLS_END	typedef.h	54;"	d
+DECLS_END	typedef.h	57;"	d
+DataCompareFunc	typedef.h	/^typedef int      (*DataCompareFunc)(void* ctx, void* data);$/;"	t
+DataDestory	ringbuffer.c	/^void DataDestory(void* ctx, void* data)$/;"	f
+DataDestroyFunc	typedef.h	/^typedef void     (*DataDestroyFunc)(void* ctx, void* data);$/;"	t
+DataVisitFunc	typedef.h	/^typedef Ret      (*DataVisitFunc)(void* ctx, void* data);$/;"	t
+FALSE	ringbuffer.h	41;"	d
+PrintVisit	ringbuffer.c	/^Ret PrintVisit(void* ctx, void* data)$/;"	f
+RET_FAIL	typedef.h	/^	RET_FAIL$/;"	e	enum:_Ret
+RET_INVALID_PARAMS	typedef.h	/^	RET_INVALID_PARAMS,$/;"	e	enum:_Ret
+RET_OK	typedef.h	/^	RET_OK,$/;"	e	enum:_Ret
+RET_OOM	typedef.h	/^	RET_OOM,$/;"	e	enum:_Ret
+RET_STOP	typedef.h	/^	RET_STOP,$/;"	e	enum:_Ret
+RINGBUFFER_H	ringbuffer.h	36;"	d
+Ret	typedef.h	/^}Ret;$/;"	t	typeref:enum:_Ret
+RingBuffer	ringbuffer.h	/^typedef struct _RingBuffer RingBuffer;$/;"	t	typeref:struct:_RingBuffer
+SAFE_FREE	typedef.h	67;"	d
+SortFunc	typedef.h	/^typedef Ret (*SortFunc)(void** array, size_t nr, DataCompareFunc cmp);$/;"	t
+TRUE	ringbuffer.h	40;"	d
+TYPEDEF_H	typedef.h	37;"	d
+_Data_T	ringbuffer.c	/^typedef struct _Data_T {$/;"	s	file:
+_Ret	typedef.h	/^typedef enum _Ret$/;"	g
+_RingBuffer	ringbuffer.c	/^struct _RingBuffer {$/;"	s	file:
+a	ringbuffer.c	/^	int a;$/;"	m	struct:_Data_T	file:
+b	ringbuffer.c	/^	int b;$/;"	m	struct:_Data_T	file:
+c	ringbuffer.c	/^	char c;$/;"	m	struct:_Data_T	file:
+curser	ringbuffer.c	/^	size_t curser;$/;"	m	struct:_RingBuffer	file:
+data	ringbuffer.c	/^	void** data;$/;"	m	struct:_RingBuffer	file:
+data_destroy	ringbuffer.c	/^	DataDestroyFunc data_destroy;$/;"	m	struct:_RingBuffer	file:
+data_destroy_ctx	ringbuffer.c	/^	void* data_destroy_ctx;$/;"	m	struct:_RingBuffer	file:
+isfull	ringbuffer.c	/^	int isfull;$/;"	m	struct:_RingBuffer	file:
+main	ringbuffer.c	/^int main()$/;"	f
+max_size	ringbuffer.c	/^	size_t max_size;$/;"	m	struct:_RingBuffer	file:
+return_if_fail	typedef.h	60;"	d
+return_val_if_fail	typedef.h	63;"	d
+ringbuffer_append	ringbuffer.c	/^Ret ringbuffer_append(RingBuffer* thiz, void* data)$/;"	f
+ringbuffer_clean	ringbuffer.c	/^Ret ringbuffer_clean(RingBuffer* thiz)$/;"	f
+ringbuffer_create	ringbuffer.c	/^RingBuffer* ringbuffer_create(DataDestroyFunc func, size_t maxSize, void* ctx)$/;"	f
+ringbuffer_destroy	ringbuffer.c	/^void ringbuffer_destroy(RingBuffer* thiz)$/;"	f
+ringbuffer_foreach	ringbuffer.c	/^Ret ringbuffer_foreach(RingBuffer* thiz, DataVisitFunc visit, void* ctx)$/;"	f
+ringbuffer_pop_last	ringbuffer.c	/^Ret ringbuffer_pop_last(RingBuffer* thiz, void* data)$/;"	f

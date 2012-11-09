@@ -1,0 +1,18 @@
+#!/system/bin/sh -x
+
+echo "##### wlan_init #####"
+
+insmod /system/lib/modules/sd8688.ko
+sleep 5
+iwpriv mlan0 deepsleep 1
+
+hciattach /dev/ttyS1 any 38400 flow dtroff
+hciconfig hci0 up
+hcitool cmd 0x3f 0x07 0x02
+hcitool cmd 0x3f 0x28 0x00 0x00 0x03
+hcitool cmd 0x3f 0x09 0x00 0x10 0x0E 0x00 &
+sleep 1
+killall hcitool
+killall hciattach
+
+exit 0

@@ -1,0 +1,41 @@
+*************************************************************************
+           Android porting guide for Marvell IPP Camera Engine         
+*************************************************************************
+
+1. Marvell IPP Camera Engine = libcameraengine.a + libcamerahal.a
+   libcameraengine.a: HW independent part of IPP Camera Engine, 
+                      provided as prebuilt library 
+   libcamerahal.a:    HAL part of IPP Camera Engine, 
+                      provided as sample implentation for OV3640
+
+
+2. Directory tree of Marvell IPP Camera Engine
+.
+|-- Mdroid.mk              // Andorid makefile for libcamerahal.a
+|-- include -------------------------------------------------------------
+|   |-- CamGen.h           // General header file for IPP Camera Engine      
+|   |-- CamAutoCam.h       // Header file of L0 -- application adaption layer
+|   |-- CamRawCam.h        // Header file of L1 -- core layer
+|   |-- CamSubComp.h       // Header file of L2 -- hardware abstraction layer
+|   |-- log.h              // Log utilities
+|   `-- ov3640.h           // Header file of OV3640 sample implentation
+|-- lib -----------------------------------------------------------------
+|   |-- Mdroid.mk          // Andorid makefile for libcameraengine.a
+|   `-- libcameraengine.a  // prebuilt libcameraengine.a
+`-- src -----------------------------------------------------------------
+    |-- ov3640.c           // OV3640 sample implentation
+    `-- subcomp.c          // L2 sample implentation of OV3640
+
+
+3. Steps of porting Marvell IPP Camera Engine to your own platform includes:
+   a) Write your own subcomp.c with implementations of the three entry 
+      functions: subcomp_open(), subcomp_close(), subcomp_command().
+   b) In subcomp_command(), implement L2 commands as declared in CamSubComp.h.
+      There are 3 kinds of L2 commands:
+        MANDATORY: must be implemented;
+        OPTIONAL:  if not implemeted, return CAM_ERROR_NOTIMPLEMENTED in
+                   subcomp_command();
+        RESERVED:  reserved for future use, i.e. haven't been used 
+                   by IPP Camera Engine yet.
+   c) Write your own hardware abstraction files such as ov3640.c & ov3640.h. 
+

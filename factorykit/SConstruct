@@ -1,0 +1,53 @@
+####### hello case test #############
+
+hello_case_env = Environment()
+flags = hello_case_env.ParseFlags("-Wall -g -DHELLO_TEST_CASE_TEST")
+hello_case_env.MergeFlags(flags)
+
+hello_case_obj = []
+hello_case_obj += hello_case_env.Object("hello_test_case_test.o", ['hello_test_case.c'])
+print hello_case_obj
+
+#hello_case_env.Program("hello_case", ['hello_test_case.c'])
+hello_case_env.Program("hello_case", hello_case_obj)
+
+###############***** factory test ******##################
+
+test_factory_env = Environment()
+tf_flags = test_factory_env.ParseFlags("-Wall -g -DTEST_CASE_FACTORY_TEST")
+test_factory_env.MergeFlags(tf_flags)
+
+test_factory_obj = []
+test_factory_obj += test_factory_env.Object("test_case_factory_test.o", ['test_case_factory.c'])
+test_factory_obj += test_factory_env.Object("factory_hello_case.o", ['hello_test_case.c'])
+
+print test_factory_obj
+#test_factory_env.Program("case_factory_test", ['test_case_factory.c', 'hello_test_case.c'])
+test_factory_env.Program("case_factory_test", test_factory_obj)
+
+########### fk_config_expat ##########
+
+config_expat_env = Environment()
+ce_flags = config_expat_env.ParseFlags("-Wall -g -DFK_CONFIG_EXPAT_XML_TEST -lexpat")
+config_expat_env.MergeFlags(ce_flags)
+
+test_fk_config_obj = []
+test_fk_config_obj += config_expat_env.Object("test_fk_config_expat_xml.o", ['fk_config_expat_xml.c'])
+
+config_expat_env.Program("config_expat_test", test_fk_config_obj)
+
+####### test_cases_manager test ######
+cases_manager_env = Environment()
+cm_flags = cases_manager_env.ParseFlags("-Wall -g -DTEST_CASE_MANAGER_TEST -lexpat");
+cases_manager_env.MergeFlags(cm_flags)
+
+test_manager_obj = []
+test_manager_obj += cases_manager_env.Object("test_test_case_manager.o", ['test_case_manager.c'])
+test_manager_obj += cases_manager_env.Object("manger_hello_case.o", ['hello_test_case.c'])
+test_manager_obj += cases_manager_env.Object("manger_config_expat.o", ['fk_config_expat_xml.c'])
+test_manager_obj += cases_manager_env.Object("manger_case_factory.o", ['test_case_factory.c'])
+
+cases_manager_env.Program("case_manager_test", test_manager_obj)
+
+#### menu test ####
+

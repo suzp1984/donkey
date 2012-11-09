@@ -1,0 +1,425 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+ALPHA_BLEND_NOP	gcu/m2d_copybit.h	/^	ALPHA_BLEND_NOP = 0,$/;"	e	enum:__anon5
+ALPHA_BLEND_SINGLE	gcu/m2d_copybit.h	/^	ALPHA_BLEND_SINGLE,$/;"	e	enum:__anon5
+ALPHA_BLEND_TWO	gcu/m2d_copybit.h	/^	ALPHA_BLEND_TWO,$/;"	e	enum:__anon5
+COMPSURF_FALSE	mmx/compsurf.h	20;"	d
+COMPSURF_NULL	mmx/compsurf.h	21;"	d
+COMPSURF_TRUE	mmx/compsurf.h	19;"	d
+COPYBIT_DEF_H_	copybit_inc.h	8;"	d
+COPYBIT_GCU_DEBUG	gcu/gcu_copybit.c	28;"	d	file:
+COPYBIT_THROUGHPUT_DEBUG	copybit.c	51;"	d	file:
+COPYBIT_USE_CASE_DEBUG	copybit.c	50;"	d	file:
+COPYBIT_WMMXLIB_DEBUG	mmx/mmx_copybit.c	29;"	d	file:
+COPYBIT_WMMX_DEBUG	copybit.c	48;"	d	file:
+DECIMATE_ONLY	gcu/m2d_copybit.h	42;"	d
+DECIMATE_ROTATE	gcu/m2d_copybit.h	48;"	d
+DECIMATE_STRETCH	gcu/m2d_copybit.h	44;"	d
+DUMP_INTERVAL	stats/sum_def.h	51;"	d
+ERROR_ALPHA_BLEND	gcu/m2d_copybit.h	29;"	d
+ERROR_ALPHA_FLAG	gcu/m2d_copybit.h	28;"	d
+ERROR_CREATE_OP	gcu/m2d_copybit.h	23;"	d
+ERROR_NEW_DST_BUF	gcu/m2d_copybit.h	25;"	d
+ERROR_NEW_FLIP_BUF	gcu/m2d_copybit.h	26;"	d
+ERROR_NEW_SRC_BUF	gcu/m2d_copybit.h	24;"	d
+ERROR_RESIZE_ROTATE	gcu/m2d_copybit.h	27;"	d
+ERROR_UNSUPPORT_FORMAT	copybit_brn.h	11;"	d
+ERROR_UNSUPPORT_FORMAT	gcu/m2d_copybit.h	22;"	d
+FALSE	gcu/m2d_copybit.h	19;"	d
+FB0	gcu/m2d_copybit.c	36;"	d	file:
+GCU_COPYBIT_INC_H_	gcu/gcu_copybit_inc.h	9;"	d
+GetFormatString	stats/sum_time.c	/^const char *GetFormatString(int format)$/;"	f
+HMI	copybit.c	/^struct copybit_module_t HMI = {$/;"	v	typeref:struct:copybit_module_t
+IMAGE_BASE	copybit_inc.h	25;"	d
+IMAGE_FD	copybit_inc.h	23;"	d
+IMAGE_OFFSET	copybit_inc.h	24;"	d
+INIT_RGBA_RGB_PATH	copybit.c	843;"	d	file:
+INIT_RGB_RGB_PATH	copybit.c	839;"	d	file:
+IppBlendMode	mmx/compsurf.h	/^} IppBlendMode;$/;"	t	typeref:enum:__anon3
+IppColorFmt	mmx/compsurf.h	/^} IppColorFmt; \/\/ Color formats$/;"	t	typeref:enum:__anon1
+IppRect	mmx/compsurf.h	/^} IppRect;$/;"	t	typeref:struct:_IppRect
+IppRotateMode	mmx/compsurf.h	/^} IppRotateMode;$/;"	t	typeref:enum:__anon2
+IppSurface	mmx/compsurf.h	/^} IppSurface;$/;"	t	typeref:struct:_IppSurface
+LIKELY	gcu/m2d_copybit.c	31;"	d	file:
+LOCAL_C_INCLUDES	Android.mk	/^LOCAL_C_INCLUDES :=		\\$/;"	m
+LOCAL_C_INCLUDES	Mdroid.mk	/^LOCAL_C_INCLUDES :=		\\$/;"	m
+LOCAL_C_INCLUDES	gcu/Mdroid.mk	/^LOCAL_C_INCLUDES :=		\\$/;"	m
+LOCAL_C_INCLUDES	mmx/Mdroid.mk	/^LOCAL_C_INCLUDES :=		\\$/;"	m
+LOCAL_C_INCLUDES	stats/Mdroid.mk	/^LOCAL_C_INCLUDES :=	\\$/;"	m
+LOCAL_MODULE	Android.mk	/^LOCAL_MODULE := copybit.marvell$/;"	m
+LOCAL_MODULE	Mdroid.mk	/^LOCAL_MODULE := copybit.marvell$/;"	m
+LOCAL_MODULE	gcu/Mdroid.mk	/^LOCAL_MODULE := libgcu$/;"	m
+LOCAL_MODULE	mmx/Mdroid.mk	/^LOCAL_MODULE := libmmx$/;"	m
+LOCAL_MODULE	stats/Mdroid.mk	/^LOCAL_MODULE := libcopybit_stats$/;"	m
+LOCAL_MODULE_PATH	Android.mk	/^LOCAL_MODULE_PATH := $(TARGET_OUT_SHARED_LIBRARIES)\/hw$/;"	m
+LOCAL_MODULE_PATH	Mdroid.mk	/^LOCAL_MODULE_PATH := $(TARGET_OUT_SHARED_LIBRARIES)\/hw$/;"	m
+LOCAL_MODULE_PATH	gcu/Mdroid.mk	/^LOCAL_MODULE_PATH := $(TARGET_OUT_STATIC_LIBRARIES)$/;"	m
+LOCAL_MODULE_PATH	mmx/Mdroid.mk	/^LOCAL_MODULE_PATH := $(TARGET_OUT_STATIC_LIBRARIES)$/;"	m
+LOCAL_MODULE_PATH	stats/Mdroid.mk	/^LOCAL_MODULE_PATH := $(TARGET_OUT_SHARED_LIBRARIES)$/;"	m
+LOCAL_PATH	Android.mk	/^LOCAL_PATH:= $(call my-dir)$/;"	m
+LOCAL_PATH	Mdroid.mk	/^LOCAL_PATH:= $(call my-dir)$/;"	m
+LOCAL_PATH	gcu/Mdroid.mk	/^LOCAL_PATH:= $(call my-dir)$/;"	m
+LOCAL_PATH	mmx/Mdroid.mk	/^LOCAL_PATH:= $(call my-dir)$/;"	m
+LOCAL_PATH	stats/Mdroid.mk	/^LOCAL_PATH:= $(call my-dir)$/;"	m
+LOCAL_PRELINK_MODULE	Android.mk	/^LOCAL_PRELINK_MODULE := false$/;"	m
+LOCAL_PRELINK_MODULE	Mdroid.mk	/^LOCAL_PRELINK_MODULE := false$/;"	m
+LOCAL_PRELINK_MODULE	gcu/Mdroid.mk	/^LOCAL_PRELINK_MODULE := false$/;"	m
+LOCAL_PRELINK_MODULE	mmx/Mdroid.mk	/^LOCAL_PRELINK_MODULE := false$/;"	m
+LOCAL_PRELINK_MODULE	stats/Mdroid.mk	/^LOCAL_PRELINK_MODULE := false$/;"	m
+LOCAL_SHARED_LIBRARIES	Android.mk	/^LOCAL_SHARED_LIBRARIES := libMrvlm2d liblog$/;"	m
+LOCAL_SHARED_LIBRARIES	Mdroid.mk	/^LOCAL_SHARED_LIBRARIES := libMrvlm2d liblog$/;"	m
+LOCAL_SHARED_LIBRARIES	gcu/Mdroid.mk	/^LOCAL_SHARED_LIBRARIES := libMrvlm2d liblog$/;"	m
+LOCAL_SHARED_LIBRARIES	mmx/Mdroid.mk	/^LOCAL_SHARED_LIBRARIES := liblog$/;"	m
+LOCAL_SHARED_LIBRARIES	stats/Mdroid.mk	/^LOCAL_SHARED_LIBRARIES := liblog$/;"	m
+LOCAL_SRC_FILES	Android.mk	/^LOCAL_SRC_FILES := copybit.c$/;"	m
+LOCAL_SRC_FILES	Mdroid.mk	/^LOCAL_SRC_FILES := copybit.c$/;"	m
+LOCAL_SRC_FILES	gcu/Mdroid.mk	/^LOCAL_SRC_FILES := gcu_copybit.c m2d_copybit.c$/;"	m
+LOCAL_SRC_FILES	mmx/Mdroid.mk	/^LOCAL_SRC_FILES := mmx_copybit.c$/;"	m
+LOCAL_SRC_FILES	stats/Mdroid.mk	/^LOCAL_SRC_FILES := sum_time.c sum_data.c$/;"	m
+LOCAL_STATIC_LIBRARIES	Android.mk	/^LOCAL_STATIC_LIBRARIES := libmmx libcompsurf $/;"	m
+LOCAL_STATIC_LIBRARIES	Mdroid.mk	/^LOCAL_STATIC_LIBRARIES := libmmx libcompsurf $/;"	m
+LOCAL_STATIC_LIBRARIES	mmx/Mdroid.mk	/^LOCAL_STATIC_LIBRARIES := libcompsurf$/;"	m
+LOG_TAG	copybit.c	17;"	d	file:
+LOG_TAG	copybit.c	18;"	d	file:
+LOG_TAG	gcu/gcu_copybit.c	17;"	d	file:
+LOG_TAG	gcu/gcu_copybit.c	18;"	d	file:
+LOG_TAG	mmx/mmx_copybit.c	18;"	d	file:
+LOG_TAG	mmx/mmx_copybit.c	19;"	d	file:
+LOG_TAG	stats/sum_data.c	17;"	d	file:
+LOG_TAG	stats/sum_data.c	18;"	d	file:
+LOG_TAG	stats/sum_time.c	35;"	d	file:
+LOG_TAG	stats/sum_time.c	36;"	d	file:
+M2D_COPYBIT_DECIMATE_WIDTH_RESTRICT	gcu/m2d_copybit.h	/^	M2D_COPYBIT_DECIMATE_WIDTH_RESTRICT,$/;"	e	enum:__anon4
+M2D_COPYBIT_OTHER_WIDTH_RESTRICT	gcu/m2d_copybit.h	/^	M2D_COPYBIT_OTHER_WIDTH_RESTRICT,$/;"	e	enum:__anon4
+M2D_COPYBIT_ROTATE_WIDTH_RESTRICT	gcu/m2d_copybit.h	/^	M2D_COPYBIT_ROTATE_WIDTH_RESTRICT = 0,$/;"	e	enum:__anon4
+M2D_COPYBIT_STRETCH_WIDTH_RESTRICT	gcu/m2d_copybit.h	/^	M2D_COPYBIT_STRETCH_WIDTH_RESTRICT,$/;"	e	enum:__anon4
+M2D_MAX_OPERATION	gcu/m2d_copybit.h	83;"	d
+MAX_COUNT	stats/sum_time.c	56;"	d	file:
+MAX_DIV_NUM	copybit.c	55;"	d	file:
+MMX_PATH	Android.mk	/^MMX_PATH:= $(LOCAL_PATH)\/mmx$/;"	m
+MMX_PATH	Mdroid.mk	/^MMX_PATH:= $(LOCAL_PATH)\/mmx$/;"	m
+MOVE_ONLY	gcu/m2d_copybit.h	41;"	d
+MULDIV	copybit.c	/^static inline void MULDIV(uint32_t *a, uint32_t *b, int mul, int div) {$/;"	f	file:
+MULDIV	gcu/gcu_copybit.c	/^static inline void MULDIV(uint32_t *a, uint32_t *b, int mul, int div) {$/;"	f	file:
+MYTRACE	stats/sum_data.c	28;"	d	file:
+NO_ERROR	copybit_inc.h	20;"	d
+PMEM_GCU_DEV	gcu/m2d_copybit.c	35;"	d	file:
+PXAFB_GET_FD_TYPE	copybit.c	40;"	d	file:
+PXAFB_MEM_FLUSH	copybit.c	39;"	d	file:
+ROTATE_DECIMATE_STRETCH	gcu/m2d_copybit.h	49;"	d
+ROTATE_ONLY	gcu/m2d_copybit.h	46;"	d
+ROTATE_STRETCH	gcu/m2d_copybit.h	47;"	d
+SCALE	copybit.c	/^static inline int SCALE(int a, int mul, int div)$/;"	f	file:
+SPEED_FILE	stats/sum_time.c	55;"	d	file:
+STATS_PATH	Android.mk	/^STATS_PATH:= $(LOCAL_PATH)\/stats$/;"	m
+STATS_PATH	Mdroid.mk	/^STATS_PATH:= $(LOCAL_PATH)\/stats$/;"	m
+STRETCH_ONLY	gcu/m2d_copybit.h	43;"	d
+SUM_DATA_H_	stats/sum_data.h	9;"	d
+SUM_DEF_H_	stats/sum_def.h	9;"	d
+SUM_FILE	stats/sum_time.c	54;"	d	file:
+TIME_DEBUG	copybit.c	49;"	d	file:
+TIME_DEBUG	copybit.c	53;"	d	file:
+TRACE	stats/sum_time.c	48;"	d	file:
+TRACE	stats/sum_time.c	50;"	d	file:
+TRUE	gcu/m2d_copybit.h	16;"	d
+TimeSum	stats/sum_def.h	/^}TimeSum;$/;"	t	typeref:struct:tagTimeSum
+TimeVal	stats/sum_time.h	/^typedef struct timeval TimeVal;$/;"	t	typeref:struct:timeval
+UNLIKELY	gcu/m2d_copybit.c	32;"	d	file:
+USE_CASE_NUM	copybit.c	896;"	d	file:
+USE_CASE_NUM	stats/sum_def.h	50;"	d
+UseCase	copybit.c	/^} UseCase;$/;"	t	typeref:struct:_use_case	file:
+UseCase	stats/sum_def.h	/^} UseCase;$/;"	t	typeref:struct:_use_case
+WVGA_RGBA8888_LEN	copybit.c	190;"	d	file:
+_COMPSURF_H_	mmx/compsurf.h	7;"	d
+_IppRect	mmx/compsurf.h	/^typedef struct _IppRect {$/;"	s
+_IppSurface	mmx/compsurf.h	/^typedef struct  _IppSurface{$/;"	s
+_SUM_TIME_H	stats/sum_time.h	2;"	d
+__COPYBIT_BRN__	copybit_brn.h	5;"	d
+__M2D_COPYBIT_H__	gcu/m2d_copybit.h	7;"	d
+_private_handle_t	copybit.c	/^typedef struct _private_handle_t $/;"	s	file:
+_use_case	copybit.c	/^typedef struct _use_case {$/;"	s	file:
+_use_case	stats/sum_def.h	/^typedef struct _use_case {$/;"	s
+alpha	copybit_brn.h	/^	uint32_t alpha;$/;"	m	struct:android_blit_req
+alpha	gcu/gcu_copybit_inc.h	/^	uint32_t alpha;$/;"	m	struct:android_blit_req
+alpha_flag	gcu/m2d_copybit.h	/^	uint32_t alpha_flag;$/;"	m	struct:m2d_copybit_context
+android_blit_req	copybit_brn.h	/^struct android_blit_req {$/;"	s
+android_blit_req	gcu/gcu_copybit_inc.h	/^struct android_blit_req {$/;"	s
+android_blit_req_list	gcu/gcu_copybit_inc.h	/^struct android_blit_req_list {$/;"	s
+android_img	copybit_brn.h	/^struct android_img {$/;"	s
+android_img	gcu/gcu_copybit_inc.h	/^struct android_img {$/;"	s
+android_rect	copybit_brn.h	/^struct android_rect {$/;"	s
+android_rect	gcu/gcu_copybit_inc.h	/^struct android_rect {$/;"	s
+bGlobalAlpha	copybit.c	/^	int bGlobalAlpha;$/;"	m	struct:_use_case	file:
+bGlobalAlpha	stats/sum_def.h	/^	int bGlobalAlpha;$/;"	m	struct:_use_case
+bPixelAlpha	copybit.c	/^	int bPixelAlpha;$/;"	m	struct:_use_case	file:
+bPixelAlpha	stats/sum_def.h	/^	int bPixelAlpha;$/;"	m	struct:_use_case
+bResize	copybit.c	/^	int bResize;$/;"	m	struct:_use_case	file:
+bResize	stats/sum_def.h	/^	int bResize;$/;"	m	struct:_use_case
+bRotate	copybit.c	/^	int bRotate;$/;"	m	struct:_use_case	file:
+bRotate	stats/sum_def.h	/^	int bRotate;$/;"	m	struct:_use_case
+base	copybit.c	/^	unsigned long base;$/;"	m	struct:flush_mem_region	file:
+base	copybit.c	/^    int     base;$/;"	m	struct:_private_handle_t	file:
+base	copybit_brn.h	/^	void * base;$/;"	m	struct:android_img
+base	gcu/gcu_copybit_inc.h	/^	void * base;$/;"	m	struct:android_img
+base	gcu/m2d_copybit.h	/^	unsigned char *base;$/;"	m	struct:m2d_flip_buf
+bottom	mmx/compsurf.h	/^	Ipp32s     left,top,right,bottom;$/;"	m	struct:_IppRect
+close_device	copybit.c	/^static int close_device(struct hw_device_t* dev)$/;"	f	file:
+close_wmmx_pmem	copybit.c	/^static void close_wmmx_pmem()$/;"	f	file:
+clrFormat	mmx/compsurf.h	/^	IppColorFmt clrFormat;      \/\/ Color Format$/;"	m	struct:_IppSurface
+context	gcu/m2d_copybit.h	/^	struct m2d_context *context;$/;"	m	struct:m2d_copybit_context	typeref:struct:m2d_copybit_context::m2d_context
+copy_Surface_info	copybit.c	/^static inline void copy_Surface_info(IppSurface *dst, struct copybit_image_t const *src,uint32_t format)$/;"	f	file:
+copy_clip_rect	copybit.c	/^static inline void copy_clip_rect(struct copybit_rect_t *dst_rect, struct android_rect *src_rect)$/;"	f	file:
+copy_image_info	copybit.c	/^static inline void copy_image_info(struct copybit_image_t *dst, struct copybit_image_t const *src)$/;"	f	file:
+copy_rect_info	copybit.c	/^static inline void copy_rect_info(struct copybit_rect_t *dst_rect, struct copybit_rect_t const *src_rect)$/;"	f	file:
+copybit_blit	copybit.c	/^static int copybit_blit($/;"	f	file:
+copybit_context_t	copybit_inc.h	/^typedef struct copybit_context_t {$/;"	s
+copybit_context_t	copybit_inc.h	/^} copybit_context_t;$/;"	t	typeref:struct:copybit_context_t
+copybit_format_to_gcu_format	gcu/m2d_copybit.c	/^static inline int copybit_format_to_gcu_format(int format)$/;"	f	file:
+copybit_get_parameter	copybit.c	/^static int copybit_get_parameter($/;"	f	file:
+copybit_get_step_size	copybit.c	/^inline int copybit_get_step_size(int format)$/;"	f
+copybit_image_deinit	copybit.c	/^static void copybit_image_deinit(struct copybit_image_t* img)$/;"	f	file:
+copybit_image_init	copybit.c	/^static void copybit_image_init(struct copybit_image_t* img)$/;"	f	file:
+copybit_module_methods	copybit.c	/^static struct hw_module_methods_t copybit_module_methods = {$/;"	v	typeref:struct:hw_module_methods_t	file:
+copybit_set_parameter	copybit.c	/^static int copybit_set_parameter($/;"	f	file:
+copybit_stretch	copybit.c	/^static int copybit_stretch($/;"	f	file:
+count	gcu/gcu_copybit_inc.h	/^	 uint32_t count;$/;"	m	struct:android_blit_req_list
+device	copybit_inc.h	/^	struct copybit_device_t device;$/;"	m	struct:copybit_context_t	typeref:struct:copybit_context_t::copybit_device_t
+dst	copybit_brn.h	/^	struct android_img dst;$/;"	m	struct:android_blit_req	typeref:struct:android_blit_req::android_img
+dst	gcu/gcu_copybit_inc.h	/^	struct android_img dst;$/;"	m	struct:android_blit_req	typeref:struct:android_blit_req::android_img
+dst_buf	gcu/m2d_copybit.h	/^	struct m2d_buff *dst_buf;$/;"	m	struct:m2d_copybit_context	typeref:struct:m2d_copybit_context::m2d_buff
+dst_frame	copybit.c	/^	struct copybit_image_t dst_frame;$/;"	m	struct:universal_2d_copybit	typeref:struct:universal_2d_copybit::copybit_image_t	file:
+dst_rect	copybit.c	/^	struct copybit_rect_t dst_rect;$/;"	m	struct:universal_2d_copybit	typeref:struct:universal_2d_copybit::copybit_rect_t	file:
+dst_rect	copybit_brn.h	/^	struct android_rect dst_rect;$/;"	m	struct:android_blit_req	typeref:struct:android_blit_req::android_rect
+dst_rect	gcu/gcu_copybit_inc.h	/^	struct android_rect dst_rect;$/;"	m	struct:android_blit_req	typeref:struct:android_blit_req::android_rect
+dumpsec	stats/sum_data.c	/^static int dumpsec = -1;$/;"	v	file:
+dumpusec	stats/sum_data.c	/^static int dumpusec = -1;$/;"	v	file:
+eDstFormat	copybit.c	/^	int eDstFormat;$/;"	m	struct:_use_case	file:
+eDstFormat	stats/sum_def.h	/^	int eDstFormat;$/;"	m	struct:_use_case
+eSrcFormat	copybit.c	/^	int eSrcFormat;$/;"	m	struct:_use_case	file:
+eSrcFormat	stats/sum_def.h	/^	int eSrcFormat;$/;"	m	struct:_use_case
+elapse	stats/sum_data.c	/^static float elapse[20];$/;"	v	file:
+elapse	stats/sum_time.c	/^static float elapse[USE_CASE_NUM] = {0};$/;"	v	file:
+end_sum	stats/sum_time.c	/^void end_sum(char * szFile, int nLine, TimeVal * pStartTime, TimeVal * pEndTime, int nUseCase)$/;"	f
+fAccelerateFunction	copybit.c	/^	p2DFunction  fAccelerateFunction;$/;"	m	struct:_use_case	file:
+fd	copybit.c	/^	int fd;$/;"	m	struct:flush_mem_region	file:
+fd	copybit.c	/^    int     fd;$/;"	m	struct:_private_handle_t	file:
+flags	copybit.c	/^    int     flags;$/;"	m	struct:_private_handle_t	file:
+flags	copybit_brn.h	/^	uint32_t flags;$/;"	m	struct:android_blit_req
+flags	gcu/gcu_copybit_inc.h	/^	uint32_t flags;$/;"	m	struct:android_blit_req
+flip_base	gcu/m2d_copybit.c	/^static unsigned char *flip_base = NULL;$/;"	v	file:
+flip_buf_info	gcu/m2d_copybit.h	/^	struct m2d_flip_buf flip_buf_info[2];$/;"	m	struct:m2d_copybit_context	typeref:struct:m2d_copybit_context::m2d_flip_buf
+flip_buf_size	gcu/m2d_copybit.c	/^size_t flip_buf_size = 0;$/;"	v
+flush_mem_region	copybit.c	/^struct flush_mem_region {$/;"	s	file:
+format	copybit_brn.h	/^	uint32_t format;$/;"	m	struct:android_img
+format	gcu/gcu_copybit_inc.h	/^	uint32_t format;$/;"	m	struct:android_img
+format	gcu/m2d_copybit.h	/^	int format;$/;"	m	struct:pic_frame
+gcuProcessRequest	gcu/gcu_copybit.c	/^static int gcuProcessRequest($/;"	f	file:
+h	copybit_brn.h	/^	uint32_t h;$/;"	m	struct:android_rect
+h	gcu/gcu_copybit_inc.h	/^	uint32_t h;$/;"	m	struct:android_rect
+height	copybit_brn.h	/^	uint32_t height;$/;"	m	struct:android_img
+height	gcu/gcu_copybit_inc.h	/^	uint32_t height;$/;"	m	struct:android_img
+height	gcu/m2d_copybit.h	/^	int height;$/;"	m	struct:m2d_copybit_rect
+height	gcu/m2d_copybit.h	/^	int height;$/;"	m	struct:pic_frame
+height	mmx/compsurf.h	/^	Ipp16u      height; 	    \/\/ Height in Pixels$/;"	m	struct:_IppSurface
+iCandidate	copybit.c	/^	int iCandidate;$/;"	m	struct:_use_case	file:
+intersect	copybit.c	/^static void intersect($/;"	f	file:
+intersect	gcu/gcu_copybit.c	/^static void intersect($/;"	f	file:
+ippBlendAlphaMul	mmx/compsurf.h	/^	ippBlendAlphaMul,$/;"	e	enum:__anon3
+ippBlendCopy	mmx/compsurf.h	/^	ippBlendCopy,$/;"	e	enum:__anon3
+ippBlendSrcOvr	mmx/compsurf.h	/^	ippBlendSrcOvr,$/;"	e	enum:__anon3
+ippColorFmtABGR8888	mmx/compsurf.h	/^	ippColorFmtABGR8888,$/;"	e	enum:__anon1
+ippColorFmtARGB8888	mmx/compsurf.h	/^	ippColorFmtARGB8888,$/;"	e	enum:__anon1
+ippColorFmtCount	mmx/compsurf.h	/^	ippColorFmtCount$/;"	e	enum:__anon1
+ippColorFmtRGB565	mmx/compsurf.h	/^	ippColorFmtRGB565,$/;"	e	enum:__anon1
+ippColorFmtRGB888	mmx/compsurf.h	/^	ippColorFmtRGB888,$/;"	e	enum:__anon1
+ippMirror	mmx/compsurf.h	/^	ippMirror,           \/\/ Reflected vertical center.$/;"	e	enum:__anon2
+ippMirrorRotate180	mmx/compsurf.h	/^	ippMirrorRotate180,  \/\/ Reflected vertical center and then rotated clockwise by 180 degrees$/;"	e	enum:__anon2
+ippMirrorRotate90L	mmx/compsurf.h	/^	ippMirrorRotate90L,  \/\/ Reflected vertical center and then rotated counterclockwise by 90 degrees$/;"	e	enum:__anon2
+ippMirrorRotate90R	mmx/compsurf.h	/^	ippMirrorRotate90R,  \/\/ Reflected vertical center and then rotated clockwise by 90 degrees.$/;"	e	enum:__anon2
+ippRotate180	mmx/compsurf.h	/^	ippRotate180,        \/\/ Rotated clockwise by 180 degrees.$/;"	e	enum:__anon2
+ippRotate90L	mmx/compsurf.h	/^	ippRotate90L,        \/\/ Rotated counterclockwise by 90 degrees.$/;"	e	enum:__anon2
+ippRotate90R	mmx/compsurf.h	/^	ippRotate90R,        \/\/ Rotated clockwise by 90 degrees.$/;"	e	enum:__anon2
+ippRotateDisable	mmx/compsurf.h	/^	ippRotateDisable,    \/\/ No transform$/;"	e	enum:__anon2
+ippRotateModeCount	mmx/compsurf.h	/^	ippRotateModeCount,$/;"	e	enum:__anon2
+left	mmx/compsurf.h	/^	Ipp32s     left,top,right,bottom;$/;"	m	struct:_IppRect
+len	copybit.c	/^	unsigned long len;$/;"	m	struct:flush_mem_region	file:
+len	gcu/m2d_copybit.h	/^	int len;$/;"	m	struct:m2d_flip_buf
+lockState	copybit.c	/^    int     lockState;$/;"	m	struct:_private_handle_t	file:
+log_copybit_end	stats/sum_data.c	/^void log_copybit_end($/;"	f
+log_copybit_start	stats/sum_data.c	/^void log_copybit_start()$/;"	f
+m2d_alpha0	gcu/m2d_copybit.h	/^	uint32_t m2d_alpha0;$/;"	m	struct:m2d_copybit_context
+m2d_alpha1	gcu/m2d_copybit.h	/^	uint32_t m2d_alpha1;$/;"	m	struct:m2d_copybit_context
+m2d_copybit_alpha_blend	gcu/m2d_copybit.c	/^int m2d_copybit_alpha_blend(struct m2d_copybit_context *ctx, struct pic_frame *src_frame,$/;"	f
+m2d_copybit_close	gcu/m2d_copybit.c	/^int m2d_copybit_close(struct m2d_copybit_context *ctx)$/;"	f
+m2d_copybit_context	gcu/m2d_copybit.h	/^struct m2d_copybit_context {$/;"	s
+m2d_copybit_create_op	gcu/m2d_copybit.c	/^static inline int m2d_copybit_create_op(struct m2d_op_region *opr, struct m2d_copybit_rect *src_rect,$/;"	f	file:
+m2d_copybit_enable	gcu/m2d_copybit.h	/^	int m2d_copybit_enable;$/;"	m	struct:m2d_copybit_context
+m2d_copybit_free_dst_buffer	gcu/m2d_copybit.c	/^static void m2d_copybit_free_dst_buffer(struct m2d_copybit_context *ctx)$/;"	f	file:
+m2d_copybit_free_src_buffer	gcu/m2d_copybit.c	/^static void m2d_copybit_free_src_buffer(struct m2d_copybit_context *ctx)$/;"	f	file:
+m2d_copybit_get_flip_buf	gcu/m2d_copybit.c	/^inline unsigned char *m2d_copybit_get_flip_buf(struct m2d_copybit_context *ctx, int index)$/;"	f
+m2d_copybit_get_rot_degree	gcu/m2d_copybit.c	/^inline int m2d_copybit_get_rot_degree(struct m2d_copybit_context *ctx)$/;"	f
+m2d_copybit_new_dst_buffer	gcu/m2d_copybit.c	/^static int m2d_copybit_new_dst_buffer(struct m2d_copybit_context *ctx, struct pic_frame *pic)$/;"	f	file:
+m2d_copybit_new_src_buffer	gcu/m2d_copybit.c	/^static int m2d_copybit_new_src_buffer(struct m2d_copybit_context *ctx, struct pic_frame *pic)$/;"	f	file:
+m2d_copybit_open	gcu/m2d_copybit.c	/^int m2d_copybit_open(struct m2d_copybit_context *ctx)$/;"	f
+m2d_copybit_parse	gcu/m2d_copybit.c	/^int m2d_copybit_parse(struct m2d_copybit_context *ctx,$/;"	f
+m2d_copybit_process	gcu/m2d_copybit.c	/^int m2d_copybit_process(struct m2d_copybit_context *ctx, struct pic_frame *src_frame,$/;"	f
+m2d_copybit_rect	gcu/m2d_copybit.h	/^struct m2d_copybit_rect{$/;"	s
+m2d_copybit_resize_rotate	gcu/m2d_copybit.c	/^int m2d_copybit_resize_rotate(struct m2d_copybit_context *ctx, struct pic_frame *src_frame,$/;"	f
+m2d_copybit_set_rot_degree	gcu/m2d_copybit.c	/^inline void m2d_copybit_set_rot_degree(struct m2d_copybit_context *ctx, int deg)$/;"	f
+m2d_copybit_set_src_index	gcu/m2d_copybit.c	/^inline void m2d_copybit_set_src_index(struct m2d_copybit_context *ctx, int index)$/;"	f
+m2d_copybit_sync	gcu/m2d_copybit.c	/^int m2d_copybit_sync(struct m2d_copybit_context *ctx)$/;"	f
+m2d_flip_buf	gcu/m2d_copybit.h	/^struct m2d_flip_buf {$/;"	s
+mBlurEnabled	copybit_inc.h	/^	int mBlurEnabled;$/;"	m	struct:copybit_context_t
+mBlurEnabled	stats/sum_def.h	/^	int mBlurEnabled;$/;"	m	struct:tagTimeSum
+mDitherEnabled	copybit_inc.h	/^	int mDitherEnabled;$/;"	m	struct:copybit_context_t
+mDitherEnabled	stats/sum_def.h	/^	int mDitherEnabled;$/;"	m	struct:tagTimeSum
+mFD	copybit_inc.h	/^	int mFD;$/;"	m	struct:copybit_context_t
+mIntervalSeconds	stats/sum_def.h	/^	long mIntervalSeconds;$/;"	m	struct:tagTimeSum
+mMutex	stats/sum_def.h	/^	pthread_mutex_t	mMutex;$/;"	m	struct:tagTimeSum
+mOutputTime	stats/sum_def.h	/^	long mOutputTime;$/;"	m	struct:tagTimeSum
+mPlaneAlpha	copybit_inc.h	/^	int mPlaneAlpha;$/;"	m	struct:copybit_context_t
+mPlaneAlpha	stats/sum_def.h	/^	int mPlaneAlpha;$/;"	m	struct:tagTimeSum
+mRotationDegree	copybit_inc.h	/^	int mRotationDegree;$/;"	m	struct:copybit_context_t
+mRotationDegree	stats/sum_def.h	/^	int mRotationDegree;$/;"	m	struct:tagTimeSum
+mTransformation	copybit_inc.h	/^	int mTransformation;$/;"	m	struct:copybit_context_t
+mTransformation	stats/sum_def.h	/^	int mTransformation;$/;"	m	struct:tagTimeSum
+mTransformationLast	copybit_inc.h	/^	int mTransformationLast;$/;"	m	struct:copybit_context_t
+mTransformationLast	stats/sum_def.h	/^	int mTransformationLast;$/;"	m	struct:tagTimeSum
+mUseCaseIndex	stats/sum_def.h	/^	int mUseCaseIndex;$/;"	m	struct:tagTimeSum
+m_gTimeSum	stats/sum_time.c	/^static TimeSum m_gTimeSum;$/;"	v	file:
+magic	copybit.c	/^    int     magic;$/;"	m	struct:_private_handle_t	file:
+marvell_copybit	copybit.c	/^static int marvell_copybit($/;"	f	file:
+marvell_gcu_copybit	gcu/gcu_copybit.c	/^int marvell_gcu_copybit($/;"	f
+marvell_mmx_copybit	mmx/mmx_copybit.c	/^int marvell_mmx_copybit($/;"	f
+max	copybit.c	/^static inline int max(int a, int b) {$/;"	f	file:
+max	gcu/gcu_copybit.c	/^static inline int max(int a, int b) {$/;"	f	file:
+memory_id	copybit_brn.h	/^	int memory_id;$/;"	m	struct:android_img
+memory_id	gcu/gcu_copybit_inc.h	/^	int memory_id;$/;"	m	struct:android_img
+mid_opr	gcu/m2d_copybit.h	/^	struct m2d_op_region mid_opr[M2D_MAX_OPERATION];$/;"	m	struct:m2d_copybit_context	typeref:struct:m2d_copybit_context::m2d_op_region
+min	copybit.c	/^static inline int min(int a, int b) {$/;"	f	file:
+min	gcu/gcu_copybit.c	/^static inline int min(int a, int b) {$/;"	f	file:
+nCurCount	stats/sum_def.h	/^	long nCurCount;$/;"	m	struct:tagTimeSum
+nMaxCount	stats/sum_def.h	/^	long nMaxCount;$/;"	m	struct:tagTimeSum
+nMicroSeconds	stats/sum_def.h	/^	long nMicroSeconds;$/;"	m	struct:tagTimeSum
+numFds	copybit.c	/^    int numFds;         \/* number of file-descriptors at &data[0] *\/$/;"	m	struct:_private_handle_t	file:
+numInts	copybit.c	/^    int numInts;        \/* number of ints at &data[numFds] *\/$/;"	m	struct:_private_handle_t	file:
+offset	copybit.c	/^	unsigned long offset;$/;"	m	struct:flush_mem_region	file:
+offset	copybit.c	/^    int     offset;$/;"	m	struct:_private_handle_t	file:
+offset	copybit_brn.h	/^	uint32_t offset;$/;"	m	struct:android_img
+offset	gcu/gcu_copybit_inc.h	/^	uint32_t offset;$/;"	m	struct:android_img
+open_device	copybit.c	/^static int open_device($/;"	f	file:
+open_gcu_pmem	gcu/m2d_copybit.c	/^static int open_gcu_pmem(struct m2d_copybit_context *ctx)$/;"	f	file:
+open_wmmx_pmem	copybit.c	/^static int open_wmmx_pmem(unsigned char **base)$/;"	f	file:
+opr	gcu/m2d_copybit.h	/^	struct m2d_op_region opr[M2D_MAX_OPERATION];$/;"	m	struct:m2d_copybit_context	typeref:struct:m2d_copybit_context::m2d_op_region
+p2DFunction	copybit.c	/^typedef int (*p2DFunction)($/;"	t	file:
+pBuf	mmx/compsurf.h	/^	Ipp8u*      pBuf;           \/\/ Pointer to the buffer$/;"	m	struct:_IppSurface
+pic_frame	gcu/m2d_copybit.h	/^struct pic_frame {$/;"	s
+pid	copybit.c	/^    int     pid;$/;"	m	struct:_private_handle_t	file:
+pixelnum	stats/sum_data.c	/^static float pixelnum[20];$/;"	v	file:
+pixelnum	stats/sum_time.c	/^static float pixelnum[USE_CASE_NUM] = {0};$/;"	v	file:
+pmem_gcu_fd	gcu/m2d_copybit.c	/^static int pmem_gcu_fd = 0;$/;"	v	file:
+pmem_gcu_fd	gcu/m2d_copybit.h	/^	int pmem_gcu_fd;$/;"	m	struct:m2d_copybit_context
+private_handle_create	copybit.c	/^static native_handle_t* private_handle_create(void)$/;"	f	file:
+private_handle_destroy	copybit.c	/^static void private_handle_destroy(native_handle_t* o)$/;"	f	file:
+private_handle_t	copybit.c	/^}private_handle_t;$/;"	t	typeref:struct:_private_handle_t	file:
+req	gcu/gcu_copybit_inc.h	/^	 struct android_blit_req req[];$/;"	m	struct:android_blit_req_list	typeref:struct:android_blit_req_list::android_blit_req
+resizetype	gcu/m2d_copybit.h	/^	int resizetype;$/;"	m	struct:m2d_copybit_context
+rgb565_rgb565_copy_gcu	copybit.c	/^static inline int rgb565_rgb565_copy_gcu(struct copybit_context_t *ctx,$/;"	f	file:
+rgb565_rgb565_copy_rotate_wmmx	copybit.c	/^static inline int rgb565_rgb565_copy_rotate_wmmx(struct copybit_context_t *ctx,$/;"	f	file:
+rgb565_rgb565_galpha_gcu	copybit.c	/^inline int rgb565_rgb565_galpha_gcu(copybit_context_t *ctx,$/;"	f
+rgb565_rgb565_resize_galpha_hybrid	copybit.c	/^int rgb565_rgb565_resize_galpha_hybrid(copybit_context_t *ctx,$/;"	f
+rgb565_rgb565_resize_rotate_galpha_hybrid	copybit.c	/^int rgb565_rgb565_resize_rotate_galpha_hybrid(copybit_context_t *ctx,$/;"	f
+rgb565_rgb565_resize_rotate_wmmx	copybit.c	/^static inline int rgb565_rgb565_resize_rotate_wmmx(struct copybit_context_t *ctx,$/;"	f	file:
+rgb565_rgb565_resize_wmmx	copybit.c	/^static inline int rgb565_rgb565_resize_wmmx(struct copybit_context_t *ctx,$/;"	f	file:
+rgb565_rgb565_rotate_galpha_hybrid	copybit.c	/^inline int rgb565_rgb565_rotate_galpha_hybrid(copybit_context_t *ctx,$/;"	f
+rgba8888_rgb565_copy_rotate_wmmx	copybit.c	/^static inline int rgba8888_rgb565_copy_rotate_wmmx(struct copybit_context_t *ctx,$/;"	f	file:
+rgba8888_rgb565_copy_wmmx	copybit.c	/^static inline int rgba8888_rgb565_copy_wmmx(struct copybit_context_t *ctx,$/;"	f	file:
+rgba8888_rgb565_galpha_palpha_hybrid	copybit.c	/^inline int rgba8888_rgb565_galpha_palpha_hybrid(copybit_context_t *ctx,$/;"	f
+rgba8888_rgb565_galpha_palpha_wmmx	copybit.c	/^inline int rgba8888_rgb565_galpha_palpha_wmmx(copybit_context_t *ctx,$/;"	f
+rgba8888_rgb565_palpha_hybrid	copybit.c	/^inline int rgba8888_rgb565_palpha_hybrid(copybit_context_t *ctx,$/;"	f
+rgba8888_rgb565_palpha_wmmx	copybit.c	/^inline int rgba8888_rgb565_palpha_wmmx(copybit_context_t *ctx,$/;"	f
+rgba8888_rgb565_resize_galpha_palpha_hybrid	copybit.c	/^int rgba8888_rgb565_resize_galpha_palpha_hybrid(copybit_context_t *ctx,$/;"	f
+rgba8888_rgb565_resize_galpha_palpha_wmmx	copybit.c	/^inline int rgba8888_rgb565_resize_galpha_palpha_wmmx(copybit_context_t *ctx,$/;"	f
+rgba8888_rgb565_resize_palpha_hybrid	copybit.c	/^inline int rgba8888_rgb565_resize_palpha_hybrid(copybit_context_t *ctx,$/;"	f
+rgba8888_rgb565_resize_palpha_wmmx	copybit.c	/^inline int rgba8888_rgb565_resize_palpha_wmmx(copybit_context_t *ctx,$/;"	f
+rgba8888_rgb565_resize_rotate_galpha_palpha_hybrid	copybit.c	/^int rgba8888_rgb565_resize_rotate_galpha_palpha_hybrid(copybit_context_t *ctx,$/;"	f
+rgba8888_rgb565_resize_rotate_galpha_palpha_wmmx	copybit.c	/^inline int rgba8888_rgb565_resize_rotate_galpha_palpha_wmmx(copybit_context_t *ctx,$/;"	f
+rgba8888_rgb565_resize_rotate_palpha_hybrid	copybit.c	/^inline int rgba8888_rgb565_resize_rotate_palpha_hybrid(copybit_context_t *ctx,$/;"	f
+rgba8888_rgb565_resize_rotate_palpha_wmmx	copybit.c	/^inline int rgba8888_rgb565_resize_rotate_palpha_wmmx(copybit_context_t *ctx,$/;"	f
+rgba8888_rgb565_rotate_galpha_palpha_hybrid	copybit.c	/^inline int rgba8888_rgb565_rotate_galpha_palpha_hybrid(copybit_context_t *ctx,$/;"	f
+rgba8888_rgb565_rotate_galpha_palpha_wmmx	copybit.c	/^inline int rgba8888_rgb565_rotate_galpha_palpha_wmmx(copybit_context_t *ctx,$/;"	f
+rgba8888_rgb565_rotate_palpha_hybrid	copybit.c	/^inline int rgba8888_rgb565_rotate_palpha_hybrid(copybit_context_t *ctx,$/;"	f
+rgba8888_rgb565_rotate_palpha_wmmx	copybit.c	/^inline int rgba8888_rgb565_rotate_palpha_wmmx(copybit_context_t *ctx,$/;"	f
+right	mmx/compsurf.h	/^	Ipp32s     left,top,right,bottom;$/;"	m	struct:_IppRect
+rot_opr	gcu/m2d_copybit.h	/^	struct m2d_op_region rot_opr[M2D_MAX_OPERATION];$/;"	m	struct:m2d_copybit_context	typeref:struct:m2d_copybit_context::m2d_op_region
+rotate_degree	gcu/m2d_copybit.h	/^	int rotate_degree;$/;"	m	struct:m2d_copybit_context
+save_data	stats/sum_time.c	/^static void save_data(TimeVal * pEndTime)$/;"	f	file:
+save_time	stats/sum_time.c	/^static void save_time()$/;"	f	file:
+screen_height	gcu/m2d_copybit.h	/^	int screen_height;$/;"	m	struct:m2d_copybit_context
+screen_width	gcu/m2d_copybit.h	/^	int screen_width;$/;"	m	struct:m2d_copybit_context
+self_dbg	gcu/m2d_copybit.c	25;"	d	file:
+self_dbg	gcu/m2d_copybit.c	28;"	d	file:
+set_gcu_parameter	gcu/gcu_copybit.c	/^static int set_gcu_parameter($/;"	f	file:
+set_image	gcu/gcu_copybit.c	/^static void set_image($/;"	f	file:
+set_mmx_rotate_parameter	mmx/mmx_copybit.c	/^int set_mmx_rotate_parameter($/;"	f
+set_mmx_surface_parameter	mmx/mmx_copybit.c	/^static int set_mmx_surface_parameter($/;"	f	file:
+set_rects	gcu/gcu_copybit.c	/^void set_rects($/;"	f
+set_rects_brn	copybit.c	/^static void set_rects_brn($/;"	f	file:
+set_rotate_parameter	gcu/gcu_copybit.c	/^static int set_rotate_parameter(copybit_context_t *ctx)$/;"	f	file:
+size	copybit.c	/^    int     size;$/;"	m	struct:_private_handle_t	file:
+src	copybit_brn.h	/^	struct android_img src;$/;"	m	struct:android_blit_req	typeref:struct:android_blit_req::android_img
+src	gcu/gcu_copybit_inc.h	/^	struct android_img src;$/;"	m	struct:android_blit_req	typeref:struct:android_blit_req::android_img
+src_buf	gcu/m2d_copybit.h	/^	struct m2d_buff *src_buf[2];$/;"	m	struct:m2d_copybit_context	typeref:struct:m2d_copybit_context::m2d_buff
+src_frame	copybit.c	/^	struct copybit_image_t src_frame;$/;"	m	struct:universal_2d_copybit	typeref:struct:universal_2d_copybit::copybit_image_t	file:
+src_index	gcu/m2d_copybit.h	/^	int src_index;$/;"	m	struct:m2d_copybit_context
+src_rect	copybit.c	/^	struct copybit_rect_t src_rect;$/;"	m	struct:universal_2d_copybit	typeref:struct:universal_2d_copybit::copybit_rect_t	file:
+src_rect	copybit_brn.h	/^	struct android_rect src_rect;$/;"	m	struct:android_blit_req	typeref:struct:android_blit_req::android_rect
+src_rect	gcu/gcu_copybit_inc.h	/^	struct android_rect src_rect;$/;"	m	struct:android_blit_req	typeref:struct:android_blit_req::android_rect
+start	gcu/m2d_copybit.h	/^	void *start;$/;"	m	struct:pic_frame
+start_sum	stats/sum_time.c	/^void start_sum(char * szFile, int nLine, TimeVal * pStartTime)$/;"	f
+startsec	stats/sum_data.c	/^static int startsec = -1;$/;"	v	file:
+startusec	stats/sum_data.c	/^static int startusec = -1;$/;"	v	file:
+stride	mmx/compsurf.h	/^	Ipp32s      stride;         \/\/ Pitch\/Stride in bytes$/;"	m	struct:_IppSurface
+sum_all_rect	stats/sum_time.c	/^int sum_all_rect($/;"	f
+sum_destroy	stats/sum_time.c	/^void sum_destroy(void)$/;"	f
+sum_end	stats/sum_time.h	34;"	d
+sum_end	stats/sum_time.h	44;"	d
+sum_init	stats/sum_time.c	/^void sum_init(void)$/;"	f
+sum_lock	stats/sum_time.c	/^void sum_lock(void)$/;"	f
+sum_one_rect	stats/sum_time.c	/^static int sum_one_rect($/;"	f	file:
+sum_set_parameter	stats/sum_time.c	/^void sum_set_parameter(int name, int value)$/;"	f
+sum_start	stats/sum_time.h	31;"	d
+sum_start	stats/sum_time.h	41;"	d
+sum_unlock	stats/sum_time.c	/^void sum_unlock(void)$/;"	f
+tagTimeSum	stats/sum_def.h	/^typedef struct tagTimeSum$/;"	s
+top	mmx/compsurf.h	/^	Ipp32s     left,top,right,bottom;$/;"	m	struct:_IppRect
+transp_mask	copybit_brn.h	/^	uint32_t transp_mask;$/;"	m	struct:android_blit_req
+transp_mask	gcu/gcu_copybit_inc.h	/^	uint32_t transp_mask;$/;"	m	struct:android_blit_req
+universal_2d_copybit	copybit.c	/^struct universal_2d_copybit {$/;"	s	file:
+universal_2d_copybit_deinit	copybit.c	/^static void universal_2d_copybit_deinit(struct universal_2d_copybit o[MAX_DIV_NUM])$/;"	f	file:
+universal_2d_copybit_init	copybit.c	/^static void universal_2d_copybit_init(struct universal_2d_copybit o[MAX_DIV_NUM])$/;"	f	file:
+use_case	copybit.c	/^static const UseCase use_case [] = {$/;"	v	file:
+use_case	stats/sum_time.c	/^const UseCase use_case [USE_CASE_NUM] = {$/;"	v
+version	copybit.c	/^    int version;        \/* sizeof(native_handle_t) *\/$/;"	m	struct:_private_handle_t	file:
+w	copybit_brn.h	/^	uint32_t w;$/;"	m	struct:android_rect
+w	gcu/gcu_copybit_inc.h	/^	uint32_t w;$/;"	m	struct:android_rect
+width	copybit_brn.h	/^	uint32_t width;$/;"	m	struct:android_img
+width	gcu/gcu_copybit_inc.h	/^	uint32_t width;$/;"	m	struct:android_img
+width	gcu/m2d_copybit.h	/^	int width;$/;"	m	struct:m2d_copybit_rect
+width	gcu/m2d_copybit.h	/^	int width;$/;"	m	struct:pic_frame
+width	mmx/compsurf.h	/^	Ipp16u      width;          \/\/ Width in Pixels$/;"	m	struct:_IppSurface
+wmmx_pmem_buf	copybit.c	/^unsigned char *wmmx_pmem_buf = NULL;$/;"	v
+wmmx_pmem_buf	copybit_inc.h	/^	unsigned char *wmmx_pmem_buf;$/;"	m	struct:copybit_context_t
+wmmx_pmem_fd	copybit.c	/^static int wmmx_pmem_fd = 0;$/;"	v	file:
+wmmx_pmem_fd	copybit_inc.h	/^	int wmmx_pmem_fd;$/;"	m	struct:copybit_context_t
+writeOwner	copybit.c	/^    int     writeOwner;$/;"	m	struct:_private_handle_t	file:
+x	copybit_brn.h	/^	uint32_t x;$/;"	m	struct:android_rect
+x	gcu/gcu_copybit_inc.h	/^	uint32_t x;$/;"	m	struct:android_rect
+x	gcu/m2d_copybit.h	/^	int x;$/;"	m	struct:m2d_copybit_rect
+y	copybit_brn.h	/^	uint32_t y;$/;"	m	struct:android_rect
+y	gcu/gcu_copybit_inc.h	/^	uint32_t y;$/;"	m	struct:android_rect
+y	gcu/m2d_copybit.h	/^	int y;$/;"	m	struct:m2d_copybit_rect

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World!</string>
+    <string name="app_name">书签</string>
+<string name="title_bar_loading">加载中...</string>
+<string name="appwidget_title">书签</string>
+<string name="item_title">Title_Title</string>
+<string name="bookmark_title">书签</string>
+<string name="grid_button">网格视图</string>
+<string name="list_button">列表视图</string>
+<string name="choose_widget_style">选择控件风格</string>
+<string name="select">选择</string>
+</resources>

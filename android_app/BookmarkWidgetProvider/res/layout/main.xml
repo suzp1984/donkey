@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+    
+    <TextView 
+      android:textColor="@color/enable"
+      android:layout_gravity="center_horizontal" 
+      android:layout_width="wrap_content" 
+      android:layout_height="wrap_content" 
+      android:layout_margin="10.0dip" 
+	  android:text="@string/choose_widget_style"
+	  android:textSize="18.0dip" 
+      android:includeFontPadding="false" 
+      android:layout_weight="0.0" />
+    <ImageView
+      android:id="@+id/image_chooser" 
+      android:layout_gravity="center" 
+      android:clickable="true" 
+      android:layout_width="fill_parent" 
+      android:layout_height="fill_parent" 
+      android:layout_weight="1.0"
+      android:src="@drawable/grid_mode" 
+      android:scaleType="centerInside" />
+          
+     <LinearLayout android:orientation="horizontal" 
+        android:layout_width="fill_parent" 
+        android:layout_height="wrap_content" 
+        android:layout_margin="10.0dip" 
+        android:layout_weight="0.0">
+        <TextView android:textSize="20.0sp" 
+            android:textColor="@color/unable" 
+            android:gravity="center" 
+            android:id="@+id/widget_chooser_previous" 
+            android:background="@drawable/widget_chooser_previous_selector" 
+            android:focusable="true" 
+            android:clickable="true" 
+            android:layout_width="52.0dip" 
+            android:layout_height="wrap_content" 
+            android:text="@string/prev" 
+            android:includeFontPadding="false" 
+            android:shadowColor="#ff000000" 
+            android:shadowDx="-0.9" 
+            android:shadowDy="-1.0" 
+            android:shadowRadius="1.0" 
+            android:layout_weight="0.0" />
+        <TextView  
+            android:textColor="@color/enable" 
+            android:gravity="center" 
+            android:id="@+id/widget_chooser_select" 
+            android:background="@drawable/widget_chooser_middle_selector" 
+            android:focusable="true" 
+            android:clickable="true" 
+            android:layout_width="wrap_content" 
+            android:layout_height="wrap_content" 
+			android:text="@string/select" 
+			android:textSize="20.0sp"
+            android:includeFontPadding="false" 
+            android:shadowColor="#ff000000" 
+            android:shadowDx="-0.9" 
+            android:shadowDy="-1.0" 
+            android:shadowRadius="1.0" 
+            android:layout_weight="1.0" />
+        <TextView android:textSize="20.0sp" 
+            android:textColor="@color/enable" 
+            android:gravity="center" 
+            android:id="@+id/widget_chooser_next" 
+            android:background="@drawable/widget_chooser_next_selector" 
+            android:focusable="true" 
+            android:clickable="true" 
+            android:layout_width="52.0dip" 
+            android:layout_height="wrap_content" 
+            android:text="@string/next" 
+            android:includeFontPadding="false" 
+            android:shadowColor="#ff000000" 
+            android:shadowDx="-0.9" 
+            android:shadowDy="-1.0" 
+            android:shadowRadius="1.0" 
+            android:layout_weight="0.0" />
+    </LinearLayout>
+     
+    
+</LinearLayout>

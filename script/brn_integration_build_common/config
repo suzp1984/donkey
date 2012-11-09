@@ -1,0 +1,73 @@
+[default]
+devices=littleton300_256M 
+modules=android rootfs kernel bootloader factory update release
+
+[littleton300_256M]
+TARGET_PRODUCT=littleton
+cpu_type=pxa300
+FLASH_SIZE=256M
+kernel=linux-2.6.28.froyo
+kernel_config=android_froyo_an0001_pxa300_release_defconfig
+recovery_kernel_config=android_froyo_an0001_pxa300_recovery_defconfig
+device_path=vendor/marvell/littleton
+bootloader=blob-wtptp
+bootloader_makefile=Makefile.256M
+customers=default default-preinstall
+release_notes=ReleaseNote_A1.txt
+branch=a1
+
+[littleton300_128M]
+TARGET_PRODUCT=littleton
+cpu_type=pxa300
+FLASH_SIZE=128M
+kernel=linux-2.6.28.froyo
+kernel_config=android_an0001_pxa300_release_defconfig
+recovery_kernel_config=android_an0001_pxa300_recovery_defconfig
+device_path=vendor/marvell/littleton
+bootloader=blob-wtptp
+bootloader_makefile=Makefile.128M
+customers=default default-preinstall
+release_notes=ReleaseNote_A1.txt
+branch=a1
+
+[littleton310_256M]
+TARGET_PRODUCT=littleton
+cpu_type=pxa310
+FLASH_SIZE=256M
+kernel=linux-2.6.28.froyo
+kernel_config=android_an0001_pxa310_release_defconfig
+recovery_kernel_config=android_an0001_pxa310_recovery_defconfig
+bootloader_makefile=Makefile.256M
+device_path=vendor/marvell/littleton
+bootloader=blob-wtptp
+customers=default default-preinstall
+release_notes=ReleaseNote_A1.txt
+branch=a1
+
+[littleton310_128M]
+TARGET_PRODUCT=littleton
+cpu_type=pxa310
+FLASH_SIZE=128M
+kernel=linux-2.6.28.froyo
+kernel_config=android_an0001_pxa310_release_defconfig
+recovery_kernel_config=android_an0001_pxa310_recovery_defconfig
+bootloader_makefile=Makefile.128M
+device_path=vendor/marvell/littleton
+bootloader=blob-wtptp
+customers=default default-preinstall
+release_notes=ReleaseNote_A1.txt
+branch=a1
+
+[littleton310_256M_evdo]
+TARGET_PRODUCT=littleton
+cpu_type=pxa310
+FLASH_SIZE=256M
+kernel=linux-2.6.28.froyo
+kernel_config=android_froyo_an0001_evdo_pxa310_release_defconfig
+recovery_kernel_config=android_froyo_an0001_evdo_pxa310_recovery_defconfig
+device_path=vendor/marvell/littleton
+bootloader=blob-wtptp
+bootloader_makefile=Makefile.256M
+customers=default default-preinstall
+release_notes=ReleaseNote_A1E.txt
+branch=evdo

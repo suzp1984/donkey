@@ -1,0 +1,10 @@
+ro.secure=1
+ro.allow.mock.location=0
+service.adb.root=1
+ro.debuggable=1
+persist.service.adb.enable=0
+
+ro.product.locale.language=zh
+ro.product.locale.region=CN
+ro.product.customer=default
+persist.sys.timezone=Asia/Shanghai

@@ -1,0 +1,6 @@
+helper_sd.bin: firmware for 8688 B1
+sd8688.bin: firmware for 8688 B1
+sd8688.ko: kernel driver for 8688 B0. This file is verified that it works well with 8688 B1.
+
+
+
