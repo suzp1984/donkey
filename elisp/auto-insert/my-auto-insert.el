@@ -35,13 +35,13 @@
  '(auto-insert-directory "~/insert/")
  )
 
-(add-to-list 'auto-insert-alist '(("\\.py\\'" . "Python souce code header") 
+(add-to-list 'auto-insert-alist '(("\\.py\\'" . "Python souce code header") .
                                   ["template.py" my/autoinsert-yas-expand]))
 
 (add-to-list 'auto-insert-alist '(("\\.\\([Hh]\\|hh\\|hpp\\)\\'" . "C / C++ header") . 
                                   ["template.h" my/autoinsert-yas-expand]))
 
-(add-to-list 'auto-insert-alist '(("\\.\\([Cc]\\|cc\\|cpp\\)\\'" . "C / C++ program") 
+(add-to-list 'auto-insert-alist '(("\\.\\([Cc]\\|cc\\|cpp\\)\\'" . "C / C++ program") .
                                   ["template.c" my/autoinsert-yas-expand]))
 
 (provide 'my-auto-insert)

@@ -1,7 +1,7 @@
 /*
  * File:    `(buffer-name)`
  * Author:  `user-full-name` <`user-mail-address`>
- * Brief:   ${1:condition}
+ * Brief:   ${0:brief}
  *
  * Copyright (c) `user-full-name`
  *
